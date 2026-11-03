@@ -1,0 +1,103 @@
+AdBuildPolicy_get_AllowAdRequests_mD60B484A440E8AD46EAD8A251576F1317731DE20 (const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return (bool)0;
+	}
+}
+
+GoogleAdBackend_Initialize_mD5AC9242809DAFEDAAF04EAAA8AE035ACEF3562B (GoogleAdBackend_t542B0A0E374DC0D88E4443FFFAF54A8D9DD0DB3F* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_completed, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = ___0_completed;
+		NullCheck(L_0);
+		Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline(L_0, (bool)0, NULL);
+		return;
+	}
+}
+
+GoogleAdBackend_LoadInterstitial_m669AAD8A52E3FBA048485E250BE47B64738F46CD (GoogleAdBackend_t542B0A0E374DC0D88E4443FFFAF54A8D9DD0DB3F* __this, String_t* ___0_unit, Action_1_t060DBCB70F22162BB69039E12A9084EF165F8FF5* ___1_completed, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Action_1_t060DBCB70F22162BB69039E12A9084EF165F8FF5* L_0 = ___1_completed;
+		NullCheck(L_0);
+		Action_1_Invoke_m4936BF32E8BECAEB99E7FE0A7C9B2A6394419C3C_inline(L_0, (RuntimeObject*)NULL, NULL);
+		return;
+	}
+}
+
+GoogleAdBackend_LoadRewarded_mD6B7B7D6B2EB43C5220827B31AEF395CB4D0F774 (GoogleAdBackend_t542B0A0E374DC0D88E4443FFFAF54A8D9DD0DB3F* __this, String_t* ___0_unit, Action_1_tBC8610A08169707733BF9EF8644A5D9FD5C2DA82* ___1_completed, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Action_1_tBC8610A08169707733BF9EF8644A5D9FD5C2DA82* L_0 = ___1_completed;
+		NullCheck(L_0);
+		Action_1_Invoke_m71F9616ED57A5AE34423EE1C62F989E5FD38065B_inline(L_0, (RuntimeObject*)NULL, NULL);
+		return;
+	}
+}
+
+GoogleAdBackend_UpdateConsent_mEA89210B93A7F43D7904561DB286A1319EDECE35 (GoogleAdBackend_t542B0A0E374DC0D88E4443FFFAF54A8D9DD0DB3F* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_updated, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass8_0_U3CUpdateConsentU3Eb__0_mB9DD2BAE1CFC874CFAC82F2CBF0592823C1457D7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass8_0_t9DCDC8FE9DB65BCAD1E1FCBD4206358475FEDD08_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3328C4EE2FA8038825F7FADA1566069E7022946);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticInit);
+	//<source_info:<no-source>:1>
+	U3CU3Ec__DisplayClass8_0_t9DCDC8FE9DB65BCAD1E1FCBD4206358475FEDD08* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass8_0_t9DCDC8FE9DB65BCAD1E1FCBD4206358475FEDD08* L_0 = (U3CU3Ec__DisplayClass8_0_t9DCDC8FE9DB65BCAD1E1FCBD4206358475FEDD08*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass8_0_t9DCDC8FE9DB65BCAD1E1FCBD4206358475FEDD08_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass8_0__ctor_m48D4BB1BF89B301C75C9F3BD359F2BE21358449D(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass8_0_t9DCDC8FE9DB65BCAD1E1FCBD4206358475FEDD08* L_1 = V_0;
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_2 = ___0_updated;
+		NullCheck(L_1);
+		L_1->___updated = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___updated), (void*)L_2);
+		CHECKED_LOCAL_INIT(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticInit,(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralA3328C4EE2FA8038825F7FADA1566069E7022946, NULL);
+		ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* L_3 = (ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516*)il2cpp_codegen_object_new(ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516_il2cpp_TypeInfo_var);
+		ConsentRequestParameters__ctor_mB689D636424571F47A023696E0916A769EE1EC5C(L_3, NULL);
+		U3CU3Ec__DisplayClass8_0_t9DCDC8FE9DB65BCAD1E1FCBD4206358475FEDD08* L_4 = V_0;
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_5 = (Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4*)il2cpp_codegen_object_new(Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4_il2cpp_TypeInfo_var);
+		Action_1__ctor_m021285912E458C3D54D9EAD926A8BB4CBC77908A(L_5, L_4, (intptr_t)((void*)U3CU3Ec__DisplayClass8_0_U3CUpdateConsentU3Eb__0_mB9DD2BAE1CFC874CFAC82F2CBF0592823C1457D7_RuntimeMethod_var), NULL);
+		ConsentInformation_Update_m77C30ED8853B66168D77E0F02666360C78671046(L_3, L_5, NULL);
+		return;
+	}
+}
+
+GoogleAdBackend_ShowPrivacyOptions_m265AA4B44E6C26A3B2C06834D4D5FA33D51A23A6 (GoogleAdBackend_t542B0A0E374DC0D88E4443FFFAF54A8D9DD0DB3F* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_completed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass10_0_U3CShowPrivacyOptionsU3Eb__0_mD7281C989E7CC022A9201473212B7F3EEC2B4542_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass10_0_t1653C445796E54F4078BC4E6BA70FE0C06DF0CF3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CU3Ec__DisplayClass10_0_t1653C445796E54F4078BC4E6BA70FE0C06DF0CF3* L_0 = (U3CU3Ec__DisplayClass10_0_t1653C445796E54F4078BC4E6BA70FE0C06DF0CF3*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass10_0_t1653C445796E54F4078BC4E6BA70FE0C06DF0CF3_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass10_0__ctor_m81678B6971B86DF5C89ADA9A573E04A3160B25D2(L_0, NULL);
+		U3CU3Ec__DisplayClass10_0_t1653C445796E54F4078BC4E6BA70FE0C06DF0CF3* L_1 = L_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___0_completed;
+		NullCheck(L_1);
+		L_1->___completed = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___completed), (void*)L_2);
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_3 = (Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4*)il2cpp_codegen_object_new(Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4_il2cpp_TypeInfo_var);
+		Action_1__ctor_m021285912E458C3D54D9EAD926A8BB4CBC77908A(L_3, L_1, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CShowPrivacyOptionsU3Eb__0_mD7281C989E7CC022A9201473212B7F3EEC2B4542_RuntimeMethod_var), NULL);
+		ConsentForm_ShowPrivacyOptionsForm_mCF82468D6AD93F08A0C5D436B3D0146B4FA9F86B(L_3, NULL);
+		return;
+	}
+}

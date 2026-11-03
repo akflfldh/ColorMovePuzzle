@@ -1,0 +1,48 @@
+﻿[
+    {
+        "name":  "menu-profile-v1.json",
+        "sha256":  null,
+        "data":  {
+                     "version":  1,
+                     "hasContinue":  true,
+                     "lastGridSize":  3,
+                     "lastStage":  2,
+                     "bgmVolume":  0.699999988079071,
+                     "sfxVolume":  0.800000011920929
+                 }
+    },
+    {
+        "name":  "menu-profile-v1.json.bak",
+        "sha256":  null,
+        "data":  {
+                     "version":  1,
+                     "hasContinue":  true,
+                     "lastGridSize":  3,
+                     "lastStage":  1,
+                     "bgmVolume":  0.699999988079071,
+                     "sfxVolume":  0.800000011920929
+                 }
+    },
+    {
+        "name":  "progress-v1.json",
+        "sha256":  null,
+        "data":  {
+                     "version":  1,
+                     "clearedStages":  [
+                                           1
+                                       ],
+                     "lastPlayed":  2
+                 }
+    },
+    {
+        "name":  "progress-v1.json.bak",
+        "sha256":  null,
+        "data":  {
+                     "version":  1,
+                     "clearedStages":  [
+                                           1
+                                       ],
+                     "lastPlayed":  1
+                 }
+    }
+]

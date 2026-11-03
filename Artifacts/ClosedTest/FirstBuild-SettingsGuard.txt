@@ -1,0 +1,3 @@
+UnityEditor.Build.BuildFailedException: Closed-test AAB build failed; see Artifacts/ClosedTest/BuildReport.json.
+  at ColorMovePuzzle.Editor.ClosedTestReleaseBuild.Build () [0x00321] in C:\Users\dongd\ColorMovePuzzle\Assets\ColorMovePuzzle\Editor\ClosedTestReleaseBuild.cs:90 
+  at PipelineEvaluation.PipelineEval_bda9ddbd+<>c.<Execute>b__0_0 () [0x00012] in <ad8f3d26b0094a13a812c7ce07132dec>:0 

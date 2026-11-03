@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "duration": 11.6,
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.CorruptSessionFallsBackToStartWithoutTouchingLegacyUnlocksOrVolumes",
+      "Status": "Passed",
+      "Duration": 0.7813745,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.FailedMoveSaveRetriesOnPauseWithoutCorruptingPreviousSnapshot",
+      "Status": "Passed",
+      "Duration": 0.3397056,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.FiveByFiveRestoresAndCanStillClear",
+      "Status": "Passed",
+      "Duration": 6.9428924,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.FourByFourRestoresAndCanStillClear",
+      "Status": "Passed",
+      "Duration": 0.8551264,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.LastMoveSavedBeforeAnimationCanRecoverCompletionThenNextStageStartsFresh",
+      "Status": "Passed",
+      "Duration": 0.6417841,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.LeavingDuringAnimationPreservesCommittedStateForContinueButExplicitSelectionRestarts",
+      "Status": "Passed",
+      "Duration": 0.2339183,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.ModesKeepIndependentSnapshotsAndLegacyUnlockSettingsSurvive",
+      "Status": "Passed",
+      "Duration": 0.8322025,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.RestartDuringAnimationPersistsZeroAndInvalidInputDoesNotWrite",
+      "Status": "Passed",
+      "Duration": 0.3677766,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.ThreeByThreeRestoresAndCanStillClear",
+      "Status": "Passed",
+      "Duration": 0.5766024,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

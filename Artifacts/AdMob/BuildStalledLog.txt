@@ -1,0 +1,220 @@
+﻿Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.669 ms
+	Integration:            40.343 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   41.030 ms
+Unloading 8 unused Assets / (127.7 KB). Loaded Objects now: 14408.
+Memory consumption went from 1.75 GB to 1.75 GB.
+Total: 42.344300 ms (FindLiveObjects: 1.865900 ms CreateObjectMapping: 0.233900 ms MarkObjects: 39.143800 ms  DeleteObjects: 0.107400 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:194)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:129)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity'
+	Deserialize:            55.047 ms
+	Integration:            44.488 ms
+	Integration of assets:  0.195 ms
+	Thread Wait Time:       0.093 ms
+	Total Operation Time:   99.823 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 17667.
+Memory consumption went from 1.75 GB to 1.75 GB.
+Total: 41.108000 ms (FindLiveObjects: 1.420200 ms CreateObjectMapping: 0.242200 ms MarkObjects: 38.383000 ms  DeleteObjects: 0.051600 ms)
+
+Refreshing native plugins compatible for Editor in 5.86 ms, found 7 plugins.
+Asset Pipeline Refresh (id=1b3f25a1a929475428eb59b672b4e407): Total: 0.102 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+[PipelineTestRunner] Test run cancelled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Pipeline.Editor.Testing.PipelineTestRunner:CancelTests () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Testing/PipelineTestRunner.cs:827)
+Unity.Pipeline.Editor.Commands.TestCommands:Cancel () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/TestCommands.cs:117)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Unity.Pipeline.Commands.DefaultCommandQueue:InvokeDirect (Unity.Pipeline.Commands.CommandContext,Unity.Pipeline.Commands.CommandInfo,object[]) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/CommandExecution/CommandQueue/DefaultCommandQueue.cs:487)
+Unity.Pipeline.Commands.DefaultCommandQueue/<>c__DisplayClass19_0:<Invoke>b__1 () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/CommandExecution/CommandQueue/DefaultCommandQueue.cs:409)
+Unity.Pipeline.Threading.Dispatcher/WorkItem`1<object>:ExecuteCore () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:342)
+Unity.Pipeline.Threading.Dispatcher/WorkItem:Execute () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:285)
+Unity.Pipeline.Threading.Dispatcher:ProcessWorkQueue (int) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:251)
+Unity.Pipeline.Threading.Dispatcher:ProcessWorkQueue () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:266)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Testing/PipelineTestRunner.cs Line: 827)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Opening scene 'Assets/Scenes/SampleScene.unity additively'
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            1.928 ms
+	Integration:            1.511 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   3.454 ms
+Importing 'GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 681886c5eb7344803b6206f758bf0b1c' -> (Import Result ID: 'f3fbfb2cdecc6e510f5d70845bc7d162') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=078100d1013181441b4793ab47d9686a DependenciesID=86ec419dca5d8af80dd01f615c79cde7 StaticDependenciesID=89e06b70277c056c90852c05a1fdf287 
+Refreshing native plugins compatible for Editor in 5.23 ms, found 7 plugins.
+Asset Pipeline Refresh (id=d297cc88ab52d0d49a3471cc61bb550f): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1 URP assets included in build
+- UniversalRP - Assets/Settings/UniversalRP.asset
+	 - Renderer2D - Assets/Settings/Renderer2D.asset - UnityEngine.Rendering.Universal.Renderer2DData
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Rendering.Universal.URPPreprocessBuild:LogIncludedAssets (System.Collections.Generic.List`1<UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2309ae255609/Editor/BuildProcessors/URPPreprocessBuild.cs:72)
+UnityEditor.Rendering.Universal.URPPreprocessBuild:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2309ae255609/Editor/BuildProcessors/URPPreprocessBuild.cs:31)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:RunBuild (string,UnityEditor.BuildTarget,string,UnityEditor.BuildOptions,string[],string) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:337)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:OnUpdate () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:289)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2309ae255609/Editor/BuildProcessors/URPPreprocessBuild.cs Line: 72)
+
+GoogleMobileAdsDependencies.xml already matches the desired Google Mobile Ads SDK.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:UpdateGmaDependency () (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:280)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:65)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:RunBuild (string,UnityEditor.BuildTarget,string,UnityEditor.BuildOptions,string[],string) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:337)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:OnUpdate () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:289)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs Line: 280)
+
+Running Android Gradle Build Pre-Processor.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:ApplyBuildSettings (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:80)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:74)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:RunBuild (string,UnityEditor.BuildTarget,string,UnityEditor.BuildOptions,string[],string) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:337)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:OnUpdate () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:289)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs Line: 80)
+
+Verified Minimum API Level is >= 24.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:ApplyBuildSettings (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:89)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:74)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:RunBuild (string,UnityEditor.BuildTarget,string,UnityEditor.BuildOptions,string[],string) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:337)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:OnUpdate () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:289)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs Line: 89)
+
+Verified mainTemplate.gradle.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:EnsureGradleFileExists (string) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:232)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:ApplyBuildSettings (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:107)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:74)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:RunBuild (string,UnityEditor.BuildTarget,string,UnityEditor.BuildOptions,string[],string) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:337)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:OnUpdate () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:289)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs Line: 232)
+
+Verified gradleTemplate.properties.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:EnsureGradleFileExists (string) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:232)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:ApplyBuildSettings (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:110)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:74)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:RunBuild (string,UnityEditor.BuildTarget,string,UnityEditor.BuildOptions,string[],string) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:337)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:OnUpdate () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:289)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs Line: 232)
+
+Resolving Android Gradle dependencies.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:ApplyBuildSettings (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:139)
+GoogleMobileAds.Editor.AndroidBuildPreProcessor:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs:74)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:RunBuild (string,UnityEditor.BuildTarget,string,UnityEditor.BuildOptions,string[],string) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:337)
+Unity.Pipeline.Editor.Commands.Build.BuildCommand:OnUpdate () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Editor/Commands/Build/BuildCommand.cs:289)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.google.ads.mobile@dc1fb329e84b/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs Line: 139)
+

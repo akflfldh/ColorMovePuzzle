@@ -1,0 +1,19 @@
+{
+  "region": "EEA",
+  "pid": "4101",
+  "gameSavesPreserved": true,
+  "developerOverrideObserved": true,
+  "umpUpdateSucceeded": true,
+  "sdkInitialized": false,
+  "interstitialLoaded": false,
+  "formReturned": false,
+  "fatalExceptionCount": 0,
+  "inputNoneCount": 0,
+  "logs": [
+    "10-28 09:25:07.566  4101  4147 I Unity   : [Ads] UMP consent update requested.",
+    "10-28 09:25:07.578  4101  4147 I Unity   : [Ads QA] Developer-requested UMP-only reset completed.",
+    "10-28 09:25:07.578  4101  4147 I Unity   : [Ads QA] Developer test geography=EEA; official test ad units remain required.",
+    "10-28 09:25:08.161  4101  4147 I Unity   : [Ads QA] UMP status=Required, privacy=Required, canRequest=False",
+    "10-28 09:25:08.161  4101  4147 I Unity   : [Ads] UMP consent information updated."
+  ]
+}

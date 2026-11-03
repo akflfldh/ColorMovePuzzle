@@ -1,0 +1,1 @@
+return System.Linq.Enumerable.ToArray(typeof(GoogleMobileAds.Common.MobileAdsEventExecutor).GetMethods(System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Static).Select(m => m.ToString()));

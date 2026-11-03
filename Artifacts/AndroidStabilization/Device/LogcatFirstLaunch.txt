@@ -1,0 +1,1115 @@
+﻿--------- beginning of main
+10-27 19:22:18.142  7582  7582 I Zygote  : Process 7582 created for com.colormovepuzzle.game
+10-27 19:22:18.142  7582  7582 I movepuzzle.game: Late-enabling -Xcheck:jni
+10-27 19:22:18.153  7582  7582 I movepuzzle.game: Using generational CollectorTypeCMC GC.
+10-27 19:22:18.156  7582  7582 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-27 19:22:18.158  7582  7582 D ActivityThread: setConscryptValidator
+10-27 19:22:18.158  7582  7582 D ActivityThread: setConscryptValidator - put
+10-27 19:22:18.203  7582  7582 D nativeloader: Configuring clns-9 for other apk /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/lib/arm64:/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.colormovepuzzle.game
+10-27 19:22:18.206  7582  7582 V GraphicsEnvironment: Currently set values for:
+10-27 19:22:18.206  7582  7582 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-27 19:22:18.206  7582  7582 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-27 19:22:18.206  7582  7582 V GraphicsEnvironment: com.colormovepuzzle.game is not listed in per-application setting
+10-27 19:22:18.207  7582  7582 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+10-27 19:22:18.207  7582  7582 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+10-27 19:22:18.207  7582  7582 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+10-27 19:22:18.227  7582  7582 D nativeloader: Load /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/lib/arm64/libgame.so using class loader ns clns-9 (caller=/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk!classes2.dex): ok
+10-27 19:22:18.227  7582  7582 D GameActivity: GameActivity_register
+10-27 19:22:18.229  7582  7582 D DesktopExperienceFlags: Toggle override initialized to: false
+10-27 19:22:18.231  7582  7582 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+10-27 19:22:18.233  7582  7582 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+10-27 19:22:18.235  7582  7582 D gti.InputConnection: InputConnection created
+10-27 19:22:18.235  7582  7582 D gti.InputConnection: setEditorInfo
+10-27 19:22:18.237  7582  7582 D CompatChangeReporter: Compat change id reported: 377864165; UID 10291; state: ENABLED
+10-27 19:22:18.237  7582  7582 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+10-27 19:22:18.238  7582  7582 I DecorView: setWindowBackground: isPopOver=false color=ff000000 d=android.graphics.drawable.ColorDrawable@3189a19
+10-27 19:22:18.240  7582  7582 I movepuzzle.game: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-27 19:22:18.240  7582  7582 I movepuzzle.game: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-27 19:22:18.242  7582  7582 D nativeloader: Load /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/lib/arm64/libmain.so using class loader ns clns-9 (caller=/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk): ok
+10-27 19:22:18.253  7582  7582 I IL2CPP  : JNI_OnLoad
+10-27 19:22:18.253  7582  7582 V Unity   : Context Type: GameActivity
+10-27 19:22:18.253  7582  7582 D Unity   : CommandLine:  
+10-27 19:22:18.258  7582  7582 D AudioSystem: onNewService: media.audio_policy service obtained 0xb400007658471430
+10-27 19:22:18.258  7582  7582 D AudioSystem: getService: IAudioPolicyService retrieved: 0xb400007658471430  cached: 0xb400007658471430
+10-27 19:22:18.261  7582  7582 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-27 19:22:18.261  7582  7582 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-27 19:22:18.261  7582  7582 I GameActivity: Looking for library libgame.so
+10-27 19:22:18.261  7582  7582 I GameActivity: Found library libgame.so. Loading...
+10-27 19:22:18.261  7582  7582 D GameActivity: SDK version: 36
+10-27 19:22:18.261  7582  7629 I Unity   : UnityApplication::CreateInstance
+10-27 19:22:18.261  7582  7629 I Unity   : GameActivity Package Version '4.4.0'
+10-27 19:22:18.262  7582  7629 I Unity   : Starting Game Loop
+10-27 19:22:18.265  7582  7629 I Unity   : Handle cmd APP_CMD_START(11)
+10-27 19:22:18.266  7582  7582 I Unity   : onResume
+10-27 19:22:18.266  7582  7582 I Unity   : resumeUnity
+10-27 19:22:18.268  7582  7629 I Unity   : Handle cmd APP_CMD_RESUME(12)
+10-27 19:22:18.270  7582  7582 D ViewRootImpl: desktopMode is false
+10-27 19:22:18.271  7582  7582 I ViewRootImpl: dVRR is disabled
+--------- beginning of system
+10-27 19:22:18.271  7582  7582 D InsetsController: Setting requestedVisibleTypes to 496 (was 503)
+10-27 19:22:18.271  7582  7582 I InsetsController: setRequestedVisibleTypes: visible=false, mask=statusBars navigationBars captionBar, host=com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity, from=android.view.InsetsController.controlAnimationUnchecked:1646 android.view.InsetsController.applyAnimation:2278 android.view.InsetsController.applyAnimation:2207 android.view.InsetsController.hide:1581 android.view.InsetsController.hide:1521 android.view.PendingInsetsController$HideRequest.replay:295 android.view.PendingInsetsController.replayAndAttach:208 android.view.ViewRootImpl.setView:1967 android.view.WindowManagerGlobal.addView:606 android.view.WindowManagerImpl.addView:167 
+10-27 19:22:18.272  7582  7582 D InputTransport: Input channel constructed: 'a7bd66f', fd=119
+10-27 19:22:18.272  7582  7582 I InsetsController: onStateChanged: host=com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 96 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 96), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 34.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 96) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {a9ee0001 mType=navigationBars mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {a9ee0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0006 mType=tappableElement mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {dd100000 mType=statusBars mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {dd100005 mType=mandatorySystemGestures mFrame=[0,0][1080,130] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {dd100006 mType=tappableElement mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+10-27 19:22:18.273  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: synced displayState. AttachInfo displayState=2
+10-27 19:22:18.273  7582  7582 D InputTransport: setImprovementEvent.. GameApp 1 1  375.781  376.177 8764352.000 4187.362 2960.465
+10-27 19:22:18.273  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: setView = com.android.internal.policy.DecorView@7bbfd9b IsHRR=false mFlingFrameRateChange=0 TM=true
+10-27 19:22:18.273  7582  7582 I IDS_TAG : Clearing training data of android.app.Application@94c66d7
+10-27 19:22:18.273  7582  7582 I IDS_TAG : Starting IDS observe window
+10-27 19:22:18.273  7582  7582 I IDS_TAG : Getting Shared Preference for android.app.Application@94c66d7 uid = 10291
+10-27 19:22:18.273  7582  7633 D qdgralloc: Fetching IMapper5 from QtiMapper5
+10-27 19:22:18.274  7582  7582 I IDS_TAG : App android.app.Application@94c66d7 has not finished training
+10-27 19:22:18.274  7582  7582 I IDS_TAG : Closing IDS observe window
+10-27 19:22:18.274  7582  7582 I IDS_TAG : Getting Shared Preference for android.app.Application@94c66d7 uid = 10291
+10-27 19:22:18.274  7582  7582 I IDS_TAG : IDS count updated to 1 for android.app.Application@94c66d7
+10-27 19:22:18.275  7582  7582 I SV[2012103 UnityPlayerGameActivity]: onWindowVisibilityChanged(0) true com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{1eb3c7 V.E...... ......I. 0,0-0,0 #7f080125 app:id/unitySurfaceView} of VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:22:18.275  7582  7582 D SurfaceView: 2012103 updateSurface: has no frame
+10-27 19:22:18.275  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: WindowInsets changed: 1080x2340 statusBars:[0,96,0,0] navigationBars:[0,0,0,135] mandatorySystemGestures:[0,130,0,135] 
+10-27 19:22:18.275  7582  7582 V GameActivity: onImeInsetsChanged from Text Listener
+10-27 19:22:18.276  7582  7629 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-27 19:22:18.276  7582  7582 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda16@852d877
+10-27 19:22:18.277  7582  7582 E BufferQueueProducer: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+10-27 19:22:18.277  7582  7582 E movepuzzle.game: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+10-27 19:22:18.278  7582  7582 I BufferQueueProducer: [](id:1d9e00000000,api:0,p:1836016445,c:7582) setDequeueTimeout:2077252342
+10-27 19:22:18.278  7582  7582 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[UnityPlayerGameActivity]@98287d9 mNativeObject= 0xb4000076f83b4a60 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3603 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 android.view.Choreographer.doCallbacks:1423 android.view.Choreographer.doFrame:1348 android.view.Choreographer$FrameDisplayEventReceiver.run:1930 
+10-27 19:22:18.278  7582  7582 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@98287d9 mNativeObject= 0xb4000076f83b4a60 sc.mNativeObject= 0xb4000077a83af2d0 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3608 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-27 19:22:18.278  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=1 res=0x3 s={true 0xb4000077283c8950} ch=true seqId=0
+10-27 19:22:18.278  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: performConfigurationChange setNightDimText nightDimLevel=0
+10-27 19:22:18.278  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: WindowInsets changed: statusBars:null navigationBars:null 
+10-27 19:22:18.278  7582  7582 V GameActivity: onImeInsetsChanged from Text Listener
+10-27 19:22:18.278  7582  7629 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-27 19:22:18.279  7582  7582 D SurfaceView: 2012103 updateSurface: has no frame
+10-27 19:22:18.279  7582  7582 I SV[2012103 UnityPlayerGameActivity]: windowStopped(false) true com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{1eb3c7 V.E...... ......ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView} of VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:22:18.279  7582  7582 D SurfaceView: 2012103 updateSurface: has no frame
+10-27 19:22:18.279  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: applyTransactionOnDraw applyImmediately
+10-27 19:22:18.279  7582  7629 I Unity   : Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+10-27 19:22:18.279  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: reportNextDraw android.view.ViewRootImpl.performTraversals:5507 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 
+10-27 19:22:18.279  7582  7582 I SurfaceView: 2012103 Changes: creating=true format=true size=true visible=true alpha=false hint=false left=true top=true z=false attached=true lifecycleStrategy=false
+10-27 19:22:18.279  7582  7582 I BufferQueueProducer: [](id:1d9e00000001,api:0,p:0,c:7582) setDequeueTimeout:2077252342
+10-27 19:22:18.280  7582  7582 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= 1eb3c7 SurfaceView[com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000076f83b5c70 caller= android.view.SurfaceView.createBlastSurfaceControls:1878 android.view.SurfaceView.updateSurface:1519 android.view.SurfaceView.lambda$new$0:283 android.view.SurfaceView.$r8$lambda$NfZyM_TG8F8lqzaOVZ7noREFjzU:0 android.view.SurfaceView$$ExternalSyntheticLambda1.onPreDraw:0 android.view.ViewTreeObserver.dispatchOnPreDraw:1295 android.view.ViewRootImpl.performTraversals:5512 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-27 19:22:18.280  7582  7582 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = 1eb3c7 SurfaceView[com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000076f83b5c70 sc.mNativeObject= 0xb4000077a83aea90 format= 4 caller= android.view.SurfaceView.createBlastSurfaceControls:1879 android.view.SurfaceView.updateSurface:1519 android.view.SurfaceView.lambda$new$0:283 android.view.SurfaceView.$r8$lambda$NfZyM_TG8F8lqzaOVZ7noREFjzU:0 android.view.SurfaceView$$ExternalSyntheticLambda1.onPreDraw:0 android.view.ViewTreeObserver.dispatchOnPreDraw:1295 
+10-27 19:22:18.280  7582  7582 I SurfaceView: 2012103 Cur surface: Surface(name=null mNativeObject=0)/@0xc449ce4
+10-27 19:22:18.280  7582  7582 I SV[2012103 UnityPlayerGameActivity]: pST: sr = Rect(0, 0 - 1080, 2340) sw = 1080 sh = 2340
+10-27 19:22:18.280  7582  7633 I SnapAlloc: Graphics lib is available
+10-27 19:22:18.280  7582  7582 I SV[2012103 UnityPlayerGameActivity]: onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+10-27 19:22:18.280  7582  7582 D SurfaceView: 2012103 performSurfaceTransaction UI Thread position = [0, 0, 1080, 2340] surfaceSize = 1080x2340
+10-27 19:22:18.280  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: applyTransactionOnDraw applyImmediately
+10-27 19:22:18.280  7582  7582 I SV[2012103 UnityPlayerGameActivity]: updateSurface: mVisible = true mSurface.isValid() = true
+10-27 19:22:18.280  7582  7582 I SV[2012103 UnityPlayerGameActivity]: updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+10-27 19:22:18.280  7582  7582 I SurfaceView: 2012103 visibleChanged -- surfaceCreated
+10-27 19:22:18.280  7582  7582 I SV[2012103 UnityPlayerGameActivity]: surfaceCreated 2 #8 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{1eb3c7 V.E...... ......ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView}
+10-27 19:22:18.280  7582  7582 I SurfaceView: 2012103 surfaceChanged -- format=4 w=1080 h=2340
+10-27 19:22:18.280  7582  7629 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+10-27 19:22:18.280  7582  7582 I SV[2012103 UnityPlayerGameActivity]: surfaceChanged (1080,2340) 2 #8 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{1eb3c7 V.E...... ......ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView}
+10-27 19:22:18.280  7582  7582 I SurfaceView: 2012103 surfaceRedrawNeeded
+10-27 19:22:18.280  7582  7582 I SurfaceView: 2012103 finishedDrawing
+10-27 19:22:18.280  7582  7582 V SurfaceView: Layout: x=0 y=0 w=1080 h=2340, frame=Rect(0, 0 - 1080, 2340)
+10-27 19:22:18.281  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: applyTransactionOnDraw applyImmediately
+10-27 19:22:18.281  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]@98287d9#1
+10-27 19:22:18.281  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: Creating new active sync group VRI[UnityPlayerGameActivity]@98287d9#2
+10-27 19:22:18.285  7582  7582 I BLASTBufferQueue: [VRI[UnityPlayerGameActivity]@98287d9#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-27 19:22:18.285  7582  7582 I SurfaceComposerClient: apply transaction with the first frame. layerId: 22205, bufferData(ID: 32564442038272, frameNumber: 1)
+10-27 19:22:18.285  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: reportDrawFinished seqId=0
+10-27 19:22:18.289  7582  7629 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-27 19:22:18.289  7582  7629 I Unity   : Mimalloc is enabled and will override the Dynamic Heap and Dual Thread (Main and MainThread) allocators.
+10-27 19:22:18.289  7582  7629 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-remapper-allocator-initial-capacity=32768"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-main-allocator-mimalloc-enabled=1"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-27 19:22:18.289  7582  7629 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-27 19:22:18.290  7582  7582 I InsetsController: onStateChanged: host=com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 96 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 96), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 34.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 96) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {a9ee0001 mType=navigationBars mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {a9ee0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0006 mType=tappableElement mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {dd100000 mType=statusBars mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {dd100005 mType=mandatorySystemGestures mFrame=[0,0][1080,130] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {dd100006 mType=tappableElement mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+10-27 19:22:18.291  7582  7582 I InsetsController: onStateChanged: host=com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 96 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 96), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 34.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 96) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {a9ee0001 mType=navigationBars mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {a9ee0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0006 mType=tappableElement mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {a9ee0024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {dd100000 mType=statusBars mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=false mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {dd100005 mType=mandatorySystemGestures mFrame=[0,0][1080,130] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {dd100006 mType=tappableElement mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,96] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+10-27 19:22:18.291  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+10-27 19:22:18.298  7582  7582 I Unity   : windowFocusChanged: true
+10-27 19:22:18.298  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:22:18.298  7582  7582 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-27 19:22:18.299  7582  7582 D InsetsController: hide(ime())
+10-27 19:22:18.299  7582  7582 I ImeTracker: com.colormovepuzzle.game:b00bf19: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:22:18.299  7582  7629 D Unity   : Enabling Unity systrace
+10-27 19:22:18.299  7582  7629 D Unity   : Starting Unity systrace
+10-27 19:22:18.301  7582  7650 D InputTransport: Input channel constructed: 'ClientS', fd=132
+10-27 19:22:18.303  7582  7629 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: -2, quality: -1
+10-27 19:22:18.306  7582  7629 D Unity   : [VFS] Mount /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk
+10-27 19:22:18.309  7582  7629 E Unity   : java.lang.ClassNotFoundException: Didn't find class "com.google.android.play.core.assetpacks.AssetPackManager" on path: DexPathList[[zip file "/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk"],nativeLibraryDirectories=[/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/lib/arm64, /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+10-27 19:22:18.312  7582  7629 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 11113mb
+10-27 19:22:18.312  7582  7629 I Unity   : SystemInfo ARM big.LITTLE configuration: 6 big (mask: 0xfc), 2 little (mask: 0x3)
+10-27 19:22:18.312  7582  7629 I Unity   : ApplicationInfo 'com.colormovepuzzle.game', Version '1.0', Min API Level '26', Target API Level '36'
+10-27 19:22:18.312  7582  7629 I Unity   : Built from '6000.6/staging' branch, Version '6000.6.5f1 (3ff58d469c8a)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+10-27 19:22:18.312  7582  7629 I Unity   : Device Model 'samsung SM-S938N', OS 'Android OS 16 (API 36)'
+10-27 19:22:18.312  7582  7629 D Unity   : Determine if il2cpp resources need to be extracted:
+10-27 19:22:18.313  7582  7582 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@98287d9 mNativeObject= 0xb4000076f83b4a60 sc.mNativeObject= 0xb4000077a83b1910 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3592 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-27 19:22:18.313  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=1 res=0x0 s={true 0xb4000077283c8950} ch=false seqId=0
+10-27 19:22:18.313  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: updateBoundsLayer: t=android.view.SurfaceControl$Transaction@98c3575 sc=Surface(name=Bounds for - com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity@0#22208)/@0x67a990a frame=3
+10-27 19:22:18.313  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: applyTransactionOnDraw applyImmediately
+10-27 19:22:18.314  7582  7629 D Unity   :     Guid in '/storage/emulated/0/Android/data/com.colormovepuzzle.game/files/il2cpp/unity.ver' is invalid, expected 'fce5fd69-02df-47c6-8069-42b0f6bb342d' was '5d9ad764-be33-4dae-a9b3-2cb9d6c491c3'
+10-27 19:22:18.314  7582  7629 D Unity   :     Extracting il2cpp resources
+10-27 19:22:18.348  7582  7629 D Unity   : Unable to find library path for 'il2cpp.usym'.
+10-27 19:22:18.382  7582  7629 D Unity   : CodeReloadManager initialized
+10-27 19:22:18.382  7582  7629 D Unity   : InitializeScriptEngine OK (0x78a8477e80)
+10-27 19:22:18.382  7582  7629 D Unity   : [EGL] Attaching window :0xb4000077283c9cb0
+10-27 19:22:18.382  7582  7629 D Unity   : Found 2 interfaces on host :
+10-27 19:22:18.382  7582  7629 D Unity   :  0) 192.0.0.2
+10-27 19:22:18.382  7582  7629 D Unity   :  1) 172.30.1.60
+10-27 19:22:18.382  7582  7629 D Unity   : 
+10-27 19:22:18.382  7582  7629 D Unity   : Player connection [507086344512]  Target information:
+10-27 19:22:18.382  7582  7629 D Unity   : 
+10-27 19:22:18.382  7582  7629 D Unity   : Player connection [507086344512]  * "[IP] 192.0.0.2 [Port] 55000 [Flags] 2 [Guid] 2731410390 [EditorId] 1929132459 [Version] 1048832 [Id] AndroidPlayer(11,samsung_SM-S938N@172.30.1.60) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] ColorMovePuzzle" 
+10-27 19:22:18.382  7582  7629 D Unity   : 
+10-27 19:22:18.382  7582  7629 D Unity   : Player connection [507086344512]  * "[IP] 172.30.1.60 [Port] 55000 [Flags] 2 [Guid] 2731410390 [EditorId] 1929132459 [Version] 1048832 [Id] AndroidPlayer(11,samsung_SM-S938N@172.30.1.60) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] ColorMovePuzzle" 
+10-27 19:22:18.382  7582  7629 D Unity   : 
+10-27 19:22:18.382  7582  7629 D Unity   : Player connection [507086344512] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+10-27 19:22:18.382  7582  7629 D Unity   : 
+10-27 19:22:18.387  7582  7629 D Unity   : Input System module state changed to: Initialized.
+10-27 19:22:18.388  7582  7629 I DisplayManager: Implicitly registering for refresh rate
+10-27 19:22:18.388  7582  7629 D Unity   : [Physics::Module] Initialized fallback backend.
+10-27 19:22:18.388  7582  7629 D Unity   : [Physics::Module] Id: 0xdecafbad
+10-27 19:22:18.390  7582  7629 D nativeloader: Load liblibAppUITextMateLib.so using class loader ns clns-9 (caller=/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk): dlopen failed: library "liblibAppUITextMateLib.so" not found
+10-27 19:22:18.390  7582  7629 D nativeloader: Load /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/lib/arm64/libAppUITextMateLib.so using class loader ns clns-9 (caller=/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk): ok
+10-27 19:22:18.390  7582  7629 D Unity   : PlayerInitEngineNoGraphics OK
+10-27 19:22:18.390  7582  7629 I Unity   : Company Name: DefaultCompany
+10-27 19:22:18.390  7582  7629 I Unity   : Product Name: ColorMovePuzzle
+10-27 19:22:18.390  7582  7629 D Unity   : AndroidGraphics::Startup window =  0xb4000077283c9cb0
+10-27 19:22:18.390  7582  7629 D Unity   : [EGL] Attaching window :0xb4000077283c9cb0
+10-27 19:22:18.391  7582  7629 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk/assets/bin/Data/UnitySubsystems
+10-27 19:22:18.391  7582  7629 D Unity   : GfxDevice: creating device client; kGfxThreadingModeThreaded
+10-27 19:22:18.391  7582  7629 E HardwareProfiles: Status: Not active
+10-27 19:22:18.392  7582  7629 D vulkan  : searching for layers in '/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/lib/arm64'
+10-27 19:22:18.392  7582  7629 D vulkan  : searching for layers in '/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk!/lib/arm64-v8a'
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: count=14
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_GOOGLE_surfaceless_query [enabled=0, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+10-27 19:22:18.393  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+10-27 19:22:18.394  7582  7629 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+10-27 19:22:18.394  7582  7629 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+10-27 19:22:18.394  7582  7629 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+10-27 19:22:18.395  7582  7629 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+10-27 19:22:18.395  7582  7582 V GameActivity: onImeInsetsChanged from Text Listener
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: QUALCOMM build          : f61dec9117, I68b0a64d7e
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Build Date              : 03/26/26
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Shader Compiler Version : E031.47.18.50
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Local Branch            : 
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.862
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Remote Branch           : NONE
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Driver Version          : 0800.64.7
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: PFP                     : 0x01500077
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: ME                      : 0x01500014
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Application Name    : ColorMovePuzzle
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Process Name        : com.colormovepuzzle.game
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Application Version : 0x00000001
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Engine Name         : Unity
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Engine Version      : 0x00000001
+10-27 19:22:18.395  7582  7629 I AdrenoVK-0: Api Version         : 0x00401000
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] Physical Device 0xb4000078083c4470 [0]: "Adreno (TM) 830" deviceType=1 vendorID=5143 deviceID=44050001
+10-27 19:22:18.395  7582  7629 D Unity   : [VULKAN] Android Device Info:
+10-27 19:22:18.395  7582  7629 D Unity   : {"Vendor": "Qualcomm","Device Name": "Adreno (TM) 830","Brand": "samsung","Product Name": "pa3qksx","Android OS Version": "16","Vulkan API Version": "Variant: 0 major.minor.patch:1.3.284","Driver Version": "2150760512"}
+10-27 19:22:18.395  7582  7629 D Unity   : Vulkan detection: 2
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: count=14
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_GOOGLE_surfaceless_query [enabled=0, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+10-27 19:22:18.395  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+10-27 19:22:18.395  7582  7629 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+10-27 19:22:18.396  7582  7629 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: QUALCOMM build          : f61dec9117, I68b0a64d7e
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Build Date              : 03/26/26
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Shader Compiler Version : E031.47.18.50
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Local Branch            : 
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.862
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Remote Branch           : NONE
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Driver Version          : 0800.64.7
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: PFP                     : 0x01500077
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: ME                      : 0x01500014
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Application Name    : ColorMovePuzzle
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Process Name        : com.colormovepuzzle.game
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Application Version : 0x00000001
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Engine Name         : Unity
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Engine Version      : 0x00000001
+10-27 19:22:18.396  7582  7629 I AdrenoVK-0: Api Version         : 0x00401000
+10-27 19:22:18.396  7582  7629 D Unity   : [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+10-27 19:22:18.396  7582  7629 D Unity   : [Vulkan init] Physical Device 0xb4000078083d2790 [0]: "Adreno (TM) 830" deviceType=1 vendorID=5143 deviceID=44050001
+10-27 19:22:18.396  7582  7629 D Unity   : [Vulkan init] Selected physical device 0xb4000078083d2790
+10-27 19:22:18.396  7582  7629 D Unity   : [Vulkan init] Graphics queue count=1
+10-27 19:22:18.397  7582  7629 D nativeloader: Load liblibswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk): dlopen failed: library "liblibswappywrapper.so" not found
+10-27 19:22:18.397  7582  7629 D nativeloader: Load /data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/lib/arm64/libswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~7d_qmOt3FjH9VZJSBnnTtQ==/com.colormovepuzzle.game-U4XcSh8NYr6rNPcbiQjElg==/base.apk): ok
+10-27 19:22:18.397  7582  7629 I SwappyWrapper: SwappyWrapperInit() succeeded. Build: Tue Oct 27 18:24:35 2026
+10-27 19:22:18.397  7582  7629 D Unity   : SwappyWrapper: InitSwappyWrapper() succeeded.
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: count=165
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_ANDROID_external_format_resolve [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_ANDROID_external_memory_android_hardware_buffer [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_4444_formats [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_astc_decode_mode [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_blend_operation_advanced [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_border_color_swizzle [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_calibrated_timestamps [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_color_write_enable [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_conditional_rendering [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_conservative_rasterization [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_custom_border_color [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_depth_clip_control [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_depth_clip_enable [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_descriptor_buffer [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_descriptor_indexing [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_device_address_binding_report [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_device_fault [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_device_memory_report [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_extended_dynamic_state [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_external_memory_acquire_unmodified [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_filter_cubic [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_fragment_density_map [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_fragment_density_map2 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_global_priority [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_global_priority_query [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_hdr_metadata [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_host_query_reset [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_image_compression_control [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_image_compression_control_swapchain [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_image_robustness [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_image_view_min_lod [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_index_type_uint8 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_inline_uniform_block [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_line_rasterization [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_load_store_op_none [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_multi_draw [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_multisampled_render_to_single_sampled [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_mutable_descriptor_type [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_pipeline_protected_access [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_primitives_generated_query [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_private_data [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_provoking_vertex [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_queue_family_foreign [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_rasterization_order_attachment_access [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_robustness2 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_sample_locations [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_scalar_block_layout [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_separate_stencil_usage [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_atomic_float [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_module_identifier [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_stencil_export [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_subgroup_size_control [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_maintenance1 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_texture_compression_astc_hdr [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_tooling_info [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_transform_feedback [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_GOOGLE_display_timing [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_IMG_filter_cubic [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_16bit_storage [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_8bit_storage [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_acceleration_structure [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_bind_memory2 [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_buffer_device_address [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_calibrated_timestamps [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_copy_commands2 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_create_renderpass2 [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_dedicated_allocation [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_deferred_host_operations [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_descriptor_update_template [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_device_group [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_draw_indirect_count [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_driver_properties [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_dynamic_rendering [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_dynamic_rendering_local_read [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_fd [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_fd [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_fd [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_format_feature_flags2 [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_fragment_shading_rate [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_memory_requirements2 [enabled=1, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_global_priority [enabled=0, external=0]
+10-27 19:22:18.397  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_image_format_list [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_imageless_framebuffer [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_incremental_present [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_index_type_uint8 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_line_rasterization [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_load_store_op_none [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance1 [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance2 [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance3 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance4 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance5 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance6 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_map_memory2 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_multiview [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_push_descriptor [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_ray_query [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_ray_tracing_maintenance1 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_ray_tracing_position_fetch [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_relaxed_block_layout [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_atomic_int64 [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_clock [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_draw_parameters [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_expect_assume [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_float16_int8 [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_float_controls [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_float_controls2 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_maximal_reconvergence [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_quad_control [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_subgroup_rotate [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_subgroup_uniform_control_flow [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_shared_presentable_image [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_spirv_1_4 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_swapchain [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_synchronization2 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_timeline_semaphore [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_variable_pointers [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_vertex_attribute_divisor [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_vulkan_memory_model [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_NV_optical_flow [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_filter_cubic_weights [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_fragment_density_map_offset [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_image_processing [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_image_processing2 [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_multiview_per_view_render_areas [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_multiview_per_view_viewports [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_render_pass_shader_resolve [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_render_pass_store_ops [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_render_pass_transform [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_rotated_copy_commands [enabled=0, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_tile_properties [enabled=1, external=0]
+10-27 19:22:18.398  7582  7629 D Unity   : [Vulkan init] extensions: name=VK_QCOM_ycbcr_degamma [enabled=0, external=0]
+10-27 19:22:18.399  7582  7629 D Unity   : Vulkan API version 1.1.0 (1.3.284 supported by driver, 1.1.0 requested)
+10-27 19:22:18.399  7582  7629 D Unity   : Vulkan vendor=[Qualcomm] id=[5143]
+10-27 19:22:18.399  7582  7629 D Unity   : Vulkan renderer=[Adreno (TM) 830] id=[44050001]
+10-27 19:22:18.399  7582  7629 D Unity   : Vulkan device type 1
+10-27 19:22:18.399  7582  7629 D Unity   : Vulkan driverversion=[512.800.64 (0x80320040)] uint=[-2144206784]
+10-27 19:22:18.399  7582  7629 D Unity   : Vulkan driverLibraryString=[Qualcomm Technologies Inc. Adreno Vulkan Driver (8), Driver Build: f61dec9117, I68b0a64d7e, 1774510019
+10-27 19:22:18.399  7582  7629 D Unity   : Date: 03/26/26
+10-27 19:22:18.399  7582  7629 D Unity   : Compiler Version: E031.47.18.50
+10-27 19:22:18.399  7582  7629 D Unity   : Driver Branch: 
+10-27 19:22:18.399  7582  7629 D Unity   : ]
+10-27 19:22:18.399  7582  7629 D Unity   : VK use pretransform: 0
+10-27 19:22:18.402  7582  7596 I movepuzzle.game: Compiler allocated 5314KB to compile void android.view.ViewRootImpl.performTraversals()
+10-27 19:22:18.404  7582  7629 D Unity   : Vulkan PSO: Cache data successfully loaded [size=69771,path=/storage/emulated/0/Android/data/com.colormovepuzzle.game/cache/vulkan_pso_cache.bin]
+10-27 19:22:18.404  7582  7629 D Unity   : [EGL] Attaching window :0x0
+10-27 19:22:18.404  7582  7629 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xb4000077283c9cb0, 0)
+10-27 19:22:18.405  7582  7629 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+10-27 19:22:18.406  7582  7629 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+10-27 19:22:18.408  7582  7719 D AChoreographer: Attaching thread to JVM for AChoreographer
+10-27 19:22:18.409  7582  7629 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, -5476376637790404976]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-27 19:22:18.409  7582  7721 I SwappyDisplayManager: Starting looper thread
+10-27 19:22:18.414  7582  7629 V MediaRouter: Selecting route: RouteInfo{ name=휴대전화, description=null, status=null, category=RouteCategory{ name=시스템 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-27 19:22:18.414  7582  7629 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+10-27 19:22:18.414  7582  7629 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xb4000077283c9cb0, 0)
+10-27 19:22:18.414  7582  7629 D Unity   : Initialize engine version: 6000.6.5f1 (3ff58d469c8a)
+10-27 19:22:18.414  7582  7629 D Unity   : [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+10-27 19:22:18.428  7582  7629 D Unity   : [Physics::Module] Selected backend (deferred post-plugins).
+10-27 19:22:18.428  7582  7629 D Unity   : [Physics::Module] Name: PhysX
+10-27 19:22:18.428  7582  7629 D Unity   : [Physics::Module] Id: 0xf2b8ea05
+10-27 19:22:18.428  7582  7629 D Unity   : [Physics::Module] SDK Version: 4.1.2
+10-27 19:22:18.428  7582  7629 D Unity   : [Physics::Module] Integration Version: 1.0.0
+10-27 19:22:18.428  7582  7629 D Unity   : [Physics::Module] Threading Mode: Multi-Threaded
+10-27 19:22:18.466  7582  7629 I IL2CPP  : Locale ko-KR
+10-27 19:22:18.469  7582  7629 D Unity   : PlayerInitEngineGraphics OK
+10-27 19:22:18.473  7582  7629 D SensorManager: registerListener :: 11, lsm6dsv_0 Accelerometer Non-wakeup, 200000, 0, 
+10-27 19:22:18.473  7582  7629 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: -1, quality: 2
+10-27 19:22:18.473  7582  7629 I Unity   :     HasWindow = 1, HasFocus = 0
+10-27 19:22:18.473  7582  7629 I Unity   : Handle cmd APP_CMD_WINDOW_RESIZED(3)
+10-27 19:22:18.473  7582  7629 D Unity   : NativeWindow resized 1080x2340
+10-27 19:22:18.473  7582  7629 I Unity   : Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+10-27 19:22:18.473  7582  7629 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+10-27 19:22:18.473  7582  7629 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-27 19:22:18.474  7582  7629 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+10-27 19:22:18.475  7582  7721 I SwappyDisplayManager: Terminating looper thread
+10-27 19:22:18.479  7582  7629 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, -5476376637790518544]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-27 19:22:18.479  7582  7730 I SwappyDisplayManager: Starting looper thread
+10-27 19:22:18.494  7582  7629 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: 0, quality: 2
+10-27 19:22:18.499  7582  7717 I BLASTBufferQueue: [1eb3c7 SurfaceView[com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity]@0#1](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-27 19:22:18.499  7582  7717 I SurfaceComposerClient: apply transaction with the first frame. layerId: 22210, bufferData(ID: 32564442038299, frameNumber: 1)
+10-27 19:22:18.645  7582  7582 D SV[2012103 UnityPlayerGameActivity]: skip updating surface, 5
+10-27 19:22:18.646  7582  7653 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.colormovepuzzle.game
+10-27 19:22:18.775  7582  7737 I HWUI    : Using FreeType backend (prop=Auto)
+10-27 19:22:20.553  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:22:20.553  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:22:20.556  7582  7582 I ImeTracker: com.colormovepuzzle.game:a6293a7b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:22:20.556  7582  7629 D Unity   : UnloadTime: 3.156927 ms
+10-27 19:22:20.557  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:22:20.558  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:22:20.558  7582  7582 D InsetsController: hide(ime())
+10-27 19:22:20.558  7582  7582 I ImeTracker: com.colormovepuzzle.game:a6293a7b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:22:20.558  7582  7582 D CompatChangeReporter: Compat change id reported: 395521150; UID 10291; state: ENABLED
+10-27 19:22:20.558  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:22:20.558  7582  7582 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-27 19:22:20.566  7582  7650 D InputTransport: Input channel constructed: 'ClientS', fd=218
+10-27 19:22:20.568  7582  7629 D Unity   : UUID: fc1e39086601ab1e => f1b0c90c02ac984d9a739027374e4e30
+10-27 19:22:20.640  7582  7629 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: 0, quality: 2
+10-27 19:22:20.642  7582  7629 D Unity   : Using NDK Choreographer.
+10-27 19:22:20.644  7582  7582 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@98287d9 mNativeObject= 0xb4000076f83b4a60 sc.mNativeObject= 0xb4000077a83b0890 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3592 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-27 19:22:20.644  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=2 res=0x0 s={true 0xb4000077283c8950} ch=false seqId=0
+10-27 19:22:20.644  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: updateBoundsLayer: t=android.view.SurfaceControl$Transaction@98c3575 sc=Surface(name=Bounds for - com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity@0#22208)/@0x67a990a frame=5
+10-27 19:22:20.644  7582  7582 D VRI[UnityPlayerGameActivity]@98287d9: applyTransactionOnDraw applyImmediately
+10-27 19:22:20.675  7582  7629 D Unity   : Stopping Unity systrace
+10-27 19:22:20.721  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'GaussianDepthOfField'). PostProcessing render passes will not execute.
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.DepthOfFieldGaussianPostProcessPass:.ctor(Shader)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.721  7582  7629 I Unity   : 
+10-27 19:22:20.721  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'GaussianDepthOfField'). PostProcessing render passes will not execute.
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.DepthOfFieldGaussianPostProcessPass:.ctor(Shader)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.721  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.721  7582  7629 I Unity   : 
+10-27 19:22:20.722  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/BokehDepthOfField' is not supported or has been stripped from the build (in 'BokehDepthOfField'). PostProcessing render passes will not execute.
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.DepthOfFieldBokehPostProcessPass:.ctor(Shader)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : 
+10-27 19:22:20.722  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/CameraMotionBlur' is not supported or has been stripped from the build (in 'MotionBlur'). PostProcessing render passes will not execute.
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.MotionBlurPostProcessPass:.ctor(Shader)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : 
+10-27 19:22:20.722  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/PaniniProjection' is not supported or has been stripped from the build (in 'PaniniProjection'). PostProcessing render passes will not execute.
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PaniniProjectionPostProcessPass:.ctor(Shader)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : 
+10-27 19:22:20.722  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : 
+10-27 19:22:20.722  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.722  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.722  7582  7629 I Unity   : 
+10-27 19:22:20.723  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : 
+10-27 19:22:20.723  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : 
+10-27 19:22:20.723  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : 
+10-27 19:22:20.723  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : 
+10-27 19:22:20.723  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.723  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.723  7582  7629 I Unity   : 
+10-27 19:22:20.725  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : 
+10-27 19:22:20.725  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : 
+10-27 19:22:20.725  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : 
+10-27 19:22:20.725  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : 
+10-27 19:22:20.725  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : 
+10-27 19:22:20.725  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.725  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.725  7582  7629 I Unity   : 
+10-27 19:22:20.726  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : 
+10-27 19:22:20.726  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : 
+10-27 19:22:20.726  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : 
+10-27 19:22:20.726  7582  7629 I Unity   : Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.Renderer2DData:Create()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+10-27 19:22:20.726  7582  7629 I Unity   : UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+10-27 19:22:20.726  7582  7629 I Unity   : 
+10-27 19:22:20.778  7582  7629 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=1
+10-27 19:22:20.817  7582  7730 I SwappyDisplayManager: Terminating looper thread
+10-27 19:22:20.824  7582  7629 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, -5476376637790457392]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-27 19:22:20.824  7582  7791 I SwappyDisplayManager: Starting looper thread
+10-27 19:22:31.028  7582  7605 D InputTransport: Input channel destroyed: 'ClientS', fd=218
+10-27 19:22:31.029  7582  7606 E System  : Uncaught exception thrown by finalizer
+10-27 19:22:31.029  7582  7606 E System  : java.lang.AssertionError: Failed to close dex file in finalizer.
+10-27 19:22:31.029  7582  7606 E System  : 	at dalvik.system.DexFile.finalize(DexFile.java:386)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:387)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$FinalizerDaemon.processReference(Daemons.java:367)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:339)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$Daemon.run(Daemons.java:135)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Thread.run(Thread.java:1571)
+10-27 19:22:31.029  7582  7606 E System  : Uncaught exception thrown by finalizer
+10-27 19:22:31.029  7582  7606 E System  : java.lang.AssertionError: Failed to close dex file in finalizer.
+10-27 19:22:31.029  7582  7606 E System  : 	at dalvik.system.DexFile.finalize(DexFile.java:386)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:387)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$FinalizerDaemon.processReference(Daemons.java:367)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:339)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Daemons$Daemon.run(Daemons.java:135)
+10-27 19:22:31.029  7582  7606 E System  : 	at java.lang.Thread.run(Thread.java:1571)
+10-27 19:23:10.288  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:23:10.288  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:10.289  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:23:13.289  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:14.577  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:23:14.577  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:14.578  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:23:17.579  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:18.780  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:23:18.780  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:18.781  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:23:21.781  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:23.000  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:23:23.001  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:23.229  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:23:26.229  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:23:27.907  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:23:27.907  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75093686000000, downTime=75093686000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:23:27.911  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:23:27.911  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75093690000000, downTime=75093686000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:23:27.930  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:23:27.930  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:23:27.931  7582  7582 I ImeTracker: com.colormovepuzzle.game:b263888d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:23:27.931  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:23:27.931  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:23:27.931  7582  7582 D InsetsController: hide(ime())
+10-27 19:23:27.931  7582  7582 I ImeTracker: com.colormovepuzzle.game:b263888d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:23:27.931  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:23:27.931  7582  7582 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-27 19:23:27.934  7582  7618 D InputTransport: Input channel constructed: 'ClientS', fd=226
+10-27 19:26:24.072  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:26:24.072  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:26:24.073  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:26:27.074  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:26:28.537  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:26:28.538  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:26:28.539  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:26:31.539  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:19.578  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:27:19.578  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:19.579  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:27:22.579  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:24.080  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:27:24.080  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:24.081  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:27:27.081  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:28.381  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:27:28.381  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:28.382  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:27:31.382  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:32.511  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:27:32.512  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:32.742  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:27:35.744  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:37.229  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:27:37.230  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75343010000000, downTime=75343010000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:27:37.232  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:27:37.232  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75343012000000, downTime=75343010000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:27:37.245  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:27:37.245  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:27:37.245  7582  7582 I ImeTracker: com.colormovepuzzle.game:19f450ec: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:27:37.246  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:27:37.246  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:27:37.246  7582  7582 D InsetsController: hide(ime())
+10-27 19:27:37.246  7582  7582 I ImeTracker: com.colormovepuzzle.game:19f450ec: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:27:37.246  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:27:41.888  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:27:41.888  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75347668000000, downTime=75347668000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:27:41.889  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:27:41.889  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75347671000000, downTime=75347668000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:27:41.906  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:27:41.906  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:27:41.906  7582  7582 I ImeTracker: com.colormovepuzzle.game:e0e178d2: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:27:41.906  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:27:41.906  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:27:41.906  7582  7582 D InsetsController: hide(ime())
+10-27 19:27:41.907  7582  7582 I ImeTracker: com.colormovepuzzle.game:e0e178d2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:27:41.907  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:27:50.391  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:27:50.392  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:50.393  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:27:53.393  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:55.320  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:27:55.321  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:27:55.321  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:27:58.322  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:00.522  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:00.523  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:00.523  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:03.523  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:05.087  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:05.087  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:05.333  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:08.334  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:09.855  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:28:09.855  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75375635000000, downTime=75375635000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:28:09.856  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:28:09.856  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75375637000000, downTime=75375635000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:28:09.869  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:28:09.869  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:28:09.870  7582  7582 I ImeTracker: com.colormovepuzzle.game:18b38f75: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:28:09.870  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:28:09.870  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:28:09.870  7582  7582 D InsetsController: hide(ime())
+10-27 19:28:09.870  7582  7582 I ImeTracker: com.colormovepuzzle.game:18b38f75: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:28:09.870  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:28:14.526  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:28:14.526  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75380305000000, downTime=75380305000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:28:14.527  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:28:14.527  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75380308000000, downTime=75380305000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:28:14.529  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:28:14.529  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:28:14.529  7582  7582 I ImeTracker: com.colormovepuzzle.game:b743465a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:28:14.529  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:28:14.529  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:28:14.529  7582  7582 D InsetsController: hide(ime())
+10-27 19:28:14.529  7582  7582 I ImeTracker: com.colormovepuzzle.game:b743465a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:28:14.529  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:28:23.245  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:23.245  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:23.245  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:26.246  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:27.920  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:27.920  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:27.921  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:30.921  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:32.941  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:32.941  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:32.942  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:35.942  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:37.503  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:37.503  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:37.727  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:40.728  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:42.909  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:42.909  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:42.909  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:45.911  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:47.967  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:47.967  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:48.213  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:51.214  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:52.831  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:28:52.831  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:53.074  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:28:56.075  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:28:58.007  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:28:58.007  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75423787000000, downTime=75423787000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:28:58.008  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:28:58.008  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:28:58.008  7582  7582 I ImeTracker: com.colormovepuzzle.game:7b4bef52: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:28:58.008  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:28:58.008  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:28:58.008  7582  7582 D InsetsController: hide(ime())
+10-27 19:28:58.008  7582  7582 I ImeTracker: com.colormovepuzzle.game:7b4bef52: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:28:58.008  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:28:58.008  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:28:58.008  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75423789000000, downTime=75423787000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:03.035  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:29:03.035  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75428814000000, downTime=75428814000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:03.036  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:29:03.036  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:29:03.036  7582  7582 I ImeTracker: com.colormovepuzzle.game:658390a4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:29:03.036  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:29:03.036  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:29:03.036  7582  7582 D InsetsController: hide(ime())
+10-27 19:29:03.036  7582  7582 I ImeTracker: com.colormovepuzzle.game:658390a4: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:29:03.036  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:29:03.037  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:29:03.037  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75428817000000, downTime=75428814000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:11.470  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:11.470  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:11.470  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:11.978  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:12.483  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:13.050  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:13.581  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:14.141  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:14.647  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:17.647  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:19.230  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:19.230  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:19.231  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:22.232  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:23.743  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:29:23.743  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75449524000000, downTime=75449524000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:23.744  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:29:23.744  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75449526000000, downTime=75449524000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:23.777  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:29:23.777  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:29:23.777  7582  7582 I ImeTracker: com.colormovepuzzle.game:140e1233: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:29:23.777  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:29:23.778  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:29:23.778  7582  7582 D InsetsController: hide(ime())
+10-27 19:29:23.778  7582  7582 I ImeTracker: com.colormovepuzzle.game:140e1233: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:29:23.778  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:29:28.686  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:29:28.686  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75454464000000, downTime=75454464000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:28.687  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:29:28.687  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75454468000000, downTime=75454464000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:28.704  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:29:28.704  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:29:28.705  7582  7582 I ImeTracker: com.colormovepuzzle.game:c3d5bb19: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:29:28.705  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:29:28.706  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:29:28.706  7582  7582 D InsetsController: hide(ime())
+10-27 19:29:28.706  7582  7582 I ImeTracker: com.colormovepuzzle.game:c3d5bb19: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:29:28.706  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:29:37.278  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:37.278  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:37.278  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:37.773  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:38.282  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:38.843  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:39.348  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:39.900  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:40.412  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:43.414  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:44.654  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:29:44.654  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:44.654  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:29:47.656  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:29:48.848  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:29:48.848  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75474628000000, downTime=75474628000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:48.848  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:29:48.849  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75474630000000, downTime=75474628000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:48.878  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:29:48.878  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:29:48.878  7582  7582 I ImeTracker: com.colormovepuzzle.game:d9853de: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:29:48.879  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:29:48.879  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:29:48.879  7582  7582 D InsetsController: hide(ime())
+10-27 19:29:48.879  7582  7582 I ImeTracker: com.colormovepuzzle.game:d9853de: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:29:48.879  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:29:53.697  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:29:53.697  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75479477000000, downTime=75479477000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:53.698  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:29:53.698  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75479479000000, downTime=75479477000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:29:53.703  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:29:53.703  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:29:53.703  7582  7582 I ImeTracker: com.colormovepuzzle.game:adec6d4a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:29:53.703  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:29:53.704  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:29:53.704  7582  7582 D InsetsController: hide(ime())
+10-27 19:29:53.704  7582  7582 I ImeTracker: com.colormovepuzzle.game:adec6d4a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:29:53.704  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:30:01.947  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:30:01.947  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:30:01.948  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:30:04.948  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:30:05.949  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:30:05.949  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:30:05.950  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:30:08.951  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:30:10.124  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 0
+10-27 19:30:10.124  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:30:10.124  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme pointer 1
+10-27 19:30:13.125  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9
+10-27 19:30:14.641  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:30:14.641  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75500421000000, downTime=75500421000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:30:14.642  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:30:14.642  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75500423000000, downTime=75500421000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:30:14.644  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:30:14.644  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:30:14.644  7582  7582 I ImeTracker: com.colormovepuzzle.game:378ec7b0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:30:14.644  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:30:14.644  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:30:14.644  7582  7582 D InsetsController: hide(ime())
+10-27 19:30:14.644  7582  7582 I ImeTracker: com.colormovepuzzle.game:378ec7b0: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:30:14.644  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0
+10-27 19:30:19.151  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 0
+10-27 19:30:19.151  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75504932000000, downTime=75504932000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:30:19.152  7582  7582 I VRI[UnityPlayerGameActivity]@98287d9: ViewPostIme key 1
+10-27 19:30:19.152  7582  7582 D gti.InputConnection: onKey: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=75504934000000, downTime=75504932000000, deviceId=-1, source=0x0, displayId=-1 }
+10-27 19:30:19.174  7582  7582 D GameActivity: ************** mainWorkCallback *********
+10-27 19:30:19.174  7582  7582 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-27 19:30:19.175  7582  7582 I ImeTracker: com.colormovepuzzle.game:ccb9eb08: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+10-27 19:30:19.175  7582  7582 I InputMethodManager_LC: hsifw() - flag : 0
+10-27 19:30:19.175  7582  7582 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+10-27 19:30:19.175  7582  7582 D InsetsController: hide(ime())
+10-27 19:30:19.175  7582  7582 I ImeTracker: com.colormovepuzzle.game:ccb9eb08: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-27 19:30:19.175  7582  7582 D InputMethodManagerUtils: startInputInner - Id : 0

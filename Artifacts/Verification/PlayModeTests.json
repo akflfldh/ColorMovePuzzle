@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "duration": 5.56,
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.AmbiguousTapWaitsForDirectionalDrag",
+      "Status": "Passed",
+      "Duration": 0.5486025,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.FullSolutionClearsLocksAndPlayAgainRestarts",
+      "Status": "Passed",
+      "Duration": 3.7439653,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.InvalidAndDiagonalInputDoNothing",
+      "Status": "Passed",
+      "Duration": 0.1039363,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.RapidSecondPointerCannotDoubleMove",
+      "Status": "Passed",
+      "Duration": 0.2855827,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.RestartButtonCancelsAnimationAndRestoresStart",
+      "Status": "Passed",
+      "Duration": 0.3169449,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.SceneHasTwoUIGridsAndNo3DComponents",
+      "Status": "Passed",
+      "Duration": 0.100703,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.TapUsesRaycastTileAndAnimatesExactlyOneMove",
+      "Status": "Passed",
+      "Duration": 0.4260141,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

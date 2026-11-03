@@ -1,0 +1,45 @@
+{
+  "input": "ADB tap/swipe/keyevent, not human touch feel",
+  "modes": [
+    {
+      "size": 5,
+      "nativeMove": true,
+      "previousBoardRetained": true,
+      "movesAfterTest": 4
+    },
+    {
+      "size": 4,
+      "nativeMove": true
+    }
+  ],
+  "adShown": true,
+  "running": false,
+  "originalContinuePreserved": {
+    "size": 5,
+    "stage": 2,
+    "moves": 2,
+    "cellsMatch": true
+  },
+  "realAdQualificationAttempted": true,
+  "frequencyBeforeNext": {
+    "version": 1,
+    "totalClears": 7,
+    "clearsSinceAd": 7,
+    "gameplaySeconds": 867.789508471993,
+    "lastAdGameplaySeconds": 0.0,
+    "hasShown": false,
+    "pendingShow": false,
+    "pendingShowGameplaySeconds": 0.0,
+    "recentClearIds": [
+      "f0358a391250440aa81f0600e222f9b9",
+      "4fe66aa301f541f7bcc14612a41a7ffd",
+      "b6b3c1628b784f7a9bbb9ca2c0b2f975",
+      "ca16ff2d5f6d495f864eb1bdd06bcaa0",
+      "7937c2e04caa4ffea7c244972f525bcf",
+      "0ff93d32476443e99eaed9a6e8ba5d9b"
+    ]
+  },
+  "nativeAdActivityObserved": true,
+  "closeMethod": "ADB Back in the native AdActivity",
+  "error": "AssertionError('Expected 9 board cells, found 0')"
+}

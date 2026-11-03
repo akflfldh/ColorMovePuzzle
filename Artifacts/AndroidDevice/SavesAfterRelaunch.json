@@ -1,0 +1,48 @@
+﻿[
+    {
+        "name":  "menu-profile-v1.json",
+        "sha256":  "5fa8aaa4f0502e5afd0dc416a814803b71b084197e70900cf644d1f5cb39e67d",
+        "data":  {
+                     "version":  1,
+                     "hasContinue":  true,
+                     "lastGridSize":  3,
+                     "lastStage":  2,
+                     "bgmVolume":  0.699999988079071,
+                     "sfxVolume":  0.800000011920929
+                 }
+    },
+    {
+        "name":  "menu-profile-v1.json.bak",
+        "sha256":  "d2b21cd6c89f07d73fa647e7aae7a9025d524d0db97981232e1185394ec145a7",
+        "data":  {
+                     "version":  1,
+                     "hasContinue":  true,
+                     "lastGridSize":  3,
+                     "lastStage":  1,
+                     "bgmVolume":  0.699999988079071,
+                     "sfxVolume":  0.800000011920929
+                 }
+    },
+    {
+        "name":  "progress-v1.json",
+        "sha256":  "3b3e63df48a7cc4358977fefa2e00e9fe99f673c48180f511b51423c408242ef",
+        "data":  {
+                     "version":  1,
+                     "clearedStages":  [
+                                           1
+                                       ],
+                     "lastPlayed":  2
+                 }
+    },
+    {
+        "name":  "progress-v1.json.bak",
+        "sha256":  "1a6e1e7f75898ff517635adec300d3e6459a723525d9d371f67837c04afec3a1",
+        "data":  {
+                     "version":  1,
+                     "clearedStages":  [
+                                           1
+                                       ],
+                     "lastPlayed":  1
+                 }
+    }
+]

@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "running": false,
+  "input": "ADB input tap/swipe/keyevent, not human touch feel",
+  "modes": [],
+  "error": "AssertionError('No full stage card found')"
+}

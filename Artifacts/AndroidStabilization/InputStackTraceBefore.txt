@@ -1,0 +1,57 @@
+﻿10-27 18:47:05.210 29137 29157 E Unity   : ArgumentException: 'InputUpdateType.None' is not a valid update mask
+10-27 18:47:05.210 29137 29157 E Unity   : Parameter name: value
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.LowLevel.InputStateHistory.set_updateMask (UnityEngine.InputSystem.LowLevel.InputUpdateType value) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.EnhancedTouch.Finger..ctor (UnityEngine.InputSystem.Touchscreen screen, System.Int32 index, UnityEngine.InputSystem.LowLevel.InputUpdateType updateMask) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.EnhancedTouch.Touch+FingerAndTouchState.AddFingers (UnityEngine.InputSystem.Touchscreen screen) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.EnhancedTouch.Touch.AddTouchscreen (UnityEngine.InputSystem.Touchscreen screen) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue1,TValue2] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`2[TValue1,TValue2]]& callbacks, TValue1 argument1, TValue2 argument2, Unity.Profiling.ProfilerMarker marker, System.String callbackName, System.Object context) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.AddDevice (UnityEngine.InputSystem.InputDevice device) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.AddDevice (UnityEngine.InputSystem.Utilities.InternedString layout, System.Int32 deviceId, System.String deviceName, UnityEngine.InputSystem.Layouts.InputDeviceDescription deviceDescription, UnityEngine.InputSystem.InputDevice+DeviceFlags deviceFlags, UnityEngine.InputSystem.Utilities.InternedString variants) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription description, System.Boolean throwIfNoLayoutFound, System.String deviceName, System.Int32 deviceId, UnityEngine.InputSystem.InputDevice+DeviceFlags deviceFlags) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.OnNativeDeviceDiscovered (System.Int32 deviceId, System.String deviceDescriptor) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.210 29137 29157 E Unity   : UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+10-27 18:47:05.210 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDevice)
+10-27 18:47:05.210 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InternedString, Int32, String, InputDeviceDescription, DeviceFlags, InternedString)
+10-27 18:47:05.210 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDeviceDescription, Boolean, String, Int32, DeviceFlags)
+10-27 18:47:05.210 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:OnNativeDeviceDiscovered(Int32, String)
+10-27 18:47:05.210 29137 29157 E Unity   : 
+10-27 18:47:05.211 29137 29157 E Unity   : ArgumentException while executing 'InputSystem.onDeviceChange' callbacks
+10-27 18:47:05.211 29137 29157 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 18:47:05.211 29137 29157 E Unity   : UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+10-27 18:47:05.211 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDevice)
+10-27 18:47:05.211 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InternedString, Int32, String, InputDeviceDescription, DeviceFlags, InternedString)
+10-27 18:47:05.211 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDeviceDescription, Boolean, String, Int32, DeviceFlags)
+10-27 18:47:05.211 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:OnNativeDeviceDiscovered(Int32, String)
+10-27 18:47:05.211 29137 29157 E Unity   : 
+10-27 18:47:05.220 29137 29157 E Unity   : ArgumentException: 'InputUpdateType.None' is not a valid update mask
+10-27 18:47:05.220 29137 29157 E Unity   : Parameter name: value
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.LowLevel.InputStateHistory.set_updateMask (UnityEngine.InputSystem.LowLevel.InputUpdateType value) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.EnhancedTouch.Finger..ctor (UnityEngine.InputSystem.Touchscreen screen, System.Int32 index, UnityEngine.InputSystem.LowLevel.InputUpdateType updateMask) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.EnhancedTouch.Touch+FingerAndTouchState.AddFingers (UnityEngine.InputSystem.Touchscreen screen) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.EnhancedTouch.Touch.AddTouchscreen (UnityEngine.InputSystem.Touchscreen screen) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue1,TValue2] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`2[TValue1,TValue2]]& callbacks, TValue1 argument1, TValue2 argument2, Unity.Profiling.ProfilerMarker marker, System.String callbackName, System.Object context) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.AddDevice (UnityEngine.InputSystem.InputDevice device) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.AddDevice (UnityEngine.InputSystem.Utilities.InternedString layout, System.Int32 deviceId, System.String deviceName, UnityEngine.InputSystem.Layouts.InputDeviceDescription deviceDescription, UnityEngine.InputSystem.InputDevice+DeviceFlags deviceFlags, UnityEngine.InputSystem.Utilities.InternedString variants) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription description, System.Boolean throwIfNoLayoutFound, System.String deviceName, System.Int32 deviceId, UnityEngine.InputSystem.InputDevice+DeviceFlags deviceFlags) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   :   at UnityEngine.InputSystem.InputManager.OnNativeDeviceDiscovered (System.Int32 deviceId, System.String deviceDescriptor) [0x00000] in <00000000000000000000000000000000>:0 
+10-27 18:47:05.220 29137 29157 E Unity   : UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+10-27 18:47:05.220 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDevice)
+10-27 18:47:05.220 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InternedString, Int32, String, InputDeviceDescription, DeviceFlags, InternedString)
+10-27 18:47:05.220 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDeviceDescription, Boolean, String, Int32, DeviceFlags)
+10-27 18:47:05.220 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:OnNativeDeviceDiscovered(Int32, String)
+10-27 18:47:05.220 29137 29157 E Unity   : 
+10-27 18:47:05.221 29137 29157 E Unity   : ArgumentException while executing 'InputSystem.onDeviceChange' callbacks
+10-27 18:47:05.221 29137 29157 E Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-27 18:47:05.221 29137 29157 E Unity   : UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue1, TValue2, ProfilerMarker, String, Object)
+10-27 18:47:05.221 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDevice)
+10-27 18:47:05.221 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InternedString, Int32, String, InputDeviceDescription, DeviceFlags, InternedString)
+10-27 18:47:05.221 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:AddDevice(InputDeviceDescription, Boolean, String, Int32, DeviceFlags)
+10-27 18:47:05.221 29137 29157 E Unity   : UnityEngine.InputSystem.InputManager:OnNativeDeviceDiscovered(Int32, String)
+10-27 18:47:05.221 29137 29157 E Unity   : 
+10-27 18:47:05.244 29137 29157 D Unity   : Using NDK Choreographer.
+10-27 18:47:05.270 29137 29157 D Unity   : Stopping Unity systrace
+10-27 18:47:05.272 29137 29137 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@98287d9 mNativeObject= 0xb4000076f83b4a60 sc.mNativeObject= 0xb4000077a83b2210 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3592 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-27 18:47:05.272 29137 29137 I VRI[UnityPlayerGameActivity]@98287d9: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=2 res=0x0 s={true 0xb4000077283c8950} ch=false seqId=0
+10-27 18:47:05.272 29137 29137 I VRI[UnityPlayerGameActivity]@98287d9: updateBoundsLayer: t=android.view.SurfaceControl$Transaction@67a990a sc=Surface(name=Bounds for - com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity@0#22124)/@0x490657b frame=5
+10-27 18:47:05.273 29137 29137 D VRI[UnityPlayerGameActivity]@98287d9: applyTransactionOnDraw applyImmediately
+10-27 18:47:05.321 29137 29157 I Unity   : Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'GaussianDepthOfField'). PostProcessing render passes will not execute.

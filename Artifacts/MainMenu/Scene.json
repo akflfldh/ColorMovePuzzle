@@ -1,0 +1,16 @@
+{
+  "scene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "dirty": false,
+  "rootCount": 4,
+  "menuVisible": true,
+  "settingsVisible": false,
+  "stageSelectionVisible": false,
+  "stages": 30,
+  "modeCards": 3,
+  "threeAvailable": true,
+  "fourAvailable": false,
+  "fiveAvailable": false,
+  "missingReferences": [],
+  "meshes": 0,
+  "colliders": 0
+}

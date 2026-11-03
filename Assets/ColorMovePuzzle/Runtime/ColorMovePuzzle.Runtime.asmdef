@@ -1,0 +1,5 @@
+{
+  "name": "ColorMovePuzzle.Runtime",
+  "rootNamespace": "ColorMovePuzzle",
+  "references": ["ColorMovePuzzle.Core", "UnityEngine.UI", "Unity.TextMeshPro", "Unity.InputSystem"]
+}

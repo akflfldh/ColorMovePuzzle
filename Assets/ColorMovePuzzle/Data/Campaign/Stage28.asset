@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb0d84b7707b0e4ebf1586d6469a756, type: 3}
+  m_Name: Stage28
+  m_EditorClassIdentifier: ColorMovePuzzle.Runtime::ColorMovePuzzle.PuzzleStageData
+  stageNumber: 28
+  boardSize: 3
+  target: 010000000100000002000000020000000300000003000000040000000000000000000000i
+  scramble:
+  - from: 4
+    to: 7
+  - from: 1
+    to: 4
+  - from: 2
+    to: 1
+  - from: 5
+    to: 2
+  - from: 4
+    to: 5
+  - from: 1
+    to: 4
+  - from: 5
+    to: 8
+  - from: 4
+    to: 5
+  - from: 7
+    to: 4
+  - from: 4
+    to: 1
+  - from: 3
+    to: 4
+  - from: 0
+    to: 3
+  - from: 1
+    to: 0
+  - from: 6
+    to: 7
+  - from: 3
+    to: 6
+  - from: 4
+    to: 3
+  - from: 7
+    to: 4
+  - from: 6
+    to: 7
+  start: 030000000000000003000000020000000400000002000000000000000100000001000000i
+  minimumMoves: 18
+  solution:
+  - from: 7
+    to: 6
+  - from: 4
+    to: 7
+  - from: 3
+    to: 4
+  - from: 6
+    to: 3
+  - from: 7
+    to: 6
+  - from: 0
+    to: 1
+  - from: 3
+    to: 0
+  - from: 4
+    to: 3
+  - from: 1
+    to: 4
+  - from: 4
+    to: 7
+  - from: 5
+    to: 4
+  - from: 8
+    to: 5
+  - from: 4
+    to: 1
+  - from: 5
+    to: 4
+  - from: 2
+    to: 5
+  - from: 1
+    to: 2
+  - from: 4
+    to: 1
+  - from: 7
+    to: 4

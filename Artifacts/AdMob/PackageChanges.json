@@ -1,0 +1,12 @@
+﻿[
+    {
+        "package":  "com.google.ads.mobile",
+        "old":  null,
+        "new":  "11.6.0"
+    },
+    {
+        "package":  "com.unity.external-dependency-manager",
+        "old":  null,
+        "new":  "2.1.0"
+    }
+]

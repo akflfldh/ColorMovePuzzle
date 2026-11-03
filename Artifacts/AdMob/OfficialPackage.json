@@ -1,0 +1,16 @@
+﻿{
+    "tag":  "v11.6.0",
+    "prerelease":  false,
+    "published":  "2026-10-13T22:38:17Z",
+    "package":  "com.google.ads.mobile",
+    "version":  "11.6.0",
+    "dependencies":  {
+                         "com.unity.external-dependency-manager":  "2.1.0",
+                         "com.unity.modules.androidjni":  "1.0.0"
+                     },
+    "dist":  {
+                 "integrity":  "sha512-dXGsphF3RyoGNq3uDkltXd/ktnp13lF2TduwMVDNyyETaDQHBHVXoQK5b8SEMz/se4+2vfjk3JA49ZjkzkL3Dg==",
+                 "shasum":  "dc1fb329e84b18006570c8a30671f43ea3aff669",
+                 "tarball":  "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.6.0.tgz"
+             }
+}

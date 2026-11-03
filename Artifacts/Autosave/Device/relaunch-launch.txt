@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity
+TotalTime: 171
+WaitTime: 174
+Complete

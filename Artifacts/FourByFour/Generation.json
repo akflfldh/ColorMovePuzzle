@@ -1,0 +1,12 @@
+{
+    "method": "bounded legal self-avoiding walks + per-color minimum assignment Manhattan",
+    "stages": 30,
+    "candidates": 6000,
+    "maximumRating": 29,
+    "maxWalks": 512,
+    "maxSteps": 96,
+    "maxCandidates": 6000,
+    "searchBudgetMilliseconds": 5000,
+    "milliseconds": 1033,
+    "searchMilliseconds": 243
+}

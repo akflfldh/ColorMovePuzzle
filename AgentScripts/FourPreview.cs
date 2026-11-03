@@ -1,0 +1,12 @@
+var flow = UnityEngine.Object.FindAnyObjectByType<ColorMovePuzzle.PuzzleCampaignController>();
+var menu = UnityEngine.Object.FindAnyObjectByType<ColorMovePuzzle.PuzzleMenuController>();
+var folder = System.IO.Path.GetFullPath("Artifacts/FourByFour/Preview");
+new ColorMovePuzzle.PuzzleProgressStore(System.IO.Path.Combine(folder,"progress-v1.json"),30).Save(new ColorMovePuzzle.PuzzleProgress(30));
+new ColorMovePuzzle.PuzzleProgressStore(System.IO.Path.Combine(folder,"progress-4x4-v1.json"),30).Save(new ColorMovePuzzle.PuzzleProgress(30));
+var profileStore = new ColorMovePuzzle.PuzzleMenuProfileStore(System.IO.Path.Combine(folder,"menu.json"));
+profileStore.Save(new ColorMovePuzzle.PuzzleMenuProfile());
+flow.UseProgressDirectory(folder);
+menu.UseProfileStore(profileStore);
+menu.ShowMainMenu();
+if (!menu.SelectMode(4)) throw new System.Exception("4x4 is not available.");
+return new {screen = menu.Screen.ToString(), size = flow.Catalog.GetStage(1).BoardSize, stages = flow.Catalog.Count, save = flow.SavePath};

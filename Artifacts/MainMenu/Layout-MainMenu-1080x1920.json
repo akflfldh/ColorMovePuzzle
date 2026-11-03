@@ -1,0 +1,13 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "screen": "MainMenu",
+  "insideSafeArea": true,
+  "continueEnabled": true,
+  "threeEnabled": true,
+  "fourEnabled": false,
+  "fiveEnabled": false,
+  "bgm": 0.199999988,
+  "sfx": 0.5500001,
+  "frame": 12527
+}

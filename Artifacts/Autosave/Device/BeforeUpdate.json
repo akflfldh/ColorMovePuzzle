@@ -1,0 +1,42 @@
+{
+  "menu-profile-v1.json": {
+    "version": 1,
+    "hasContinue": true,
+    "lastGridSize": 3,
+    "lastStage": 2,
+    "bgmVolume": 0.699999988079071,
+    "sfxVolume": 0.800000011920929
+  },
+  "menu-profile-v1.json.bak": {
+    "version": 1,
+    "hasContinue": true,
+    "lastGridSize": 3,
+    "lastStage": 2,
+    "bgmVolume": 0.699999988079071,
+    "sfxVolume": 0.800000011920929
+  },
+  "progress-4x4-v1.json": {
+    "version": 1,
+    "clearedStages": [],
+    "lastPlayed": 1
+  },
+  "progress-5x5-v1.json": {
+    "version": 1,
+    "clearedStages": [],
+    "lastPlayed": 1
+  },
+  "progress-v1.json": {
+    "version": 1,
+    "clearedStages": [
+      1
+    ],
+    "lastPlayed": 2
+  },
+  "progress-v1.json.bak": {
+    "version": 1,
+    "clearedStages": [
+      1
+    ],
+    "lastPlayed": 2
+  }
+}

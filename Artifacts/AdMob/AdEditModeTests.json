@@ -1,0 +1,148 @@
+﻿{
+  "success": true,
+  "command": "command test run",
+  "data": {
+    "command": "test run",
+    "parameters": {
+      "mode": "editor",
+      "filter": "AdSystemTests",
+      "timeout": "120"
+    },
+    "result": {
+      "Summary": {
+        "Total": 16,
+        "Passed": 16,
+        "Failed": 0,
+        "Skipped": 0,
+        "Inconclusive": 0
+      },
+      "Results": [
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ClosingRewardedWithoutEarningGrantsNothing",
+          "Status": "Passed",
+          "Duration": 0.0542955,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ConsentIsUpdatedOnceAndFormsWaitForSafeScreen",
+          "Status": "Passed",
+          "Duration": 0.0126105,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ConsentUpdateErrorOnlyUsesTheRealSdkPermissionDecision",
+          "Status": "Passed",
+          "Duration": 0.0085443,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.DuplicateClearCannotAdvanceCountsBeforeOrAfterReload",
+          "Status": "Passed",
+          "Duration": 0.0038898,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.DuplicateOpenedClosedAndFailedEventsOnlyCountAndContinueOnce",
+          "Status": "Passed",
+          "Duration": 0.0120486,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.FirstAdNeedsFiveClearsAndThreeMinutesOfGameplay",
+          "Status": "Passed",
+          "Duration": 0.0015921,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.FrequencySaveAndBackupRecoveryNeverRewriteGameProgress",
+          "Status": "Passed",
+          "Duration": 0.0402406,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.LateLoadAfterConsentRevocationIsDestroyedAndNeverShown",
+          "Status": "Passed",
+          "Duration": 0.0007965,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.LaterAdsNeedBothFourNewClearsAndAnotherThreeMinutes",
+          "Status": "Passed",
+          "Duration": 0.0010789,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.LoadFailureUsesDelayedBoundedRetries",
+          "Status": "Passed",
+          "Duration": 0.0140753,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ModesShareCountsAndNonGameplayTimeDoesNotCount",
+          "Status": "Passed",
+          "Duration": 0.0011697,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.RewardedCannotLoadOrShowWithoutARewardAndUserOptIn",
+          "Status": "Passed",
+          "Duration": 0.0041786,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.RewardIsGrantedOnlyOnceFromEarnedCallback",
+          "Status": "Passed",
+          "Duration": 0.0017834,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ShowFailureAndExceptionRecoverExactlyOnce",
+          "Status": "Passed",
+          "Duration": 0.0126538,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.TestIdsAreExactAndReleaseIsBlocked",
+          "Status": "Passed",
+          "Duration": 0.0039895,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "ColorMovePuzzle.Tests.AdSystemTests.UnavailableAdNeverWaitsForLoadingOrCallsContinuationItself",
+          "Status": "Passed",
+          "Duration": 0.0012567,
+          "Message": null,
+          "StackTrace": null
+        }
+      ],
+      "Duration": 5.84,
+      "StatusPath": null,
+      "Mode": "EditMode",
+      "FilterApplied": "testname: AdSystemTests",
+      "success": true,
+      "result": null
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\dongd\\ColorMovePuzzle"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

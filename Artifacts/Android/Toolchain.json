@@ -1,0 +1,17 @@
+﻿{
+    "AndroidSupport":  true,
+    "SdkRoot":  "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.5f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK",
+    "SdkExists":  true,
+    "NdkVersion":  "Pkg.Revision = 27.2.12479018",
+    "JavaVersion":  "JAVA_VERSION=\"17.0.18\"",
+    "Platforms":  [
+                      "android-34",
+                      "android-36",
+                      "android-37.0"
+                  ],
+    "BuildTools":  "36.0.0",
+    "AdbVersion":  "Pkg.Revision=37.0.1",
+    "Devices":  [
+
+                ]
+}

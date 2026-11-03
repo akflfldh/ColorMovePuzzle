@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 7.34,
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFivePrototypeTests.FivePrototypeHas25Cells22Tiles3EmptiesAndReadOnlyTarget",
+      "Status": "Passed",
+      "Duration": 0.2434586,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFivePrototypeTests.FivePrototypeTapLockRestartAndRecordedSolutionClear",
+      "Status": "Passed",
+      "Duration": 7.0545167,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

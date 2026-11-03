@@ -1,0 +1,56 @@
+{
+  "scene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "saved": true,
+  "totalStages": 90,
+  "modes": 3,
+  "boards": [
+    {
+      "name": "CurrentBoard4",
+      "size": 4,
+      "cells": 16,
+      "tiles": 14
+    },
+    {
+      "name": "TargetGrid5",
+      "size": 5,
+      "cells": 25,
+      "tiles": 22
+    },
+    {
+      "name": "ExpandedTarget5",
+      "size": 5,
+      "cells": 25,
+      "tiles": 22
+    },
+    {
+      "name": "CurrentBoard5",
+      "size": 5,
+      "cells": 25,
+      "tiles": 22
+    },
+    {
+      "name": "TargetGrid4",
+      "size": 4,
+      "cells": 16,
+      "tiles": 14
+    },
+    {
+      "name": "TargetGrid",
+      "size": 3,
+      "cells": 9,
+      "tiles": 7
+    },
+    {
+      "name": "CurrentBoard",
+      "size": 3,
+      "cells": 9,
+      "tiles": 7
+    }
+  ],
+  "missingReferences": [],
+  "eventSystems": 1,
+  "meshRenderers": 0,
+  "rigidbodies": 0,
+  "colliders": 0,
+  "mainMenuActive": true
+}

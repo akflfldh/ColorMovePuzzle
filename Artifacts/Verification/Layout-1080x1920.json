@@ -1,0 +1,26 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "frame": 14017,
+  "boardInsideSafeArea": true,
+  "contentInsideSafeArea": true,
+  "tileScreenWidth": 253.333313,
+  "tileScreenHeight": 253.333313,
+  "square": true,
+  "moves": 0,
+  "cleared": false,
+  "moving": false,
+  "slots": 9,
+  "tiles": 7,
+  "cells": [
+    "Red",
+    "Blue",
+    "Red",
+    "Blue",
+    "Yellow",
+    "Empty",
+    "Empty",
+    "Black",
+    "Yellow"
+  ]
+}

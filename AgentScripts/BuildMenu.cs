@@ -1,0 +1,1 @@
+ColorMovePuzzle.Editor.PuzzleMenuSceneBuilder.Upgrade();

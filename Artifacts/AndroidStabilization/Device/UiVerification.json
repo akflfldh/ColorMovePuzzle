@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "running": false,
+  "input": "ADB input tap/swipe/keyevent, not human touch feel",
+  "modes": [
+    {
+      "size": 3,
+      "stage": 1,
+      "tap": true,
+      "swipe": true,
+      "ambiguous": false,
+      "uiBack": true
+    },
+    {
+      "size": 4,
+      "stage": 1,
+      "tap": true,
+      "swipe": true,
+      "ambiguous": false,
+      "uiBack": true
+    },
+    {
+      "size": 5,
+      "stage": 1,
+      "tap": true,
+      "swipe": true,
+      "ambiguous": true,
+      "uiBack": true
+    }
+  ],
+  "adbBackFailures": [],
+  "continueRestored": true,
+  "originalLastPlayedRestored": true,
+  "settingsPanelOpened": true,
+  "adbBackPassed": true
+}

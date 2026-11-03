@@ -1,0 +1,32 @@
+﻿[
+    {
+        "path":  "classes.dex",
+        "oldBytes":  3028136,
+        "newBytes":  3028136
+    },
+    {
+        "path":  "assets/bin/Data/4d57a351382cc4d4384f14d67b4a1382",
+        "oldBytes":  1207408,
+        "newBytes":  1207408
+    },
+    {
+        "path":  "assets/bin/Data/a612f75a6b65ab441a0d8045fbfe42f1",
+        "oldBytes":  5367106,
+        "newBytes":  5367106
+    },
+    {
+        "path":  "lib/arm64-v8a/libunity.so",
+        "oldBytes":  16618737,
+        "newBytes":  16618737
+    },
+    {
+        "path":  "lib/arm64-v8a/libil2cpp.so",
+        "oldBytes":  15445216,
+        "newBytes":  15452506
+    },
+    {
+        "path":  "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+        "oldBytes":  3740882,
+        "newBytes":  3744240
+    }
+]

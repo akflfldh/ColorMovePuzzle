@@ -1,0 +1,38 @@
+﻿[
+    {
+        "session":  "before-first",
+        "errorLines":  75,
+        "inputMaskExceptions":  2,
+        "deviceCallbackErrors":  2,
+        "assetPackQueries":  1,
+        "dexFinalizerLogLines":  2,
+        "fatalOrAnr":  0
+    },
+    {
+        "session":  "before-relaunch",
+        "errorLines":  75,
+        "inputMaskExceptions":  2,
+        "deviceCallbackErrors":  2,
+        "assetPackQueries":  1,
+        "dexFinalizerLogLines":  2,
+        "fatalOrAnr":  0
+    },
+    {
+        "session":  "after-first",
+        "errorLines":  25,
+        "inputMaskExceptions":  0,
+        "deviceCallbackErrors":  0,
+        "assetPackQueries":  1,
+        "dexFinalizerLogLines":  2,
+        "fatalOrAnr":  0
+    },
+    {
+        "session":  "after-relaunch",
+        "errorLines":  25,
+        "inputMaskExceptions":  0,
+        "deviceCallbackErrors":  0,
+        "assetPackQueries":  1,
+        "dexFinalizerLogLines":  2,
+        "fatalOrAnr":  0
+    }
+]

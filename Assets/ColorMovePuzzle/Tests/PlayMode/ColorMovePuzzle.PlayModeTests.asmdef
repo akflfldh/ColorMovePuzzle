@@ -1,0 +1,6 @@
+{
+  "name": "ColorMovePuzzle.PlayModeTests",
+  "references": ["ColorMovePuzzle.Core", "ColorMovePuzzle.Runtime", "UnityEngine.UI", "Unity.TextMeshPro", "Unity.InputSystem"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

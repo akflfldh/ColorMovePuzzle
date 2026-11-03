@@ -1,0 +1,23 @@
+{
+  "region": "EEA",
+  "pid": "690",
+  "gameSavesPreserved": true,
+  "developerOverrideObserved": true,
+  "umpUpdateSucceeded": true,
+  "sdkInitialized": true,
+  "interstitialLoaded": false,
+  "formReturned": true,
+  "fatalExceptionCount": 0,
+  "inputNoneCount": 0,
+  "logs": [
+    "10-28 09:21:08.969   690   711 I Unity   : [Ads] UMP consent update requested.",
+    "10-28 09:21:08.982   690   711 I Unity   : [Ads QA] Developer-requested UMP-only reset completed.",
+    "10-28 09:21:08.982   690   711 I Unity   : [Ads QA] Developer test geography=EEA; official test ad units remain required.",
+    "10-28 09:21:09.662   690   711 I Unity   : [Ads QA] UMP status=Required, privacy=Required, canRequest=False",
+    "10-28 09:21:09.662   690   711 I Unity   : [Ads] UMP consent information updated.",
+    "10-28 09:21:26.019   690   711 I Unity   : [Ads QA] UMP form returned; status=Obtained, privacy=Required, canRequest=True",
+    "10-28 09:21:26.020   690   711 I Unity   : [Ads] UMP form check finished.",
+    "10-28 09:21:26.047   690   711 I Unity   : [Ads] Initializing Google Mobile Ads after UMP permission check.",
+    "10-28 09:21:26.178   690   711 I Unity   : [Ads] Google Mobile Ads initialization completed."
+  ]
+}

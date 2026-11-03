@@ -1,0 +1,7 @@
+{
+  "name": "ColorMovePuzzle.EditModeTests",
+  "references": ["ColorMovePuzzle.Core", "ColorMovePuzzle.Runtime", "ColorMovePuzzle.Editor", "Unity.InputSystem", "Unity.AppUI"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

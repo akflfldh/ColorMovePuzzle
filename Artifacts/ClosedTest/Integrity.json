@@ -1,0 +1,15 @@
+{
+  "existingDataFiles": 193,
+  "stageDataUnchanged": true,
+  "changedDataFiles": [],
+  "sceneAndCoreAndPackagesAndSdkSettingsUnchanged": true,
+  "changedProtectedFiles": [],
+  "changedExistingFiles": [
+    "Assets/ColorMovePuzzle/Editor/AdMobBuildValidation.cs",
+    "Assets/ColorMovePuzzle/Runtime/Ads/AdManager.cs",
+    "Assets/ColorMovePuzzle/Runtime/Ads/GoogleAdBackend.cs",
+    "Assets/ColorMovePuzzle/Tests/EditMode/ReleasePreparationTests.cs",
+    "Assets/ColorMovePuzzle/Tests/PlayMode/AdFlowPlayTests.cs",
+    "ProjectSettings/ProjectSettings.asset"
+  ]
+}

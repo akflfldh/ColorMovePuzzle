@@ -1,0 +1,30 @@
+{
+  "scene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "gameController": true,
+  "campaignController": true,
+  "menuController": true,
+  "boardSizes": [
+    true,
+    true,
+    true
+  ],
+  "target": "Android",
+  "orientation": "Portrait",
+  "scriptingBackend": "IL2CPP",
+  "architectures": "ARM64",
+  "defines": "APP_UI_EDITOR_ONLY",
+  "applicationId": "com.colormovepuzzle.game",
+  "buildScenes": [
+    {
+      "enabled": true,
+      "path": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+      "guid": {}
+    },
+    {
+      "enabled": true,
+      "path": "Assets/Scenes/SampleScene.unity",
+      "guid": {}
+    }
+  ],
+  "editorCompiling": false
+}

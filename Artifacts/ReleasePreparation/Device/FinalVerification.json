@@ -1,0 +1,85 @@
+{
+  "normalLaunchRestored": true,
+  "normalPrivacyButtonHidden": true,
+  "finalMenuVisible": true,
+  "gameSaveJsonPreserved": true,
+  "gameSaveRawHashesPreserved": true,
+  "adFrequencyCountsPreserved": true,
+  "consentAcceptanceVerified": true,
+  "consentRejectionVerified": true,
+  "privacyReentryVerified": true,
+  "noProductionIdsUsed": true,
+  "input": "ADB; no human touch-feel test",
+  "finalPid": "7080",
+  "logsByPid": {
+    "2167": {
+      "inputNone": 0,
+      "assetPackProbe": 1,
+      "dexFinalizerLines": 2,
+      "fatalException": 0,
+      "fatalSignal": 0,
+      "anr": 0,
+      "sdkInitializations": 1,
+      "interstitialLoads": 1,
+      "interstitialDisplays": 0,
+      "backCallbackWarning": 2,
+      "sdkOptionalAssemblyDiagnostic": 0
+    },
+    "4101": {
+      "inputNone": 0,
+      "assetPackProbe": 1,
+      "dexFinalizerLines": 2,
+      "fatalException": 0,
+      "fatalSignal": 0,
+      "anr": 0,
+      "sdkInitializations": 1,
+      "interstitialLoads": 2,
+      "interstitialDisplays": 0,
+      "backCallbackWarning": 2,
+      "sdkOptionalAssemblyDiagnostic": 0
+    },
+    "7080": {
+      "inputNone": 0,
+      "assetPackProbe": 1,
+      "dexFinalizerLines": 2,
+      "fatalException": 0,
+      "fatalSignal": 0,
+      "anr": 0,
+      "sdkInitializations": 1,
+      "interstitialLoads": 1,
+      "interstitialDisplays": 0,
+      "backCallbackWarning": 2,
+      "sdkOptionalAssemblyDiagnostic": 1
+    },
+    "690": {
+      "inputNone": 0,
+      "assetPackProbe": 1,
+      "dexFinalizerLines": 2,
+      "fatalException": 0,
+      "fatalSignal": 0,
+      "anr": 0,
+      "sdkInitializations": 1,
+      "interstitialLoads": 0,
+      "interstitialDisplays": 0,
+      "backCallbackWarning": 2,
+      "sdkOptionalAssemblyDiagnostic": 0
+    },
+    "6242": {
+      "inputNone": 0,
+      "assetPackProbe": 1,
+      "dexFinalizerLines": 2,
+      "fatalException": 0,
+      "fatalSignal": 0,
+      "anr": 0,
+      "sdkInitializations": 1,
+      "interstitialLoads": 1,
+      "interstitialDisplays": 0,
+      "backCallbackWarning": 2,
+      "sdkOptionalAssemblyDiagnostic": 0
+    }
+  },
+  "currentContinue": {
+    "lastGridSize": 3,
+    "lastStage": 2
+  }
+}

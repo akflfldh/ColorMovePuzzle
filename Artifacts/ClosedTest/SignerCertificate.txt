@@ -1,0 +1,25 @@
+Signer #1:
+
+Certificate #1:
+Owner: CN=ColorMovePuzzle Upload
+Issuer: CN=ColorMovePuzzle Upload
+Serial number: 652501239f65a065
+Valid from: Wed Oct 28 14:43:15 KST 2026 until: Sun Mar 15 14:43:15 KST 2054
+Certificate fingerprints:
+	 SHA1: 38:DF:98:2A:E9:01:27:5F:F8:62:66:71:01:82:6A:43:4A:05:E5:80
+	 SHA256: 3C:E1:68:06:B2:C0:3C:99:0E:19:F1:B7:81:31:3A:48:60:A4:BB:77:B8:35:A9:DF:E4:6E:58:35:4B:5C:C3:E5
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 3072-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: BA A6 F2 DE 2E 5C F8 2E   7A 22 EA 8E 89 B2 1D 10  .....\..z"......
+0010: 4B E1 68 3D                                        K.h=
+]
+]
+
+

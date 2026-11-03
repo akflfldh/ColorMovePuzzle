@@ -1,0 +1,27 @@
+{
+  "choice": "accept",
+  "input": "ADB click of exact native UMP button text",
+  "point": [
+    539.5,
+    1701.0
+  ],
+  "pid": "2167",
+  "publisher": "Google sample Publisher Test Ads",
+  "purposeConsentCount": 11,
+  "returnedToMenu": true,
+  "gameSavesPreserved": true,
+  "sdkInitializations": 1,
+  "testAdsLoaded": 1,
+  "logs": [
+    "10-28 09:22:23.771  2167  2220 I Unity   : [Ads] UMP consent update requested.",
+    "10-28 09:22:23.783  2167  2220 I Unity   : [Ads QA] Developer-requested UMP-only reset completed.",
+    "10-28 09:22:23.783  2167  2220 I Unity   : [Ads QA] Developer test geography=EEA; official test ad units remain required.",
+    "10-28 09:22:24.431  2167  2220 I Unity   : [Ads QA] UMP status=Required, privacy=Required, canRequest=False",
+    "10-28 09:22:24.431  2167  2220 I Unity   : [Ads] UMP consent information updated.",
+    "10-28 09:24:39.480  2167  2220 I Unity   : [Ads QA] UMP form returned; status=Obtained, privacy=Required, canRequest=True",
+    "10-28 09:24:39.480  2167  2220 I Unity   : [Ads] UMP form check finished.",
+    "10-28 09:24:39.491  2167  2220 I Unity   : [Ads] Initializing Google Mobile Ads after UMP permission check.",
+    "10-28 09:24:39.622  2167  2220 I Unity   : [Ads] Google Mobile Ads initialization completed.",
+    "10-28 09:24:41.054  2167  2220 I Unity   : [Ads] Test interstitial loaded."
+  ]
+}

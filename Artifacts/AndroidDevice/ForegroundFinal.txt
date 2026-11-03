@@ -1,0 +1,1 @@
+﻿  mCurrentFocus=Window{bea1a95 u0 com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity}

@@ -1,0 +1,8 @@
+Starting: Intent { cmp=com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.colormovepuzzle.game/com.unity3d.player.UnityPlayerGameActivity
+TotalTime: 24
+WaitTime: 26
+Complete

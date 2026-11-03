@@ -1,0 +1,16 @@
+{
+  "size": 5,
+  "stage": 1,
+  "boardUnchanged": true,
+  "moveCount": 0,
+  "realElapsedSeconds": 202.35208770000463,
+  "frequency": {
+    "version": 1,
+    "totalClears": 1,
+    "clearsSinceAd": 1,
+    "gameplaySeconds": 180.24298097299476,
+    "lastAdGameplaySeconds": 0.0,
+    "hasShown": false,
+    "recentClearIds": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "unity": "6000.6.5f1",
+  "editor": "C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Unity.exe",
+  "contents": "C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data",
+  "androidSupported": true,
+  "activeTarget": "StandaloneWindows64",
+  "playing": false,
+  "packageName": "com.DefaultCompany.ColorMovePuzzle",
+  "orientation": "Portrait",
+  "scriptingBackend": "IL2CPP",
+  "architectures": "ARM64",
+  "minimumSdk": "AndroidApiLevel26",
+  "targetSdk": "AndroidApiLevelAuto",
+  "inputHandler": 1,
+  "development": false,
+  "appBundle": false,
+  "exportProject": false,
+  "scenes": [
+    {
+      "path": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "enabled": true
+    }
+  ],
+  "externalTools": {
+    "ndkRootPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.5f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK",
+    "sdkRootPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.5f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK",
+    "jdkRootPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.5f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\OpenJDK",
+    "gradlePath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.5f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Tools\\gradle",
+    "gradleUserHomePath": ""
+  }
+}

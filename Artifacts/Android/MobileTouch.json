@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "running": false,
+  "environment": "Unity Editor virtual Touchscreen and Keyboard, Android active target",
+  "modes": [
+    {
+      "size": 3,
+      "nativeSolutionMoves": 2,
+      "cleared": true,
+      "nextUnlocked": true,
+      "scrolled": true,
+      "diagonalRejected": true
+    },
+    {
+      "size": 4,
+      "nativeSolutionMoves": 4,
+      "cleared": true,
+      "nextUnlocked": true,
+      "scrolled": true,
+      "diagonalRejected": true
+    },
+    {
+      "size": 5,
+      "nativeSolutionMoves": 44,
+      "cleared": true,
+      "nextUnlocked": true,
+      "scrolled": true,
+      "diagonalRejected": true
+    }
+  ],
+  "ambiguousTapsChecked": 14,
+  "sliders": true,
+  "bgm": 0.199999988,
+  "sfx": 0.5500001,
+  "backNavigation": true,
+  "targetZoom": true,
+  "continueGrid": 5,
+  "continueStage": 2,
+  "unfinishedMovesBeforeRestart": 1,
+  "userSaveModified": false
+}

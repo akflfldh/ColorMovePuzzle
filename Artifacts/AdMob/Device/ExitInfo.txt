@@ -1,0 +1,64 @@
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-10-28 08:46:19.748
+  package: com.colormovepuzzle.game
+    Historical Process Exit for uid=10291
+        ApplicationExitInfo #0:
+          timestamp=2026-10-28 08:45:07.229 pid=24641 realUid=99096 packageUid=10291 definingUid=10289 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=170MB description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-10-28 08:45:07.221 pid=24509 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=691MB description=stop com.colormovepuzzle.game due to from pid 26147 state=71 bytes trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-10-27 22:26:05.141 pid=2070 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=22 (REMOVE TASK) status=0
+          importance=400 pss=0.00 rss=0.00 description=remove task state=empty trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-10-27 22:26:02.197 pid=32709 realUid=99084 packageUid=10291 definingUid=10289 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=1 (EXIT_SELF) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=161MB description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #4:
+          timestamp=2026-10-27 22:26:02.194 pid=32461 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=1 (EXIT_SELF) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0.00 rss=594MB description=null state=71 bytes trace=null
+        ApplicationExitInfo #5:
+          timestamp=2026-10-27 22:18:27.519 pid=28796 realUid=99082 packageUid=10291 definingUid=10289 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=160MB description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #6:
+          timestamp=2026-10-27 22:18:27.509 pid=28650 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=325 pss=0.00 rss=601MB description=stop com.colormovepuzzle.game due to from pid 31427 state=71 bytes trace=null
+        ApplicationExitInfo #7:
+          timestamp=2026-10-27 21:55:59.985 pid=26922 realUid=99081 packageUid=10291 definingUid=10289 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=81MB description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #8:
+          timestamp=2026-10-27 21:55:59.976 pid=26779 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=507MB description=stop com.colormovepuzzle.game due to from pid 28061 state=71 bytes trace=null
+        ApplicationExitInfo #9:
+          timestamp=2026-10-27 21:33:13.995 pid=14488 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=524MB description=stop com.colormovepuzzle.game due to from pid 26445 state=empty trace=null
+        ApplicationExitInfo #10:
+          timestamp=2026-10-27 19:59:21.360 pid=13728 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=483MB description=stop com.colormovepuzzle.game due to from pid 14310 state=empty trace=null
+        ApplicationExitInfo #11:
+          timestamp=2026-10-27 19:56:28.349 pid=9785 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=485MB description=stop com.colormovepuzzle.game due to from pid 13043 state=empty trace=null
+        ApplicationExitInfo #12:
+          timestamp=2026-10-27 19:31:42.221 pid=7582 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop com.colormovepuzzle.game due to from pid 9538 state=empty trace=null
+        ApplicationExitInfo #13:
+          timestamp=2026-10-27 19:20:16.749 pid=29137 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=1 (EXIT_SELF) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0.00 rss=435MB description=null state=empty trace=null
+        ApplicationExitInfo #14:
+          timestamp=2026-10-27 18:47:01.425 pid=28451 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop com.colormovepuzzle.game due to from pid 28968 state=empty trace=null

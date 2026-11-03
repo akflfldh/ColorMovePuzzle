@@ -1,0 +1,17 @@
+﻿{
+    "path":  "C:\\Users\\dongd\\ColorMovePuzzle\\Builds\\Android\\ColorMovePuzzle-Development.apk",
+    "bytes":  54300743,
+    "sha256":  "02A5095449C9686BD87B9E23C2A01CFF8A257B21550289BB2A97F80EC35B5193",
+    "result":  "Succeeded",
+    "buildTimeMs":  289321,
+    "errors":  0,
+    "warnings":  982,
+    "target":  "Android",
+    "backend":  "IL2CPP",
+    "architecture":  "ARM64",
+    "development":  true,
+    "minSdk":  26,
+    "targetSdk":  36,
+    "package":  "com.colormovepuzzle.game",
+    "unity":  "6000.6.5f1"
+}

@@ -1,0 +1,24 @@
+{
+  "region": "Other",
+  "pid": "6242",
+  "gameSavesPreserved": true,
+  "developerOverrideObserved": true,
+  "umpUpdateSucceeded": true,
+  "sdkInitialized": true,
+  "interstitialLoaded": true,
+  "formReturned": true,
+  "fatalExceptionCount": 0,
+  "inputNoneCount": 0,
+  "logs": [
+    "10-28 09:28:31.463  6242  6324 I Unity   : [Ads] UMP consent update requested.",
+    "10-28 09:28:31.475  6242  6324 I Unity   : [Ads QA] Developer-requested UMP-only reset completed.",
+    "10-28 09:28:31.475  6242  6324 I Unity   : [Ads QA] Developer test geography=Other; official test ad units remain required.",
+    "10-28 09:28:31.992  6242  6324 I Unity   : [Ads QA] UMP status=NotRequired, privacy=NotRequired, canRequest=True",
+    "10-28 09:28:31.992  6242  6324 I Unity   : [Ads] UMP consent information updated.",
+    "10-28 09:28:32.057  6242  6324 I Unity   : [Ads QA] UMP form returned; status=NotRequired, privacy=NotRequired, canRequest=True",
+    "10-28 09:28:32.057  6242  6324 I Unity   : [Ads] UMP form check finished.",
+    "10-28 09:28:32.091  6242  6324 I Unity   : [Ads] Initializing Google Mobile Ads after UMP permission check.",
+    "10-28 09:28:32.225  6242  6324 I Unity   : [Ads] Google Mobile Ads initialization completed.",
+    "10-28 09:28:33.222  6242  6324 I Unity   : [Ads] Test interstitial loaded."
+  ]
+}

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb0d84b7707b0e4ebf1586d6469a756, type: 3}
+  m_Name: Stage07
+  m_EditorClassIdentifier: ColorMovePuzzle.Runtime::ColorMovePuzzle.PuzzleStageData
+  stageNumber: 7
+  boardSize: 5
+  target: 01000000010000000100000001000000020000000200000002000000020000000300000003000000030000000300000005000000050000000500000005000000060000000600000006000000060000000400000004000000000000000000000000000000i
+  scramble:
+  - from: 17
+    to: 22
+  - from: 22
+    to: 23
+  - from: 21
+    to: 22
+  - from: 20
+    to: 21
+  - from: 12
+    to: 17
+  - from: 7
+    to: 12
+  - from: 8
+    to: 7
+  - from: 19
+    to: 24
+  - from: 14
+    to: 19
+  - from: 3
+    to: 8
+  - from: 13
+    to: 14
+  - from: 12
+    to: 13
+  - from: 7
+    to: 12
+  - from: 6
+    to: 7
+  - from: 4
+    to: 3
+  - from: 15
+    to: 20
+  - from: 9
+    to: 4
+  - from: 8
+    to: 9
+  start: 01000000010000000100000002000000030000000200000000000000020000000000000001000000030000000300000003000000020000000500000000000000060000000500000006000000050000000500000004000000040000000600000006000000i
+  minimumMoves: 0
+  solution:
+  - from: 9
+    to: 8
+  - from: 4
+    to: 9
+  - from: 20
+    to: 15
+  - from: 3
+    to: 4
+  - from: 7
+    to: 6
+  - from: 12
+    to: 7
+  - from: 13
+    to: 12
+  - from: 14
+    to: 13
+  - from: 8
+    to: 3
+  - from: 19
+    to: 14
+  - from: 24
+    to: 19
+  - from: 7
+    to: 8
+  - from: 12
+    to: 7
+  - from: 17
+    to: 12
+  - from: 21
+    to: 20
+  - from: 22
+    to: 21
+  - from: 23
+    to: 22
+  - from: 22
+    to: 17
+  difficultyKind: 1
+  lowerBound: 18
+  estimatedRating: 18
+  generationMoves: 18
+  difficultyBand: Easy
+  evaluationNodes: 622
+  evaluationResidual: 12

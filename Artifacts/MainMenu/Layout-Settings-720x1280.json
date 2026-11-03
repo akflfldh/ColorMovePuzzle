@@ -1,0 +1,13 @@
+{
+  "width": 720,
+  "height": 1280,
+  "screen": "Settings",
+  "insideSafeArea": true,
+  "continueEnabled": true,
+  "threeEnabled": true,
+  "fourEnabled": false,
+  "fiveEnabled": false,
+  "bgm": 0.414838046,
+  "sfx": 0.285854846,
+  "frame": 63976
+}

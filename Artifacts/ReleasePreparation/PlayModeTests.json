@@ -1,0 +1,433 @@
+{
+  "status": "completed",
+  "duration": 180.51,
+  "summary": {
+    "total": 60,
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.AdCountsAndGameDataSurviveSceneReload",
+      "Status": "Passed",
+      "Duration": 0.7648914,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.AllThreeModesKeepMovesAndAutosavesWithoutAnAd",
+      "Status": "Passed",
+      "Duration": 0.7958659,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.ClosingAdWhileBackgroundedDefersTransitionUntilForeground",
+      "Status": "Passed",
+      "Duration": 0.5223875,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.ConsentRevocationPreventsRequestsAndDisplayWithoutBlockingPuzzle",
+      "Status": "Passed",
+      "Duration": 0.5794439,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.DelayedNonRequiredConsentFinishesDuringPuzzleWithoutShowingAnything",
+      "Status": "Passed",
+      "Duration": 0.1584043,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.InitializationFailureNeverBlocksClearOrNextStage",
+      "Status": "Passed",
+      "Duration": 0.5083852,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.LoadNotReadySkipsImmediatelyAndDoesNotShowLater",
+      "Status": "Passed",
+      "Duration": 0.5192473,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.NoAdAtStartupMenuOrSettingsAndInitializationOnlyOnce",
+      "Status": "Passed",
+      "Duration": 0.1771171,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.OnlyNextAfterEligibleClearCanShowAndDuplicateCloseCannotSkipAStage",
+      "Status": "Passed",
+      "Duration": 0.5552767,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.PlayingMovingRestartBackAndSettingsNeverShowEvenWhenFrequencyIsEligible",
+      "Status": "Passed",
+      "Duration": 0.2820106,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.RequiredPrivacyEntryReopensFormAndRevocationDiscardsPreparedAds",
+      "Status": "Passed",
+      "Duration": 0.1781848,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.RestoringSolvedSnapshotCompletesUnlockButCannotGenerateAdOpportunity",
+      "Status": "Passed",
+      "Duration": 0.2657652,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.SdkDispatcherDeliversCallbacksBeforeAdsInitialization",
+      "Status": "Passed",
+      "Duration": 0.2125852,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdFlowPlayTests.ShowingFailureRestoresNormalNextStageAndSaves",
+      "Status": "Passed",
+      "Duration": 0.542762,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleCampaignPlayTests.BackDuringSlideDoesNotClearOrUnlockAndReplayResets",
+      "Status": "Passed",
+      "Duration": 0.491176,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleCampaignPlayTests.ClearPersistsUnlockAndNextButtonLoadsFollowingStage",
+      "Status": "Passed",
+      "Duration": 0.5489491,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleCampaignPlayTests.EntireCampaignClearsInOrderAndFinalStageShowsCompletion",
+      "Status": "Passed",
+      "Duration": 48.3999052,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleCampaignPlayTests.LockedStageCannotBeEnteredEvenThroughDirectCallback",
+      "Status": "Passed",
+      "Duration": 0.2046054,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleCampaignPlayTests.NewSceneSessionLoadsFileAndAllowsCompletedStageReplay",
+      "Status": "Passed",
+      "Duration": 0.918456,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleCampaignPlayTests.SelectionHasThirtyCardsWithOnlyOneUnlockedAndRealScroll",
+      "Status": "Passed",
+      "Duration": 0.1644474,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveCampaignTests.AllThirtyFiveStagesClearThroughTileUIAndUnlockSequentially",
+      "Status": "Passed",
+      "Duration": 64.9582699,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveCampaignTests.AndroidEscapeClosesTargetBeforeReturningToSelectionAndMenu",
+      "Status": "Passed",
+      "Duration": 0.4136561,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveCampaignTests.FiveModeReusesSelectionControllerAndRejectsLockedStages",
+      "Status": "Passed",
+      "Duration": 0.2140567,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveCampaignTests.FiveSaveContinueAndThreeIndependentProgressFilesSurviveNewScene",
+      "Status": "Passed",
+      "Duration": 8.5681513,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveCampaignTests.ThreeAdjacentEmptyDirectionsAndDiagonalRejectionUseSameTileInput",
+      "Status": "Passed",
+      "Duration": 0.7523332,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFivePrototypeTests.FivePrototypeHas25Cells22Tiles3EmptiesAndReadOnlyTarget",
+      "Status": "Passed",
+      "Duration": 0.2389344,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFivePrototypeTests.FivePrototypeTapLockRestartAndRecordedSolutionClear",
+      "Status": "Passed",
+      "Duration": 7.2062501,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourCampaignTests.BothProgressFilesAndFourContinueSurviveNewSessionIndependently",
+      "Status": "Passed",
+      "Duration": 1.4128007,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourCampaignTests.FirstMiddleAndLastFourStagesClearWithSharedAnimations",
+      "Status": "Passed",
+      "Duration": 15.0993169,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourCampaignTests.FourClearUnlocksNextAndNativeRuleDirectionsHandleTwoEmptyChoices",
+      "Status": "Passed",
+      "Duration": 1.2079075,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourCampaignTests.FourModeUsesExistingControllerAndSelectionWithHonestLabels",
+      "Status": "Passed",
+      "Duration": 0.2005123,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourCampaignTests.SwitchingDuringAnimationRestoresThreeByThreeViewsAndRules",
+      "Status": "Passed",
+      "Duration": 0.7987632,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourPrototypeTests.FourPrototypeHasSixteenCellsAndExactInventory",
+      "Status": "Passed",
+      "Duration": 0.2167936,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourPrototypeTests.FourPrototypeRecordedMovesReachClearAndReplay",
+      "Status": "Passed",
+      "Duration": 0.8779029,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourPrototypeTests.FourPrototypeTapAnimationLockAndRestartWork",
+      "Status": "Passed",
+      "Duration": 0.6176219,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourPrototypeTests.ShortSwipeInsideTileSurvivesClickBeforeEndDrag",
+      "Status": "Passed",
+      "Duration": 0.6075729,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.AllImplementedCardsSelectTheirModesAndUnknownSizesAreRejected",
+      "Status": "Passed",
+      "Duration": 0.2047058,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.AndroidEscapeInputReturnsOneScreenAtATime",
+      "Status": "Passed",
+      "Duration": 0.2911183,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.ButtonsNavigateMenuSelectionAndPuzzleWithoutReplacingCampaign",
+      "Status": "Passed",
+      "Duration": 0.1894775,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.ContinueRejectsUnavailableModesAndLockedStages",
+      "Status": "Passed",
+      "Duration": 0.1864488,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.ContinueRestoresLastGridAndUnlockedStageAcrossSceneSessions",
+      "Status": "Passed",
+      "Duration": 0.7130181,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.LegacyHistoryEnablesContinueWithoutChangingLegacyFile",
+      "Status": "Passed",
+      "Duration": 0.1835087,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.NewSceneStartsAtMainMenuAndFreshProfileCannotContinue",
+      "Status": "Passed",
+      "Duration": 0.3738408,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuPlayTests.SettingsPersistBothSlidersWithoutCreatingPlayHistory",
+      "Status": "Passed",
+      "Duration": 0.3950731,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.AmbiguousTapWaitsForDirectionalDrag",
+      "Status": "Passed",
+      "Duration": 0.5091031,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.FullSolutionClearsLocksAndPlayAgainRestarts",
+      "Status": "Passed",
+      "Duration": 3.8249111,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.InvalidAndDiagonalInputDoNothing",
+      "Status": "Passed",
+      "Duration": 0.201062,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.RapidSecondPointerCannotDoubleMove",
+      "Status": "Passed",
+      "Duration": 0.3897945,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.RestartButtonCancelsAnimationAndRestoresStart",
+      "Status": "Passed",
+      "Duration": 0.4194924,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.SceneHasTwoUIGridsAndNo3DComponents",
+      "Status": "Passed",
+      "Duration": 0.1857687,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzlePlayTests.TapUsesRaycastTileAndAnimatesExactlyOneMove",
+      "Status": "Passed",
+      "Duration": 0.5233463,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.CorruptSessionFallsBackToStartWithoutTouchingLegacyUnlocksOrVolumes",
+      "Status": "Passed",
+      "Duration": 0.7014746,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.FailedMoveSaveRetriesOnPauseWithoutCorruptingPreviousSnapshot",
+      "Status": "Passed",
+      "Duration": 0.3501884,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.FiveByFiveRestoresAndCanStillClear",
+      "Status": "Passed",
+      "Duration": 6.9377088,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.FourByFourRestoresAndCanStillClear",
+      "Status": "Passed",
+      "Duration": 0.8769319,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.LastMoveSavedBeforeAnimationCanRecoverCompletionThenNextStageStartsFresh",
+      "Status": "Passed",
+      "Duration": 0.7278926,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.LeavingDuringAnimationPreservesCommittedStateForContinueButExplicitSelectionRestarts",
+      "Status": "Passed",
+      "Duration": 0.2410774,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.ModesKeepIndependentSnapshotsAndLegacyUnlockSettingsSurvive",
+      "Status": "Passed",
+      "Duration": 0.8586816,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.RestartDuringAnimationPersistsZeroAndInvalidInputDoesNotWrite",
+      "Status": "Passed",
+      "Duration": 0.3845532,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionPlayTests.ThreeByThreeRestoresAndCanStillClear",
+      "Status": "Passed",
+      "Duration": 0.5539336,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "baselineFiles":  144,
+    "changed":  [
+                    "Assets\\ColorMovePuzzle\\Tests\\EditMode\\ColorMovePuzzle.EditModeTests.asmdef"
+                ],
+    "runtimeDataSceneUnchanged":  true,
+    "packages":  [
+                     {
+                         "value":  [
+                                       {
+                                           "path":  "Packages/manifest.json",
+                                           "unchanged":  true
+                                       },
+                                       {
+                                           "path":  "Packages/packages-lock.json",
+                                           "unchanged":  true
+                                       }
+                                   ],
+                         "Count":  2
+                     }
+                 ]
+}

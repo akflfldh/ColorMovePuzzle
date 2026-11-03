@@ -1,0 +1,20 @@
+﻿
+> 10-27 18:47:35.734 29137 29145 E System  : Uncaught exception thrown by finalizer
+  10-27 18:47:35.734 29137 29145 E System  : java.lang.AssertionError: Failed to close dex file in finalizer.
+  10-27 18:47:35.734 29137 29145 E System  : 	at dalvik.system.DexFile.finalize(DexFile.java:386)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:387)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$FinalizerDaemon.processReference(Daemons.java:367)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:339)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$Daemon.run(Daemons.java:135)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Thread.run(Thread.java:1571)
+> 10-27 18:47:35.734 29137 29145 E System  : Uncaught exception thrown by finalizer
+  10-27 18:47:35.734 29137 29145 E System  : java.lang.AssertionError: Failed to close dex file in finalizer.
+  10-27 18:47:35.734 29137 29145 E System  : 	at dalvik.system.DexFile.finalize(DexFile.java:386)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:387)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$FinalizerDaemon.processReference(Daemons.java:367)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:339)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Daemons$Daemon.run(Daemons.java:135)
+  10-27 18:47:35.734 29137 29145 E System  : 	at java.lang.Thread.run(Thread.java:1571)
+
+
+

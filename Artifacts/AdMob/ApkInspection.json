@@ -1,0 +1,197 @@
+﻿{
+    "apk":  "C:\\Users\\dongd\\ColorMovePuzzle\\Builds\\Android\\ColorMovePuzzle-AdMob-Test-Development.apk",
+    "bytes":  70935301,
+    "sha256":  "AB39C3177CDECA2B3B1070B7C61987F43369D22C0BB4570D839D72838BAED45B",
+    "libraries":  [
+                      {
+                          "path":  "lib/arm64-v8a/libAppUITextMateLib.so",
+                          "bytes":  2035744,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      },
+                      {
+                          "path":  "lib/arm64-v8a/libc++_shared.so",
+                          "bytes":  1292904,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      },
+                      {
+                          "path":  "lib/arm64-v8a/libgame.so",
+                          "bytes":  252056,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      },
+                      {
+                          "path":  "lib/arm64-v8a/libmain.so",
+                          "bytes":  8720,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      },
+                      {
+                          "path":  "lib/arm64-v8a/lib_burst_generated.so",
+                          "bytes":  663392,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      },
+                      {
+                          "path":  "lib/arm64-v8a/libunity.so",
+                          "bytes":  42045352,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      },
+                      {
+                          "path":  "lib/arm64-v8a/libil2cpp.so",
+                          "bytes":  55735488,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      },
+                      {
+                          "path":  "lib/arm64-v8a/libswappywrapper.so",
+                          "bytes":  227040,
+                          "elfMachine":  183,
+                          "arm64":  true,
+                          "loadSegments":  [
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               },
+                                               {
+                                                   "alignment":  16384,
+                                                   "page16KCompatible":  true
+                                               }
+                                           ],
+                          "page16KCompatible":  true
+                      }
+                  ],
+    "arm64Only":  true,
+    "elf16KCompatible":  true
+}

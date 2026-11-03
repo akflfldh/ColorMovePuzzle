@@ -1,0 +1,18 @@
+if(UnityEditor.EditorApplication.isPlaying)throw new System.Exception("Stop Play mode before configuring Android.");
+if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty)throw new System.Exception("Inspect unsaved scene changes first.");
+var target=UnityEditor.Build.NamedBuildTarget.Android;
+UnityEditor.PlayerSettings.SetApplicationIdentifier(target,"com.colormovepuzzle.game");
+UnityEditor.PlayerSettings.defaultInterfaceOrientation=UnityEditor.UIOrientation.Portrait;
+UnityEditor.PlayerSettings.SetScriptingBackend(target,UnityEditor.ScriptingImplementation.IL2CPP);
+UnityEditor.PlayerSettings.Android.targetArchitectures=UnityEditor.AndroidArchitecture.ARM64;
+UnityEditor.EditorUserBuildSettings.development=true;
+UnityEditor.EditorUserBuildSettings.allowDebugging=false;
+UnityEditor.EditorUserBuildSettings.connectProfiler=false;
+UnityEditor.EditorUserBuildSettings.buildAppBundle=false;
+UnityEditor.EditorUserBuildSettings.exportAsGoogleAndroidProject=false;
+var scene=ColorMovePuzzle.Editor.PuzzleSceneBuilder.ScenePath;
+var scenes=new System.Collections.Generic.List<UnityEditor.EditorBuildSettingsScene>{new UnityEditor.EditorBuildSettingsScene(scene,true)};
+foreach(var existing in UnityEditor.EditorBuildSettings.scenes)if(existing.path!=scene)scenes.Add(existing);
+UnityEditor.EditorBuildSettings.scenes=scenes.ToArray();
+UnityEditor.AssetDatabase.SaveAssets();
+return new{package=UnityEditor.PlayerSettings.GetApplicationIdentifier(target),development=UnityEditor.EditorUserBuildSettings.development,firstScene=UnityEditor.EditorBuildSettings.scenes[0].path};

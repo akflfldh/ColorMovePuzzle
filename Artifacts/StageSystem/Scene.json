@@ -1,0 +1,13 @@
+{
+  "scene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "dirty": false,
+  "stages": 30,
+  "cards": 30,
+  "selecting": true,
+  "missingReferences": [],
+  "cells": 9,
+  "meshes": 0,
+  "colliders": 0,
+  "minDistance": 2,
+  "maxDistance": 20
+}

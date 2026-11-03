@@ -1,0 +1,41 @@
+{
+  "unity": "6000.6.5f1",
+  "scene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "sceneDirty": false,
+  "packageName": "com.colormovepuzzle.game",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "minimumApi": 26,
+  "targetApi": 36,
+  "architecture": "ARM64",
+  "backend": "IL2CPP",
+  "orientation": "Portrait",
+  "input": 1,
+  "development": true,
+  "appBundle": false,
+  "customSigningConfigured": false,
+  "uploadKeystoreExists": false,
+  "runInBackground": false,
+  "debugGeographies": [
+    "Disabled",
+    "EEA",
+    "NotEEA",
+    "RegulatedUSState",
+    "Other"
+  ],
+  "blockers": [
+    "Release build blocked: official TEST ads are still selected.",
+    "Release requires a real AdMob App ID (publisher~app).",
+    "A user-owned upload keystore has not been configured.",
+    "Upload key alias is not configured."
+  ],
+  "firstScene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "defaultIcons": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

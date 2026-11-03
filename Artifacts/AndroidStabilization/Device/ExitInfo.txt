@@ -1,0 +1,16 @@
+﻿ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-10-27 19:07:59.755
+  package: com.colormovepuzzle.game
+    Historical Process Exit for uid=10291
+        ApplicationExitInfo #0:
+          timestamp=2026-10-27 19:31:42.221 pid=7582 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop com.colormovepuzzle.game due to from pid 9538 state=empty trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-10-27 19:20:16.749 pid=29137 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=1 (EXIT_SELF) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0.00 rss=435MB description=null state=empty trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-10-27 18:47:01.425 pid=28451 realUid=10291 packageUid=10291 definingUid=10291 user=0
+          process=com.colormovepuzzle.game reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop com.colormovepuzzle.game due to from pid 28968 state=empty trace=null

@@ -1,0 +1,14 @@
+{
+  "screenWidth": 1080,
+  "screenHeight": 2400,
+  "size": 5,
+  "cells": 25,
+  "tiles": 22,
+  "empties": 3,
+  "tileWidth": 151.200012,
+  "tileHeight": 151.199951,
+  "square": true,
+  "insideSafeArea": true,
+  "targetReadOnly": true,
+  "frame": 33963
+}

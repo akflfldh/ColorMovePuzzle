@@ -1,0 +1,17 @@
+{
+  "reviewed": true,
+  "review": "Manual source review before execution; PowerShell parser reported 0 errors.",
+  "script": "AgentScripts\\CreateUploadKey.ps1",
+  "sha256": "9850849B0D023DCC5E0B5DAAD20E9C15E0931206AB710E5D60855C9D01054056",
+  "userApproved": true,
+  "externalCommunicationCommands": false,
+  "passwordConsoleOutput": false,
+  "passwordInCommandArguments": false,
+  "plaintextPasswordFiles": false,
+  "existingSigningFilesRefused": true,
+  "externalKeytoolOnly": true,
+  "passwordTransport": "child-process environment",
+  "passwordStorage": "Windows CurrentUser DPAPI outside project",
+  "offlineBackupPerformed": false,
+  "passwordManagerRecordingPerformed": false
+}

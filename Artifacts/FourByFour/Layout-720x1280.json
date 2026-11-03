@@ -1,0 +1,25 @@
+{
+  "screenWidth": 720,
+  "screenHeight": 1280,
+  "boardSize": 4,
+  "slots": 16,
+  "tiles": 14,
+  "targetSlots": 16,
+  "tileWidth": 126.0,
+  "tileHeight": 126.0,
+  "square": true,
+  "insideSafeArea": true,
+  "exactMinimumClaimed": false,
+  "rating": 4,
+  "difficultyText": "ESTIMATED DIFFICULTY 4",
+  "moveCount": 0,
+  "savePath": "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\FourByFour\\Preview\\progress-4x4-v1.json",
+  "inventory": [
+    2,
+    3,
+    3,
+    3,
+    2,
+    3
+  ]
+}

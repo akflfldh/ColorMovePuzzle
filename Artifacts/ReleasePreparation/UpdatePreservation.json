@@ -1,0 +1,9 @@
+{
+  "changedJsonFiles": [
+    "ads-frequency-v1.json"
+  ],
+  "changedRawFiles": [],
+  "gameSavesPreserved": true,
+  "allRawSaveHashesUnchanged": true,
+  "note": "Aggregate JSON snapshot predates a final background ad-time checkpoint; raw pre-install backup hashes all match."
+}

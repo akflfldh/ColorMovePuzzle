@@ -1,0 +1,119 @@
+{
+  "menu-profile-v1.json": {
+    "version": 1,
+    "hasContinue": true,
+    "lastGridSize": 5,
+    "lastStage": 1,
+    "bgmVolume": 0.699999988079071,
+    "sfxVolume": 0.800000011920929
+  },
+  "menu-profile-v1.json.bak": {
+    "version": 1,
+    "hasContinue": true,
+    "lastGridSize": 3,
+    "lastStage": 2,
+    "bgmVolume": 0.699999988079071,
+    "sfxVolume": 0.800000011920929
+  },
+  "progress-4x4-v1.json": {
+    "version": 1,
+    "clearedStages": [],
+    "lastPlayed": 1
+  },
+  "progress-5x5-v1.json": {
+    "version": 1,
+    "clearedStages": [],
+    "lastPlayed": 1
+  },
+  "progress-5x5-v1.json.bak": {
+    "version": 1,
+    "clearedStages": [],
+    "lastPlayed": 1
+  },
+  "progress-5x5-v1.json.session-v1.json": {
+    "version": 1,
+    "gridSize": 5,
+    "stageNumber": 1,
+    "stageFingerprint": "4BBX8NAcUqIzgonSjVLQZM4McsYVahUzRMIKD+aI9JM=",
+    "active": true,
+    "cells": [
+      0,
+      1,
+      1,
+      0,
+      2,
+      1,
+      2,
+      1,
+      3,
+      3,
+      2,
+      3,
+      2,
+      5,
+      5,
+      5,
+      6,
+      5,
+      3,
+      6,
+      4,
+      4,
+      6,
+      0,
+      6
+    ],
+    "moveCount": 3,
+    "checksum": "I/JjjOWxFFJ2jsCeb/pOZ4tt8ibxAlGgu3Zp9LDrLuA="
+  },
+  "progress-5x5-v1.json.session-v1.json.bak": {
+    "version": 1,
+    "gridSize": 5,
+    "stageNumber": 1,
+    "stageFingerprint": "4BBX8NAcUqIzgonSjVLQZM4McsYVahUzRMIKD+aI9JM=",
+    "active": true,
+    "cells": [
+      1,
+      0,
+      1,
+      0,
+      2,
+      1,
+      2,
+      1,
+      3,
+      3,
+      2,
+      3,
+      2,
+      5,
+      5,
+      5,
+      6,
+      5,
+      3,
+      6,
+      4,
+      4,
+      6,
+      0,
+      6
+    ],
+    "moveCount": 2,
+    "checksum": "FuW01p90UeI34n8aoviWCgiVLANtbLhU30lzULQ8Duw="
+  },
+  "progress-v1.json": {
+    "version": 1,
+    "clearedStages": [
+      1
+    ],
+    "lastPlayed": 2
+  },
+  "progress-v1.json.bak": {
+    "version": 1,
+    "clearedStages": [
+      1
+    ],
+    "lastPlayed": 2
+  }
+}

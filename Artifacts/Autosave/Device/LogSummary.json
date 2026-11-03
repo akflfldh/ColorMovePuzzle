@@ -1,0 +1,54 @@
+﻿[
+    {
+        "session":  "First",
+        "inputNone":  0,
+        "assetPack":  1,
+        "dexFinalizerLines":  2,
+        "fatalOrAnr":  0,
+        "autosaveFailure":  0,
+        "firstLine":  {
+                          "value":  "--------- beginning of main",
+                          "PSPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device\\LogcatFirst.txt",
+                          "PSParentPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device",
+                          "PSChildName":  "LogcatFirst.txt",
+                          "PSDrive":  "C",
+                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                          "ReadCount":  1
+                      },
+        "lastLine":  {
+                         "value":  "10-27 19:59:14.663 13728 13728 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9",
+                         "PSPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device\\LogcatFirst.txt",
+                         "PSParentPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device",
+                         "PSChildName":  "LogcatFirst.txt",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  1025
+                     }
+    },
+    {
+        "session":  "Relaunch",
+        "inputNone":  0,
+        "assetPack":  1,
+        "dexFinalizerLines":  2,
+        "fatalOrAnr":  0,
+        "autosaveFailure":  0,
+        "firstLine":  {
+                          "value":  "--------- beginning of main",
+                          "PSPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device\\LogcatRelaunch.txt",
+                          "PSParentPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device",
+                          "PSChildName":  "LogcatRelaunch.txt",
+                          "PSDrive":  "C",
+                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                          "ReadCount":  1
+                      },
+        "lastLine":  {
+                         "value":  "10-27 20:00:09.845 14488 14488 I VRI[UnityPlayerGameActivity]@98287d9: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[UnityPlayerGameActivity]@98287d9",
+                         "PSPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device\\LogcatRelaunch.txt",
+                         "PSParentPath":  "C:\\Users\\dongd\\ColorMovePuzzle\\Artifacts\\Autosave\\Device",
+                         "PSChildName":  "LogcatRelaunch.txt",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  876
+                     }
+    }
+]

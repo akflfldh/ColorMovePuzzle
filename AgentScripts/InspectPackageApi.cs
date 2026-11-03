@@ -1,0 +1,1 @@
+return string.Join("\n", System.Linq.Enumerable.Select(System.Linq.Enumerable.Where(typeof(UnityEditor.PackageManager.Client).GetMethods(System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static), m => m.Name.Contains("Registry")), m => m.ToString()));

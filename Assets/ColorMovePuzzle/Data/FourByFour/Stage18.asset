@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb0d84b7707b0e4ebf1586d6469a756, type: 3}
+  m_Name: Stage18
+  m_EditorClassIdentifier: ColorMovePuzzle.Runtime::ColorMovePuzzle.PuzzleStageData
+  stageNumber: 18
+  boardSize: 4
+  target: 01000000010000000100000002000000020000000200000003000000030000000300000005000000050000000500000004000000040000000000000000000000i
+  scramble:
+  - from: 13
+    to: 14
+  - from: 12
+    to: 13
+  - from: 11
+    to: 15
+  - from: 8
+    to: 12
+  - from: 4
+    to: 8
+  - from: 7
+    to: 11
+  - from: 0
+    to: 4
+  - from: 6
+    to: 7
+  - from: 10
+    to: 6
+  - from: 11
+    to: 10
+  - from: 7
+    to: 11
+  - from: 1
+    to: 0
+  - from: 3
+    to: 7
+  - from: 2
+    to: 3
+  - from: 5
+    to: 1
+  - from: 6
+    to: 2
+  - from: 9
+    to: 5
+  - from: 7
+    to: 6
+  - from: 8
+    to: 9
+  - from: 11
+    to: 7
+  - from: 4
+    to: 8
+  - from: 15
+    to: 11
+  - from: 5
+    to: 4
+  - from: 11
+    to: 15
+  start: 01000000020000000500000001000000050000000000000002000000030000000100000002000000030000000000000003000000040000000400000005000000i
+  minimumMoves: 0
+  solution:
+  - from: 15
+    to: 11
+  - from: 4
+    to: 5
+  - from: 11
+    to: 15
+  - from: 8
+    to: 4
+  - from: 7
+    to: 11
+  - from: 9
+    to: 8
+  - from: 6
+    to: 7
+  - from: 5
+    to: 9
+  - from: 2
+    to: 6
+  - from: 1
+    to: 5
+  - from: 3
+    to: 2
+  - from: 7
+    to: 3
+  - from: 0
+    to: 1
+  - from: 11
+    to: 7
+  - from: 10
+    to: 11
+  - from: 6
+    to: 10
+  - from: 7
+    to: 6
+  - from: 4
+    to: 0
+  - from: 11
+    to: 7
+  - from: 8
+    to: 4
+  - from: 12
+    to: 8
+  - from: 15
+    to: 11
+  - from: 13
+    to: 12
+  - from: 14
+    to: 13
+  difficultyKind: 1
+  lowerBound: 18
+  estimatedRating: 18

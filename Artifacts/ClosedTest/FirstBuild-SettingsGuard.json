@@ -1,0 +1,19 @@
+{
+  "result": "Failed",
+  "milliseconds": 2320.7241,
+  "warnings": 0,
+  "errors": 2,
+  "path": "C:/Users/dongd/ColorMovePuzzle/Builds/Android/Intermediate/ColorMovePuzzle-ClosedTest-unsigned.aab",
+  "development": false,
+  "managedVariant": "Release",
+  "channel": "ClosedTestNoAds",
+  "defines": [
+    "COLORMOVE_CLOSED_TEST_NO_ADS"
+  ],
+  "buildMessages": [
+    {
+      "type": "Error",
+      "message": "Error building Player: BuildFailedException: Closed test requires the reviewed package/API/IL2CPP/ARM64/Portrait/managed Release settings."
+    }
+  ]
+}

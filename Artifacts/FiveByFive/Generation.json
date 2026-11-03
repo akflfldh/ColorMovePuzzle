@@ -1,0 +1,16 @@
+{
+    "stages": 30,
+    "candidates": 10000,
+    "minimum": 12,
+    "maximum": 45,
+    "milliseconds": 4824,
+    "maxWalks": 512,
+    "maxSteps": 180,
+    "maxCandidates": 10000,
+    "searchBudgetMs": 12000,
+    "probeNodeCap": 1024,
+    "probeWidth": 24,
+    "probeDepth": 6,
+    "probeBudgetMs": 100,
+    "method": "legal self-avoiding walks; interchangeable-color minimum matching; diversity selection; bounded beam probe (descriptive only)"
+}

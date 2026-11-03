@@ -1,0 +1,14 @@
+﻿[
+    {
+        "path":  "Assets/ColorMovePuzzle/Runtime/PuzzleCampaignController.cs",
+        "change":  "modified"
+    },
+    {
+        "path":  "Assets/ColorMovePuzzle/Runtime/PuzzleGameController.cs",
+        "change":  "modified"
+    },
+    {
+        "path":  "Assets/ColorMovePuzzle/Runtime/PuzzleMenuController.cs",
+        "change":  "modified"
+    }
+]

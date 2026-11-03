@@ -1,0 +1,40 @@
+﻿{
+    "device":  "SM-S938N",
+    "android":  "16",
+    "api":  36,
+    "abi":  "arm64-v8a",
+    "package":  "com.colormovepuzzle.game",
+    "installation":  "Success",
+    "launch":  "Status: ok",
+    "relaunch":  "Status: ok",
+    "pids":  [
+                 "28451",
+                 "29137"
+             ],
+    "filesPreserved":  true,
+    "filesCompared":  4,
+    "runtimeErrorsObserved":  true,
+    "fatalOrAnrObserved":  false,
+    "agentTouchInput":  false,
+    "projectSourceModified":  false,
+    "apkRebuilt":  false,
+    "appLeftRunning":  true,
+    "logs":  [
+                 {
+                     "session":  "first",
+                     "errorLogLines":  75,
+                     "inputMaskExceptions":  2,
+                     "assetPackClassErrors":  1,
+                     "dexFinalizerErrorLines":  2,
+                     "fatalOrAnrLines":  0
+                 },
+                 {
+                     "session":  "relaunch",
+                     "errorLogLines":  75,
+                     "inputMaskExceptions":  2,
+                     "assetPackClassErrors":  1,
+                     "dexFinalizerErrorLines":  2,
+                     "fatalOrAnrLines":  0
+                 }
+             ]
+}

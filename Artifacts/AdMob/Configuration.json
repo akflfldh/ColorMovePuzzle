@@ -1,0 +1,17 @@
+{
+  "scene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "plugin": "11.6.0",
+  "inputSystem": "1.20.0",
+  "defines": "APP_UI_EDITOR_ONLY;SENTIS_ANALYTICS_ENABLED",
+  "portrait": "Portrait",
+  "il2cpp": "IL2CPP",
+  "architectures": "ARM64",
+  "testAds": true,
+  "firstClears": 5,
+  "clearsBetween": 4,
+  "secondsBetween": 180.0,
+  "retries": 3,
+  "releaseError": "Release build blocked: official TEST ads are still selected.",
+  "appUiInPlayer": false,
+  "adManagerCount": 1
+}

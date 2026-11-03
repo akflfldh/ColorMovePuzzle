@@ -1,0 +1,1048 @@
+﻿{
+  "success": true,
+  "command": "command scene",
+  "data": {
+    "command": "scene",
+    "parameters": {},
+    "result": {
+      "sceneName": "ColorMovePuzzle",
+      "scenePath": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+      "isDirty": false,
+      "isActive": true,
+      "roots": [
+        {
+          "name": "UICamera",
+          "instanceId": 7696581449293,
+          "hierarchyPath": "/UICamera",
+          "activeSelf": true,
+          "components": [
+            "Transform",
+            "Camera"
+          ],
+          "children": []
+        },
+        {
+          "name": "PuzzleCanvas",
+          "instanceId": 7696581449399,
+          "hierarchyPath": "/PuzzleCanvas",
+          "activeSelf": true,
+          "components": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "PuzzleScreenLayout"
+          ],
+          "children": [
+            {
+              "name": "Background",
+              "instanceId": 7696581449384,
+              "hierarchyPath": "/PuzzleCanvas/Background",
+              "activeSelf": true,
+              "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image"
+              ],
+              "children": []
+            },
+            {
+              "name": "SafeArea",
+              "instanceId": 7696581449226,
+              "hierarchyPath": "/PuzzleCanvas/SafeArea",
+              "activeSelf": true,
+              "components": [
+                "RectTransform"
+              ],
+              "children": [
+                {
+                  "name": "Content",
+                  "instanceId": 7696581449374,
+                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content",
+                  "activeSelf": true,
+                  "components": [
+                    "RectTransform"
+                  ],
+                  "children": [
+                    {
+                      "name": "Header",
+                      "instanceId": 7696581449397,
+                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Header",
+                      "activeSelf": true,
+                      "components": [
+                        "RectTransform"
+                      ],
+                      "children": [
+                        {
+                          "name": "StageLabel",
+                          "instanceId": 7696581449311,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Header/StageLabel",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "MoveCaption",
+                          "instanceId": 7696581449352,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Header/MoveCaption",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "MoveCount",
+                          "instanceId": 20890720981639,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Header/MoveCount",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "Title",
+                          "instanceId": 31885837259417,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Header/Title",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "Subtitle",
+                          "instanceId": 7696581449197,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Header/Subtitle",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TargetArea",
+                      "instanceId": 20890720981581,
+                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea",
+                      "activeSelf": true,
+                      "components": [
+                        "RectTransform"
+                      ],
+                      "children": [
+                        {
+                          "name": "TargetCaption",
+                          "instanceId": 7696581449244,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetCaption",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "TargetGrid",
+                          "instanceId": 7696581449207,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "Image",
+                            "PuzzleBoardView"
+                          ],
+                          "children": [
+                            {
+                              "name": "Cells",
+                              "instanceId": 7696581449212,
+                              "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells",
+                              "activeSelf": true,
+                              "components": [
+                                "RectTransform"
+                              ],
+                              "children": [
+                                {
+                                  "name": "Cell00",
+                                  "instanceId": 7696581449253,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell00",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell01",
+                                  "instanceId": 7696581449222,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell01",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell02",
+                                  "instanceId": 7696581449323,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell02",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell03",
+                                  "instanceId": 7696581449405,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell03",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell04",
+                                  "instanceId": 7696581449319,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell04",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell05",
+                                  "instanceId": 7696581449315,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell05",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell06",
+                                  "instanceId": 7696581449188,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell06",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell07",
+                                  "instanceId": 7696581449184,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell07",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell08",
+                                  "instanceId": 7696581449366,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Cells/Cell08",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Tiles",
+                              "instanceId": 31885837259344,
+                              "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles",
+                              "activeSelf": true,
+                              "components": [
+                                "RectTransform"
+                              ],
+                              "children": [
+                                {
+                                  "name": "Tile00",
+                                  "instanceId": 7696581449261,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile00",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 20890720982419,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile00/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile01",
+                                  "instanceId": 7696581449360,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile01",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449277,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile01/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile02",
+                                  "instanceId": 12094627960263,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile02",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449348,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile02/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile03",
+                                  "instanceId": 7696581449201,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile03",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449327,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile03/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile04",
+                                  "instanceId": 7696581449301,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile04",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449409,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile04/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile05",
+                                  "instanceId": 5497558193790,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile05",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 9895604704717,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile05/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile06",
+                                  "instanceId": 7696581449172,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile06",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449392,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetGrid/Tiles/Tile06/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "TargetHint",
+                          "instanceId": 27487790748981,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/TargetArea/TargetHint",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PuzzleArea",
+                      "instanceId": 36283883770451,
+                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea",
+                      "activeSelf": true,
+                      "components": [
+                        "RectTransform"
+                      ],
+                      "children": [
+                        {
+                          "name": "BoardCaption",
+                          "instanceId": 25288767492671,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/BoardCaption",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "CurrentBoard",
+                          "instanceId": 7696581449337,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "Image",
+                            "PuzzleBoardView"
+                          ],
+                          "children": [
+                            {
+                              "name": "Cells",
+                              "instanceId": 25288767493418,
+                              "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells",
+                              "activeSelf": true,
+                              "components": [
+                                "RectTransform"
+                              ],
+                              "children": [
+                                {
+                                  "name": "Cell00",
+                                  "instanceId": 7696581449297,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell00",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell01",
+                                  "instanceId": 29686814003779,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell01",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell02",
+                                  "instanceId": 7696581449218,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell02",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell03",
+                                  "instanceId": 34084860514870,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell03",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell04",
+                                  "instanceId": 7696581449257,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell04",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell05",
+                                  "instanceId": 7696581449380,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell05",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell06",
+                                  "instanceId": 7696581449180,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell06",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell07",
+                                  "instanceId": 7696581449376,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell07",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "name": "Cell08",
+                                  "instanceId": 12094627960252,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Cells/Cell08",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image"
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Tiles",
+                              "instanceId": 7696581449242,
+                              "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles",
+                              "activeSelf": true,
+                              "components": [
+                                "RectTransform"
+                              ],
+                              "children": [
+                                {
+                                  "name": "Tile00",
+                                  "instanceId": 7696581449228,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile00",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 20890720981635,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile00/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile01",
+                                  "instanceId": 7696581449281,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile01",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449214,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile01/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile02",
+                                  "instanceId": 18691697726884,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile02",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 18691697726900,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile02/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile03",
+                                  "instanceId": 12094627960257,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile03",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 20890720981631,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile03/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile04",
+                                  "instanceId": 20890720982408,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile04",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449307,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile04/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile05",
+                                  "instanceId": 7696581449331,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile05",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449388,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile05/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tile06",
+                                  "instanceId": 9895604704685,
+                                  "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile06",
+                                  "activeSelf": true,
+                                  "components": [
+                                    "RectTransform",
+                                    "CanvasRenderer",
+                                    "Image",
+                                    "Outline",
+                                    "PuzzleTileView"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "ColorLabel",
+                                      "instanceId": 7696581449287,
+                                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/PuzzleArea/CurrentBoard/Tiles/Tile06/ColorLabel",
+                                      "activeSelf": true,
+                                      "components": [
+                                        "RectTransform",
+                                        "CanvasRenderer",
+                                        "TextMeshProUGUI"
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Footer",
+                      "instanceId": 7696581449178,
+                      "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Footer",
+                      "activeSelf": true,
+                      "components": [
+                        "RectTransform"
+                      ],
+                      "children": [
+                        {
+                          "name": "Instructions",
+                          "instanceId": 7696581449238,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Footer/Instructions",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "RestartButton",
+                          "instanceId": 23089744237094,
+                          "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Footer/RestartButton",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "Image",
+                            "Button"
+                          ],
+                          "children": [
+                            {
+                              "name": "Label",
+                              "instanceId": 7696581449272,
+                              "hierarchyPath": "/PuzzleCanvas/SafeArea/Content/Footer/RestartButton/Label",
+                              "activeSelf": true,
+                              "components": [
+                                "RectTransform",
+                                "CanvasRenderer",
+                                "TextMeshProUGUI"
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ClearOverlay",
+              "instanceId": 7696581449248,
+              "hierarchyPath": "/PuzzleCanvas/ClearOverlay",
+              "activeSelf": false,
+              "components": [
+                "RectTransform",
+                "CanvasRenderer",
+                "Image",
+                "PuzzleScreenLayout"
+              ],
+              "children": [
+                {
+                  "name": "ClearSafeArea",
+                  "instanceId": 7696581449267,
+                  "hierarchyPath": "/PuzzleCanvas/ClearOverlay/ClearSafeArea",
+                  "activeSelf": true,
+                  "components": [
+                    "RectTransform"
+                  ],
+                  "children": [
+                    {
+                      "name": "ClearContent",
+                      "instanceId": 7696581449170,
+                      "hierarchyPath": "/PuzzleCanvas/ClearOverlay/ClearSafeArea/ClearContent",
+                      "activeSelf": true,
+                      "components": [
+                        "RectTransform"
+                      ],
+                      "children": [
+                        {
+                          "name": "ClearEyebrow",
+                          "instanceId": 25288767493421,
+                          "hierarchyPath": "/PuzzleCanvas/ClearOverlay/ClearSafeArea/ClearContent/ClearEyebrow",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "ClearTitle",
+                          "instanceId": 12094627960248,
+                          "hierarchyPath": "/PuzzleCanvas/ClearOverlay/ClearSafeArea/ClearContent/ClearTitle",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "ClearMoveCount",
+                          "instanceId": 7696581449356,
+                          "hierarchyPath": "/PuzzleCanvas/ClearOverlay/ClearSafeArea/ClearContent/ClearMoveCount",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "TextMeshProUGUI"
+                          ],
+                          "children": []
+                        },
+                        {
+                          "name": "PlayAgainButton",
+                          "instanceId": 7696581449192,
+                          "hierarchyPath": "/PuzzleCanvas/ClearOverlay/ClearSafeArea/ClearContent/PlayAgainButton",
+                          "activeSelf": true,
+                          "components": [
+                            "RectTransform",
+                            "CanvasRenderer",
+                            "Image",
+                            "Button"
+                          ],
+                          "children": [
+                            {
+                              "name": "Label",
+                              "instanceId": 7696581449234,
+                              "hierarchyPath": "/PuzzleCanvas/ClearOverlay/ClearSafeArea/ClearContent/PlayAgainButton/Label",
+                              "activeSelf": true,
+                              "components": [
+                                "RectTransform",
+                                "CanvasRenderer",
+                                "TextMeshProUGUI"
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PuzzleGame",
+          "instanceId": 7696581449269,
+          "hierarchyPath": "/PuzzleGame",
+          "activeSelf": true,
+          "components": [
+            "Transform",
+            "PuzzleGameController"
+          ],
+          "children": []
+        },
+        {
+          "name": "EventSystem",
+          "instanceId": 7696581449370,
+          "hierarchyPath": "/EventSystem",
+          "activeSelf": true,
+          "components": [
+            "Transform",
+            "EventSystem",
+            "InputSystemUIInputModule"
+          ],
+          "children": []
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\Users\\dongd\\ColorMovePuzzle"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

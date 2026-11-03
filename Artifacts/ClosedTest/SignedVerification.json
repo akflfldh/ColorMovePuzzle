@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "path": "C:\\Users\\dongd\\ColorMovePuzzle\\Builds\\Android\\ColorMovePuzzle-ClosedTest-v1.0-code1.aab",
+  "bytes": 45367787,
+  "sha256": "D7E2BF9BD852B5E5D11B4A27A771547400660A2EBED93C3D0D08BC62C55662AC",
+  "signerSha256": "3CE16806B2C03C990E19F1B781313A4860A4BB77B835A9DFE46E58354B5CC3E5",
+  "signatureVerified": true,
+  "signerMatchesUserUploadCertificate": true,
+  "keyAlgorithm": "RSA 3072 / SHA256withRSA",
+  "bundletoolValidated": true,
+  "payloadMatchesInspectedUnsignedBundle": true,
+  "packageName": "com.colormovepuzzle.game",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "targetApi": 36,
+  "minApi": 26,
+  "development": false,
+  "channel": "ClosedTestNoAds",
+  "adRequestsEnabled": false,
+  "umpEnabled": true
+}

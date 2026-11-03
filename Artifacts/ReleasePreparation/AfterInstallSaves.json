@@ -1,0 +1,266 @@
+{
+  "ads-frequency-v1.json": {
+    "version": 1,
+    "totalClears": 7,
+    "clearsSinceAd": 0,
+    "gameplaySeconds": 2104.8186595629813,
+    "lastAdGameplaySeconds": 867.789508471993,
+    "hasShown": true,
+    "pendingShow": false,
+    "pendingShowGameplaySeconds": 0.0,
+    "recentClearIds": [
+      "f0358a391250440aa81f0600e222f9b9",
+      "4fe66aa301f541f7bcc14612a41a7ffd",
+      "b6b3c1628b784f7a9bbb9ca2c0b2f975",
+      "ca16ff2d5f6d495f864eb1bdd06bcaa0",
+      "7937c2e04caa4ffea7c244972f525bcf",
+      "0ff93d32476443e99eaed9a6e8ba5d9b"
+    ]
+  },
+  "ads-frequency-v1.json.bak": {
+    "version": 1,
+    "totalClears": 7,
+    "clearsSinceAd": 0,
+    "gameplaySeconds": 2104.806559250981,
+    "lastAdGameplaySeconds": 867.789508471993,
+    "hasShown": true,
+    "pendingShow": false,
+    "pendingShowGameplaySeconds": 0.0,
+    "recentClearIds": [
+      "f0358a391250440aa81f0600e222f9b9",
+      "4fe66aa301f541f7bcc14612a41a7ffd",
+      "b6b3c1628b784f7a9bbb9ca2c0b2f975",
+      "ca16ff2d5f6d495f864eb1bdd06bcaa0",
+      "7937c2e04caa4ffea7c244972f525bcf",
+      "0ff93d32476443e99eaed9a6e8ba5d9b"
+    ]
+  },
+  "menu-profile-v1.json": {
+    "version": 1,
+    "hasContinue": true,
+    "lastGridSize": 3,
+    "lastStage": 2,
+    "bgmVolume": 0.699999988079071,
+    "sfxVolume": 0.800000011920929
+  },
+  "menu-profile-v1.json.bak": {
+    "version": 1,
+    "hasContinue": true,
+    "lastGridSize": 3,
+    "lastStage": 2,
+    "bgmVolume": 0.699999988079071,
+    "sfxVolume": 0.800000011920929
+  },
+  "progress-4x4-v1.json": {
+    "version": 1,
+    "clearedStages": [],
+    "lastPlayed": 1
+  },
+  "progress-4x4-v1.json.bak": {
+    "version": 1,
+    "clearedStages": [],
+    "lastPlayed": 1
+  },
+  "progress-4x4-v1.json.session-v1.json": {
+    "version": 1,
+    "gridSize": 4,
+    "stageNumber": 1,
+    "stageFingerprint": "0P0EL3vins5n7k/QzcbdatPZPjAR628Wd59aVQjjDoQ=",
+    "active": true,
+    "cells": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      5,
+      3,
+      5,
+      3,
+      0,
+      4,
+      4,
+      5,
+      0
+    ],
+    "moveCount": 2,
+    "checksum": "usJ6huHc5RdBQtjIVYSWddut6JRO299qevxRcQT/sCU="
+  },
+  "progress-4x4-v1.json.session-v1.json.bak": {
+    "version": 1,
+    "gridSize": 4,
+    "stageNumber": 1,
+    "stageFingerprint": "0P0EL3vins5n7k/QzcbdatPZPjAR628Wd59aVQjjDoQ=",
+    "active": true,
+    "cells": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      0,
+      3,
+      5,
+      3,
+      5,
+      4,
+      4,
+      5,
+      0
+    ],
+    "moveCount": 1,
+    "checksum": "QmrviRXM1yCtEi1zR7JW55oF44UtkIHZ5UlGakLf8GE="
+  },
+  "progress-5x5-v1.json": {
+    "version": 1,
+    "clearedStages": [
+      1
+    ],
+    "lastPlayed": 2
+  },
+  "progress-5x5-v1.json.bak": {
+    "version": 1,
+    "clearedStages": [
+      1
+    ],
+    "lastPlayed": 2
+  },
+  "progress-5x5-v1.json.session-v1.json": {
+    "version": 1,
+    "gridSize": 5,
+    "stageNumber": 2,
+    "stageFingerprint": "IEN8e6TV2mVG+9kfGhNrZxgJDRTZKQEIwtHWc70k+4w=",
+    "active": true,
+    "cells": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      0,
+      2,
+      3,
+      5,
+      0,
+      5,
+      3,
+      5,
+      3,
+      6,
+      0,
+      6,
+      4,
+      6,
+      4,
+      6,
+      5
+    ],
+    "moveCount": 4,
+    "checksum": "wKUeqEOM/gMZYXy2tR9JPcZDSEnvXNZp72kTuS9tLLY="
+  },
+  "progress-5x5-v1.json.session-v1.json.bak": {
+    "version": 1,
+    "gridSize": 5,
+    "stageNumber": 2,
+    "stageFingerprint": "IEN8e6TV2mVG+9kfGhNrZxgJDRTZKQEIwtHWc70k+4w=",
+    "active": true,
+    "cells": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      2,
+      2,
+      2,
+      3,
+      2,
+      3,
+      5,
+      0,
+      5,
+      3,
+      5,
+      3,
+      6,
+      0,
+      6,
+      4,
+      6,
+      4,
+      6,
+      5
+    ],
+    "moveCount": 3,
+    "checksum": "+VLkFnedskx8Pz/NMBnrZpLbcJtrb2TjF431sQWuoU8="
+  },
+  "progress-v1.json": {
+    "version": 1,
+    "clearedStages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "lastPlayed": 2
+  },
+  "progress-v1.json.bak": {
+    "version": 1,
+    "clearedStages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "lastPlayed": 2
+  },
+  "progress-v1.json.session-v1.json": {
+    "version": 1,
+    "gridSize": 3,
+    "stageNumber": 2,
+    "stageFingerprint": "RiJ4v+rMo2hJzoTlC74m4Qxq1TqvrfnMXw3qEF5Pf9k=",
+    "active": true,
+    "cells": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      0,
+      4,
+      0
+    ],
+    "moveCount": 1,
+    "checksum": "o97DaTb7maYwTdVBz3q/In9JQ03A4J/j43xsGQRIJEg="
+  },
+  "progress-v1.json.session-v1.json.bak": {
+    "version": 1,
+    "gridSize": 3,
+    "stageNumber": 2,
+    "stageFingerprint": "RiJ4v+rMo2hJzoTlC74m4Qxq1TqvrfnMXw3qEF5Pf9k=",
+    "active": true,
+    "cells": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      0,
+      0,
+      4,
+      3
+    ],
+    "moveCount": 0,
+    "checksum": "FVYjN5kdSIbpmyQgEgRPJoq/ZN6CqGZjBjNpROBYhg8="
+  }
+}

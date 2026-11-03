@@ -1,0 +1,22 @@
+{
+  "classesDefined": 17816,
+  "googleMobileAdsApiDefined": true,
+  "umpApiDefined": true,
+  "officialInterstitialBridgeClasses": [
+    "Lcom/google/unity/ads/Interstitial;",
+    "Lcom/google/unity/ads/UnityInterstitialAdCallback;",
+    "Lcom/google/unity/ads/UnityInterstitialAdPreloader;",
+    "Lcom/google/unity/ads/UnityRewardedInterstitialAd;",
+    "Lcom/google/unity/ads/UnityRewardedInterstitialAdCallback;",
+    "Lcom/google/unity/ads/admanager/UnityAdManagerInterstitialAd;",
+    "Lcom/google/unity/ads/admanager/UnityAdManagerInterstitialAdCallback;",
+    "Lcom/google/unity/ads/nextgen/UnityInterstitialAd;",
+    "Lcom/google/unity/ads/nextgen/UnityInterstitialAdCallback;",
+    "Lcom/google/unity/ads/nextgen/UnityInterstitialAdPreloader;",
+    "Lcom/google/unity/ads/nextgen/UnityRewardedInterstitialAd;",
+    "Lcom/google/unity/ads/nextgen/UnityRewardedInterstitialAdCallback;",
+    "Lcom/google/unity/ads/nextgen/UnityRewardedInterstitialAdPreloader;"
+  ],
+  "unityInterstitialBridgeDefined": true,
+  "appUiMetadataReferences": 0
+}

@@ -1,0 +1,470 @@
+﻿[
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Core\\PuzzleBoard.cs",
+        "sha256":  "2FDCBC5DE82C253D63BDEA2BF1645D2B301A1B995FAC67BC6AB9C3D692902684"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Core\\PuzzleMenuProfile.cs",
+        "sha256":  "A4CC3B63E078DFA26A16B3B0BEF42924BC69E7B282AE1DD726B40D91C5D409B9"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Core\\PuzzleProgress.cs",
+        "sha256":  "23B8D01A889D0C48C7015CE209F0D4CCC23ACB46AB4674E2837EABA6863AD707"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleBoardView.cs",
+        "sha256":  "95F744AFBC24CDBEA1552FFA04F6D703F0BE239E8A9DEC4E8CDEEDFFE087279A"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleCampaignController.cs",
+        "sha256":  "4570C28D49B05F5912FA2A3D5689ECDA7D822DD0A6F378096E8651B5E4A55F89"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleGameController.cs",
+        "sha256":  "8372C8CDFD8FAD8A00EA70BE74EFABAB574811843DDDF714C47BA3432995D554"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleMainMenuView.cs",
+        "sha256":  "77275EA853807CB311F40EFC0125AD846638B279B1B120FFAB049AAD72146830"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleMenuController.cs",
+        "sha256":  "D77548DD971A2248B7D76F5755EE4192F02F79ABC666DB6484CA005320E9B3DA"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleMenuProfileStore.cs",
+        "sha256":  "055647C39F1158FC2D8F961D6D12AD337246715F3E6E1F04A5596994BB919142"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleModeButtonView.cs",
+        "sha256":  "050A0696B66EB5ACEE7514E4F01948749701C4C60B4A3E306C8243B4B34D86CB"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleModeCatalog.cs",
+        "sha256":  "DBB9ACE952BE910CEDADB9E3F7201E3151FF223A3FDA3ECE6BF4DAE0F775E794"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzlePalette.cs",
+        "sha256":  "9C8692D02B52C7C52269155E6AFAF1E942022A386F87996854B7A1E26F576EDF"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleProgressStore.cs",
+        "sha256":  "31806A73D86C9CA070011BF2B809D6CE1520752F9FCB1886D42BAE206749E870"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleScreenLayout.cs",
+        "sha256":  "F77C0FDD13CFA4488952DA055FCDE376C8B34C2C56831AB9D274D9DA070F0D85"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleSettingsView.cs",
+        "sha256":  "AD7E5122FCB2C99AB835D3BE10946BE219EF0077CF5741DDC1CCB1FD24E00DE9"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleStageButtonView.cs",
+        "sha256":  "81FB36E8DDC0C097AC0F5683DE10E12ED4E70841B6E8AFB1A2704DBA8146630D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleStageCatalog.cs",
+        "sha256":  "4AEE05265C6FA429AE3EBF1C847064F1BA4B9C408FE40297469EA9767DE19A27"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleStageData.cs",
+        "sha256":  "50A3A14A40CA245397840D4FCAE95A34FE8E742690AF176DDA70DA726646703D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleStageSelectionView.cs",
+        "sha256":  "4BE5DC69FDCF9F10E99D1E9113418A513B908C4B6F033530D19A4347B3FA89FA"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleTargetZoom.cs",
+        "sha256":  "2D93D1DA37CC2D9EE8A95E21A43FA221E7C811189783C3423FE3358DA2E1CBE5"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Runtime\\PuzzleTileView.cs",
+        "sha256":  "65D3E9BFFD616DDAA82658D28B5D1550B54D7F14C9FC4BA51D69D4228945CEE2"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign.asset",
+        "sha256":  "D1C321432D8DB6AFB697002CA7C2028A076FCD6AC7EAADC92F587EB63E71170D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive.asset",
+        "sha256":  "2D04F370138F6E884A7489DA805889D316FC36676B99B1262C741438F040B29B"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour.asset",
+        "sha256":  "2B62D531D2028DB3C0EE321E214BAFF5535C10319F4EDD2A2C71847D0B682D42"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Modes.asset",
+        "sha256":  "354A3269B7C2960B3B6530696258A484A609AC49E4942B3EF8130DE80887B61D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Stage01.asset",
+        "sha256":  "6F5D7A611BFD586551B13A484C60ADE64B17F0FD881B22DD3C1213EF285DE406"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage01.asset",
+        "sha256":  "115E0936EBF3268D61FCDD50FA070BC0688B527CB180ADB7A35988A4DC90EB49"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage02.asset",
+        "sha256":  "6E32CD1850179D9A4CD47612440B5F1377F2BACBDB9665470CCCE3E179195F8D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage03.asset",
+        "sha256":  "E41E38708084346E9B6E50888BE331B29376B89B3FAFA521BA0C85464B71A38A"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage04.asset",
+        "sha256":  "96AC908AC694EFBCEC6A6F5D5E4FC460091F49F4A520D3E5BB06F8F6479B5CA9"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage05.asset",
+        "sha256":  "6023FCB710316061D103533EE12553C3BC36F9ED1433076148A95383F7D18E55"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage06.asset",
+        "sha256":  "EA68A64B6B096DD5AC6FA4F55AB7DBFD661405C4B329AAC4FAF997931CCBE5A0"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage07.asset",
+        "sha256":  "B486D6130BE5B6AB8DD3682DE7899E419F925DBC44A22C40EC63ADF3B77C4C33"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage08.asset",
+        "sha256":  "075E0FCF0CB7E20B265D4D828D35867699099FDE9A4A45E7203C7DD68AFBE451"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage09.asset",
+        "sha256":  "42DA90BDA81C5DC979CBDD8D4C252668F5DF566C828123C4F4593C7027A5377F"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage10.asset",
+        "sha256":  "926C959E86E232E372CBFBEB0E063C73F7383FFD9FF731CCE23EDFAC316191B0"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage11.asset",
+        "sha256":  "2E34C4D5AABF217B23A730EE5DD079E0F82BF0DDDE4A636CF9E8017572BEBE34"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage12.asset",
+        "sha256":  "50E226E40B0CEA6986ADC3835DFD4411FF58941DCFA76748EE506DA9CF4DA398"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage13.asset",
+        "sha256":  "86ECE7017870A06203A77286AC4D996B3E554991B3F291A6975CCB996BC9E0F9"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage14.asset",
+        "sha256":  "FD33998BDA739765FC3FD7C7ED2FB25A84FA09DE226EE249ACDBC961F6CB8638"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage15.asset",
+        "sha256":  "1C0A28E1900CA116218D2806AB073AEF5BFD048B712B8D821F8C9A433B3EC872"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage16.asset",
+        "sha256":  "B708E53424E95E2BCD078706A27B5E19E1187EE097C021CFB0E365B9962CE12B"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage17.asset",
+        "sha256":  "DC66EDC116EC8C901919F94E98724DB94EA46ED5ACDAAE26FF31839972E3F5CA"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage18.asset",
+        "sha256":  "85706A211F7840FFE6EDC3892E6F0F894921E70F7A44C679CF0CDE63C0163EA8"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage19.asset",
+        "sha256":  "E2DD4439F341A8452D22A0BFD67A8C739E91B2974A3E25CD78B555DAACEFD060"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage20.asset",
+        "sha256":  "5267B7935748B9E6CA73627D73E5355209F6D9659FEA5619214DB8985C680446"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage21.asset",
+        "sha256":  "64D8D0BBE051900592A1091A9B7D18DF2EB549731AE2ECCD3CDED7C09F86C735"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage22.asset",
+        "sha256":  "C6E7A73BFABCC803A5D44BA19FA52DB1560A865FAB5DB15EBD17EC90D001B8EF"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage23.asset",
+        "sha256":  "1C13A5954B8BF85A7FBBCBBD5B68A2843247BD764F044F742303DBB45D69F5BB"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage24.asset",
+        "sha256":  "B7D6A09C1C9E67C1F0E23DE820173450B7793358E29A22A1F75F40E46CEF1D3F"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage25.asset",
+        "sha256":  "EFF8B6F06A81B33965A53E362AB1B0ED224C9EB89395FF19D46313D47F5F6000"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage26.asset",
+        "sha256":  "06417431226EAB33BE43AA1A74B43B1B26B68763F40A75CFCDAE12A2E81BB339"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage27.asset",
+        "sha256":  "C41C7906DC0DEB1C142B1560E100B91597658DBC64D5C21672E377A8869FFB27"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage28.asset",
+        "sha256":  "20A475AFB9C35447D6CAF6FE8FBB3A5A56960AD960B86BF459787D8738F84F84"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage29.asset",
+        "sha256":  "F62148FE2E30129863EB038EAB96571F133174DFD4B01AC82E8DD84092F2518F"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\Campaign\\Stage30.asset",
+        "sha256":  "109585E3ED4F0ACB484E4156C563026ED1346EE5FA4B1571BBFF7C249284A759"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage01.asset",
+        "sha256":  "933E0BAA4FA31D8C8C01E0BC78AEDAC5A99978B4B4A3023344F030646ACE2ABA"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage02.asset",
+        "sha256":  "0D6B1B65440366BA263613299E3508BC05C02C65648BBE17D95E88D789C48093"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage03.asset",
+        "sha256":  "8275B412775E5C2B52A7F1FD5DB1099FBBD40430C59B92BDA337B14B15721FFA"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage04.asset",
+        "sha256":  "A2F8711010B2F892A3B609A6886DB6EDA70EE696B17760D8546EB50D5E09826E"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage05.asset",
+        "sha256":  "2E55C185A868DE8068D8C3DA0D4FFA65EEF97E2EEBB2F2966C37ACDE18E0287B"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage06.asset",
+        "sha256":  "C498B8E6111E0E814A23D1DA837372629CF18E5BCCD9EE931D39107427AF880A"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage07.asset",
+        "sha256":  "9AEFBC5FE44112225791ADE7959877356E314E24F88F7E10234F2B5E145A6426"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage08.asset",
+        "sha256":  "C86A84C0626C2DB16D7BF27B84378285CF1C7CE45B3A94571875053EBF52E5F0"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage09.asset",
+        "sha256":  "E3FBB10F33146192B9A5B9E92296297A162E27E89D8E975CC51BCC1E6F681FE4"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage10.asset",
+        "sha256":  "015292E3C82DD98521055B72F8EDDA1052033E138D9D9CA3597A79543C6108A3"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage11.asset",
+        "sha256":  "BDDD80DC42B6C55075A005221D581923D2B60ADD0DF42DC8FCC768CA945726CF"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage12.asset",
+        "sha256":  "32AC36045ECCC7FF815B82B5E7F561A532570285F4136E65B54700E929E73834"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage13.asset",
+        "sha256":  "17A1668723BE9DAD11DB93F532FD21A99DFA89FA9A8E81149F143D575A7B765A"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage14.asset",
+        "sha256":  "89DD676CEE9C786247B16B652921CFC775626426E61427A64430AFA5F4B13207"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage15.asset",
+        "sha256":  "D41608D6CB5553550892DF3795A1F8429D0EA9969978E4F041DB97A2BA252B49"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage16.asset",
+        "sha256":  "98340342EF23893CF067AC4EAA0078C147C82359C324ABBEA2D50AE18B1044A9"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage17.asset",
+        "sha256":  "5BDEE1C8F8FB29D6A3E631B4E325734CE14414DBCAF35BD7CF23D550333122E7"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage18.asset",
+        "sha256":  "100784B2382D2AD6E67811CFFDCC803FC720E5F82CDFD523905502B8E9FEA428"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage19.asset",
+        "sha256":  "1E035875CDA09AAC56F548F828D7C8510718CC54BBD9D33EE75A4B38D30C49B9"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage20.asset",
+        "sha256":  "BACF980D6DE5005B49EC85CDDBB5DD4FB887E1985603FE0AEDA862D497F323A0"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage21.asset",
+        "sha256":  "37B66D92979D4B928D5E0ADF4BABCB1E6B23229AEE9F0ACA2FDE63F0BE513B34"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage22.asset",
+        "sha256":  "2318B3037FFA48E0D46CB5E53926F95F0B82849B43B7CB2DC47B48340C22E0FB"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage23.asset",
+        "sha256":  "0A1E25BC2819B1E82E23B4A552C6B3478322D3539200EF4BB603F07C29D35A09"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage24.asset",
+        "sha256":  "F482BBD05F8098BBD884EA4D7151D445B8955B7AAFAC451172D5F8D0AAA0519B"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage25.asset",
+        "sha256":  "38EFE236A9D08D0153C95E113743C8DA60B1686A620F81B543A2F261C36FF035"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage26.asset",
+        "sha256":  "708CD47B92B4FC1610A05A17B99074D691834134D065779DED76AF9A50E7C5DA"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage27.asset",
+        "sha256":  "B8C792FD5F9690F25D9119EF47D83D1E4F80965EFCDE00A4590F39587CFBFC98"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage28.asset",
+        "sha256":  "180C29FFCEE9651A806D101E8B1286AD9C1FECFD3C468270C24E763A76356ADB"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage29.asset",
+        "sha256":  "EEC834AAE13DDC3162C42446D85BEBF07FF60B206C5BD4B25D314D0E38BD4CAE"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FiveByFive\\Stage30.asset",
+        "sha256":  "CD0A4E103E60C094B7455F923F1E2E3630D6E8748039B09EB6746B0E138703C4"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage01.asset",
+        "sha256":  "95B1BBF2BB8370E729DB7229C8B01CE9BF737DD5EC332CE6659D5BC3D652E72D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage02.asset",
+        "sha256":  "284AD7BEEB1E2EFB389AF04D5604DA1BA3D2849998733B435FBC39AC220FEF15"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage03.asset",
+        "sha256":  "7D09CF53AC676BACF23AF8111EC6E2DA088B4B6D0A8DF18787CA1FF9E11BAD22"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage04.asset",
+        "sha256":  "EB5027483AB25F9A1590B2C50184662AFE8F38AAA02701186F98B2A4B104B61B"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage05.asset",
+        "sha256":  "B5064F0BD2D75B851DCF68CE2938B4A978970B700E2329D482A7832E55498AAE"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage06.asset",
+        "sha256":  "E565F96E0500826FAF2228A3B6180A144077E4B4DC5FDE10AAE847FA5F6AC817"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage07.asset",
+        "sha256":  "1D6AEFE09AF6273123DFB0AB5D7C091C1FCE6B2BEEA1BAFA501A00E28F559E73"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage08.asset",
+        "sha256":  "9E03280752794C49C1760D1A858FD466531A0D3035714AA3BF8A4B224CE3ADA7"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage09.asset",
+        "sha256":  "A8B0238472619C5DCD9001D720AA79D6E9F20246167CD59CB26F00CA78F558EE"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage10.asset",
+        "sha256":  "EB68EF0D46271FB8D2BB269EEC5172587269CDC7674680AB5F2F4758753899D5"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage11.asset",
+        "sha256":  "A8B86582FEACAF0DC54F9CE80887FFF038496C632971B286447C4366FA521EC7"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage12.asset",
+        "sha256":  "FB6ED5413879AF5EC20F727FB3D1B250EAE1C4F5A30DBEA59DF14CF687B14005"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage13.asset",
+        "sha256":  "94997D1707EB7C115304987D559B87065DFABDD42CF6C5A10533B240D3463432"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage14.asset",
+        "sha256":  "CFDDB89A5F70F46735ED3921F3EE57F5E57D1CEF347E0AF44515FD163490CD87"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage15.asset",
+        "sha256":  "242A38B205DB690A25912E88C65B89228BF090E70C94BAF05022D56A7BD68DD5"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage16.asset",
+        "sha256":  "BBD254672B8F6A297764FB072A491CCAE9B106797F579AF38912B878BC2B080F"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage17.asset",
+        "sha256":  "344651E4EDF2D34F48A032C2E16E20C56485485A4096D152407924F976430E3E"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage18.asset",
+        "sha256":  "884A18ED8AC4ACF61228299F19D193D776041A41F59EC5B7D1564328CEDF2681"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage19.asset",
+        "sha256":  "41FD9B2F60375E9A44F74244C7061D6A5DEB891D8C35735E184F829B5961C51D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage20.asset",
+        "sha256":  "9F7A3D7A409336B53BF0DAD218E097E24915353FFA3E600A7D9A3A63687F4EC8"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage21.asset",
+        "sha256":  "F489D870008FEBEDCEDA5C935851D8DD553822C6829912FFB00675339064F975"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage22.asset",
+        "sha256":  "AD035148062263507ED3AE99063556E41EB1D536DD9821E3CED818C38979C13D"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage23.asset",
+        "sha256":  "B87D527D589A248B50AC4CF47AE991DC1072D79B2CEA85B85AFDCF6AA9A6C6FB"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage24.asset",
+        "sha256":  "73131781596C69CE9B8904D147FEDFF0F0FB579ED20F2D1712EB0CE33996F9D4"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage25.asset",
+        "sha256":  "6A986DEC44E8EB046CE9B6902D710FC8749635269D23BB3A0F158F729AA8FDB1"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage26.asset",
+        "sha256":  "BF5BCCB83F6F24F25B3FE428DFB19B35CFA596ED3159D0B026DD7EBD07B7671F"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage27.asset",
+        "sha256":  "C526D15F9652BC502D07FC04CC62B5A47C000D831BD7A733FD44397CC4F14FDC"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage28.asset",
+        "sha256":  "496E3F17D066E31E1354866529F8DE2B9BB74CFA30B6D7A4EB2E9C8ADC34854B"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage29.asset",
+        "sha256":  "6811451360820BA8641B56E9F4DC255E6BBE8524F73180329E34F433F3D9F3C8"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Data\\FourByFour\\Stage30.asset",
+        "sha256":  "07EF3AF9DA6515EB8EFC9A2DAABD0D60130C85E6FEB9832457516FBA62F01E11"
+    },
+    {
+        "path":  "Assets\\ColorMovePuzzle\\Scenes\\ColorMovePuzzle.unity",
+        "sha256":  "1F9AD81A97DE9E8FFE371625B424A7DD0608FB7F019BB791826315727724114B"
+    }
+]

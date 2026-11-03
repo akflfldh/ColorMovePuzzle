@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb0d84b7707b0e4ebf1586d6469a756, type: 3}
+  m_Name: Stage09
+  m_EditorClassIdentifier: ColorMovePuzzle.Runtime::ColorMovePuzzle.PuzzleStageData
+  stageNumber: 9
+  boardSize: 5
+  target: 01000000010000000100000001000000020000000200000002000000020000000300000003000000030000000300000005000000050000000500000005000000060000000600000006000000060000000400000004000000000000000000000000000000i
+  scramble:
+  - from: 19
+    to: 24
+  - from: 21
+    to: 22
+  - from: 20
+    to: 21
+  - from: 24
+    to: 23
+  - from: 21
+    to: 20
+  - from: 14
+    to: 19
+  - from: 22
+    to: 21
+  - from: 17
+    to: 22
+  - from: 19
+    to: 24
+  - from: 18
+    to: 17
+  - from: 9
+    to: 14
+  - from: 8
+    to: 9
+  - from: 7
+    to: 8
+  - from: 12
+    to: 7
+  - from: 17
+    to: 18
+  - from: 7
+    to: 12
+  - from: 12
+    to: 17
+  - from: 18
+    to: 19
+  - from: 23
+    to: 18
+  - from: 8
+    to: 7
+  - from: 3
+    to: 8
+  - from: 4
+    to: 3
+  - from: 13
+    to: 12
+  - from: 24
+    to: 23
+  - from: 3
+    to: 4
+  - from: 18
+    to: 13
+  - from: 2
+    to: 3
+  - from: 19
+    to: 18
+  - from: 14
+    to: 19
+  - from: 13
+    to: 14
+  - from: 12
+    to: 13
+  - from: 3
+    to: 2
+  - from: 17
+    to: 12
+  - from: 2
+    to: 3
+  - from: 18
+    to: 17
+  - from: 13
+    to: 18
+  - from: 14
+    to: 13
+  - from: 3
+    to: 2
+  - from: 23
+    to: 24
+  - from: 13
+    to: 14
+  - from: 4
+    to: 3
+  - from: 12
+    to: 13
+  - from: 18
+    to: 23
+  - from: 13
+    to: 12
+  - from: 19
+    to: 18
+  - from: 12
+    to: 13
+  - from: 24
+    to: 19
+  - from: 23
+    to: 24
+  - from: 3
+    to: 4
+  - from: 22
+    to: 23
+  - from: 11
+    to: 12
+  - from: 6
+    to: 11
+  - from: 5
+    to: 6
+  - from: 2
+    to: 3
+  - from: 21
+    to: 22
+  - from: 7
+    to: 2
+  - from: 6
+    to: 7
+  - from: 16
+    to: 21
+  - from: 17
+    to: 16
+  - from: 1
+    to: 6
+  - from: 0
+    to: 1
+  - from: 22
+    to: 17
+  - from: 21
+    to: 22
+  - from: 6
+    to: 5
+  - from: 1
+    to: 6
+  - from: 2
+    to: 1
+  - from: 7
+    to: 2
+  - from: 1
+    to: 0
+  - from: 16
+    to: 21
+  - from: 2
+    to: 1
+  - from: 8
+    to: 7
+  - from: 3
+    to: 8
+  - from: 17
+    to: 16
+  - from: 7
+    to: 2
+  - from: 4
+    to: 3
+  start: 02000000020000000100000002000000000000000100000001000000000000000100000003000000030000000200000003000000050000000600000005000000040000000000000003000000050000000400000006000000060000000600000005000000i
+  minimumMoves: 0
+  solution:
+  - from: 3
+    to: 4
+  - from: 2
+    to: 7
+  - from: 16
+    to: 17
+  - from: 8
+    to: 3
+  - from: 7
+    to: 8
+  - from: 1
+    to: 2
+  - from: 21
+    to: 16
+  - from: 0
+    to: 1
+  - from: 2
+    to: 7
+  - from: 1
+    to: 2
+  - from: 6
+    to: 1
+  - from: 5
+    to: 6
+  - from: 22
+    to: 21
+  - from: 17
+    to: 22
+  - from: 1
+    to: 0
+  - from: 6
+    to: 1
+  - from: 16
+    to: 17
+  - from: 21
+    to: 16
+  - from: 7
+    to: 6
+  - from: 2
+    to: 7
+  - from: 22
+    to: 21
+  - from: 3
+    to: 2
+  - from: 6
+    to: 5
+  - from: 11
+    to: 6
+  - from: 12
+    to: 11
+  - from: 23
+    to: 22
+  - from: 4
+    to: 3
+  - from: 24
+    to: 23
+  - from: 19
+    to: 24
+  - from: 13
+    to: 12
+  - from: 18
+    to: 19
+  - from: 12
+    to: 13
+  - from: 23
+    to: 18
+  - from: 13
+    to: 12
+  - from: 3
+    to: 4
+  - from: 14
+    to: 13
+  - from: 24
+    to: 23
+  - from: 2
+    to: 3
+  - from: 13
+    to: 14
+  - from: 18
+    to: 13
+  - from: 17
+    to: 18
+  - from: 3
+    to: 2
+  - from: 12
+    to: 17
+  - from: 2
+    to: 3
+  - from: 13
+    to: 12
+  - from: 14
+    to: 13
+  - from: 19
+    to: 14
+  - from: 18
+    to: 19
+  - from: 3
+    to: 2
+  - from: 13
+    to: 18
+  - from: 4
+    to: 3
+  - from: 23
+    to: 24
+  - from: 12
+    to: 13
+  - from: 3
+    to: 4
+  - from: 8
+    to: 3
+  - from: 7
+    to: 8
+  - from: 18
+    to: 23
+  - from: 19
+    to: 18
+  - from: 17
+    to: 12
+  - from: 12
+    to: 7
+  - from: 18
+    to: 17
+  - from: 7
+    to: 12
+  - from: 8
+    to: 7
+  - from: 9
+    to: 8
+  - from: 14
+    to: 9
+  - from: 17
+    to: 18
+  - from: 24
+    to: 19
+  - from: 22
+    to: 17
+  - from: 21
+    to: 22
+  - from: 19
+    to: 14
+  - from: 20
+    to: 21
+  - from: 23
+    to: 24
+  - from: 21
+    to: 20
+  - from: 22
+    to: 21
+  - from: 24
+    to: 19
+  difficultyKind: 1
+  lowerBound: 21
+  estimatedRating: 21
+  generationMoves: 75
+  difficultyBand: Easy
+  evaluationNodes: 635
+  evaluationResidual: 17

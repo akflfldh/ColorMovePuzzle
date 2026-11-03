@@ -1,0 +1,30 @@
+{
+  "unityVersion": "6000.6.5f1",
+  "activeScene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "sceneDirty": false,
+  "playing": false,
+  "compiling": false,
+  "packageName": "com.colormovepuzzle.game",
+  "minApi": 26,
+  "targetApi": 36,
+  "scriptingBackend": "IL2CPP",
+  "architecture": "ARM64",
+  "orientation": "Portrait",
+  "managedVariant": "Release",
+  "development": true,
+  "buildAppBundle": false,
+  "allowDebugging": false,
+  "connectProfiler": false,
+  "customKeystore": false,
+  "keystorePasswordInSettings": false,
+  "aliasPasswordInSettings": false,
+  "defines": "APP_UI_EDITOR_ONLY;SENTIS_ANALYTICS_ENABLED",
+  "editorAdChannel": "Standard",
+  "sdkSourceAppIdRestored": true,
+  "standardReleaseBlockReason": "Release build blocked: official TEST ads are still selected.",
+  "sourceDevelopmentConfigValid": true,
+  "enabledScenes": [
+    "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+    "Assets/Scenes/SampleScene.unity"
+  ]
+}

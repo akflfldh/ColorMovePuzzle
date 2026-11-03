@@ -1,0 +1,1 @@
+ColorMovePuzzle.Editor.PuzzleSceneBuilder.Build();

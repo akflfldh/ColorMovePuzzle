@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02741a8a4a36b0e45893f441f82656eb, type: 3}
+  m_Name: Modes
+  m_EditorClassIdentifier: ColorMovePuzzle.Runtime::ColorMovePuzzle.PuzzleModeCatalog
+  modes:
+  - gridSize: 3
+    implemented: 1
+    stages: {fileID: 11400000, guid: 5bd3ed1587796014daf00dc731204f93, type: 2}
+    progressFileName: progress-v1.json
+  - gridSize: 4
+    implemented: 1
+    stages: {fileID: 11400000, guid: a4046269187596a4f826f6b4a0020de8, type: 2}
+    progressFileName: progress-4x4-v1.json
+  - gridSize: 5
+    implemented: 1
+    stages: {fileID: 11400000, guid: e05a4bb0736f56e45ad99fd3074fa924, type: 2}
+    progressFileName: progress-5x5-v1.json

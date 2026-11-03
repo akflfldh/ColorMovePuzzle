@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "sha256": "7E9B2B214ED83FC8E4A4472971607ADA76D6E9923E8B77D964C2ADE9122107C5",
+  "bytes": 45301618,
+  "package": "com.colormovepuzzle.game",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "minApi": 26,
+  "targetApi": 36,
+  "debuggable": false,
+  "managedVariant": "Release",
+  "channel": "ClosedTestNoAds",
+  "unsigned": true,
+  "arm64Only": true,
+  "elf16KCompatible": true,
+  "nativeLibraries": {
+    "base/lib/arm64-v8a/libAppUITextMateLib.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/lib_burst_generated.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libc++_shared.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libgame.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libil2cpp.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libmain.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libswappywrapper.so": [
+      16384,
+      16384,
+      16384
+    ],
+    "base/lib/arm64-v8a/libunity.so": [
+      16384,
+      16384,
+      16384,
+      16384
+    ]
+  },
+  "compiledAdRequestsDisabled": true,
+  "compiledSdkAdCallsRemoved": true,
+  "umpAndPrivacyCompiled": true,
+  "developmentUmpControlsAbsent": true,
+  "appUiMetadataAbsent": true,
+  "permissions": [
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.FOREGROUND_SERVICE",
+    "com.colormovepuzzle.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "includesAdvertisingIdPermission": true
+}

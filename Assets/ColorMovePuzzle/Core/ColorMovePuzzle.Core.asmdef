@@ -1,0 +1,5 @@
+{
+  "name": "ColorMovePuzzle.Core",
+  "rootNamespace": "ColorMovePuzzle",
+  "noEngineReferences": true
+}

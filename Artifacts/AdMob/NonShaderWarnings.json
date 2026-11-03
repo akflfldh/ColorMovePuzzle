@@ -1,0 +1,17 @@
+﻿[
+    {
+        "message":  "Diagnostics Data is enabled, and it requires Debug Symbols to be either SymbolTable or Full to resolve stacktraces in crash reports. Consider selecting Full to receive fully-detailed crash reports."
+    },
+    {
+        "message":  "C:\\Users\\dongd\\ColorMovePuzzle\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp: [Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+        "message":  "C:\\Users\\dongd\\ColorMovePuzzle\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp: [Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+        "message":  "C:\\Users\\dongd\\ColorMovePuzzle\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp: [Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+        "message":  "Plugin \u0027Packages/com.google.ads.mobile/Plugins/iOS/unity-plugin-library.xcframework\u0027 is not supported on Android, please deselect it in Plugin Inspector"
+    }
+]

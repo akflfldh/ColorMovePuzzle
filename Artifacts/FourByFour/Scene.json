@@ -1,0 +1,15 @@
+{
+  "scene": "Assets/ColorMovePuzzle/Scenes/ColorMovePuzzle.unity",
+  "dirty": false,
+  "scenes": 1,
+  "controllers": 1,
+  "threeSupported": true,
+  "fourSupported": true,
+  "threeStages": 30,
+  "fourStages": 30,
+  "fourAvailable": true,
+  "fiveAvailable": false,
+  "menuVisible": true,
+  "meshes": 0,
+  "rigidbodies": 0
+}

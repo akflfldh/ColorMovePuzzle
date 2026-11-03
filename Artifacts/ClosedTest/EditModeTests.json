@@ -1,0 +1,832 @@
+{
+  "status": "completed",
+  "duration": 3.57,
+  "summary": {
+    "total": 117,
+    "passed": 117,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ClosingRewardedWithoutEarningGrantsNothing",
+      "Status": "Passed",
+      "Duration": 0.0191189,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ConsentIsUpdatedOnceAndFormsWaitForSafeScreen",
+      "Status": "Passed",
+      "Duration": 0.0039604,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ConsentUpdateErrorOnlyUsesTheRealSdkPermissionDecision",
+      "Status": "Passed",
+      "Duration": 0.0037438,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.DuplicateClearCannotAdvanceCountsBeforeOrAfterReload",
+      "Status": "Passed",
+      "Duration": 0.0015976,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.DuplicateOpenedClosedAndFailedEventsOnlyCountAndContinueOnce",
+      "Status": "Passed",
+      "Duration": 0.0037167,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.FailedNativeShowReservationDoesNotConsumeTheClearCounts",
+      "Status": "Passed",
+      "Duration": 0.0008369,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.FirstAdNeedsFiveClearsAndThreeMinutesOfGameplay",
+      "Status": "Passed",
+      "Duration": 0.000383,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.FrequencySaveAndBackupRecoveryNeverRewriteGameProgress",
+      "Status": "Passed",
+      "Duration": 0.0247807,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.InterruptedNativeShowRecoversAConservativeCooldownBeforeCallbacks",
+      "Status": "Passed",
+      "Duration": 0.0005874,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.LateLoadAfterConsentRevocationIsDestroyedAndNeverShown",
+      "Status": "Passed",
+      "Duration": 0.0004037,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.LateNonRequiredConsentCanFinishDuringPlayWithoutBlockingInput",
+      "Status": "Passed",
+      "Duration": 0.0017308,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.LaterAdsNeedBothFourNewClearsAndAnotherThreeMinutes",
+      "Status": "Passed",
+      "Duration": 0.0004453,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.LoadFailureUsesDelayedBoundedRetries",
+      "Status": "Passed",
+      "Duration": 0.0030475,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ModesShareCountsAndNonGameplayTimeDoesNotCount",
+      "Status": "Passed",
+      "Duration": 0.0004153,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.RewardedCannotLoadOrShowWithoutARewardAndUserOptIn",
+      "Status": "Passed",
+      "Duration": 0.0005493,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.RewardIsGrantedOnlyOnceFromEarnedCallback",
+      "Status": "Passed",
+      "Duration": 0.0005383,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.ShowFailureAndExceptionRecoverExactlyOnce",
+      "Status": "Passed",
+      "Duration": 0.0039132,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.TestIdsAreExactAndReleaseIsBlocked",
+      "Status": "Passed",
+      "Duration": 0.0020388,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.AdSystemTests.UnavailableAdNeverWaitsForLoadingOrCallsContinuationItself",
+      "Status": "Passed",
+      "Duration": 0.0005076,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleAndroidStartupTests.AndroidPlayerExcludesEditorOnlyAppUiWithoutChangingInputPackage",
+      "Status": "Passed",
+      "Duration": 0.1284784,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleAndroidStartupTests.EarlyEnhancedTouchEnableThenSubsystemResetReproducesNativeDeviceException",
+      "Status": "Passed",
+      "Duration": 0.1282891,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.AdjacentTilesCanSlide(4,7)",
+      "Status": "Passed",
+      "Duration": 0.0016562,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.AdjacentTilesCanSlide(5,8)",
+      "Status": "Passed",
+      "Duration": 9.37E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.AdjacentTilesCanSlide(6,7)",
+      "Status": "Passed",
+      "Duration": 8.38E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.ConstructorAndSnapshotsDoNotLeakMutableArrays",
+      "Status": "Passed",
+      "Duration": 0.0003518,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.FiveThousandLegalMovesPreserveAllColorCounts",
+      "Status": "Passed",
+      "Duration": 0.0070193,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidBoardDataIsRejected",
+      "Status": "Passed",
+      "Duration": 0.0031785,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidMovesDoNotMutate(4,8)",
+      "Status": "Passed",
+      "Duration": 0.0004096,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidMovesDoNotMutate(5,7)",
+      "Status": "Passed",
+      "Duration": 0.0001069,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidMovesDoNotMutate(0,8)",
+      "Status": "Passed",
+      "Duration": 9.51E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidMovesDoNotMutate(8,7)",
+      "Status": "Passed",
+      "Duration": 9.34E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidMovesDoNotMutate(0,1)",
+      "Status": "Passed",
+      "Duration": 9.42E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidMovesDoNotMutate(-1,7)",
+      "Status": "Passed",
+      "Duration": 8.99E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.InvalidMovesDoNotMutate(0,9)",
+      "Status": "Passed",
+      "Duration": 9.12E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.LinearNeighborsCannotWrapRows",
+      "Status": "Passed",
+      "Duration": 0.0001991,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.RulesUseDataDrivenSize(3)",
+      "Status": "Passed",
+      "Duration": 0.0008113,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.RulesUseDataDrivenSize(4)",
+      "Status": "Passed",
+      "Duration": 7.14E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.RulesUseDataDrivenSize(5)",
+      "Status": "Passed",
+      "Duration": 6.45E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.SameColorTilesAndEmptyCellsHaveNoIdentity",
+      "Status": "Passed",
+      "Duration": 0.0002492,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.ScrambleAndInverseAreLegalAndReproducible",
+      "Status": "Passed",
+      "Duration": 0.000789,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.StageHasExactGoalAndInventory",
+      "Status": "Passed",
+      "Duration": 0.0017886,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleBoardTests.TwoEmptyNeighborsAreBothReturned",
+      "Status": "Passed",
+      "Duration": 0.0012947,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleDifficultyTests.AllThirtyStagesHaveUniqueStartsAndExactOptimalSolutions",
+      "Status": "Passed",
+      "Duration": 0.0135205,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleDifficultyTests.DifferentGoalHasItsOwnDistanceRoot",
+      "Status": "Passed",
+      "Duration": 0.0130202,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleDifficultyTests.DifficultyIsNondecreasingAndLayoutsAreDiverse",
+      "Status": "Passed",
+      "Duration": 0.003645,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleDifficultyTests.EveryDistanceSatisfiesShortestPathCertificateUsingIndependentBoardRules",
+      "Status": "Passed",
+      "Duration": 0.7643292,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleDifficultyTests.GraphContainsEveryDistinctMultisetPermutation",
+      "Status": "Passed",
+      "Duration": 0.2388336,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.EncodingPreservesTheLastCellsBeyond64Bits",
+      "Status": "Passed",
+      "Duration": 0.0022522,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(17,22,True)",
+      "Status": "Passed",
+      "Duration": 0.0004051,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(18,23,True)",
+      "Status": "Passed",
+      "Duration": 9.02E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(19,24,True)",
+      "Status": "Passed",
+      "Duration": 8.14E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(21,22,True)",
+      "Status": "Passed",
+      "Duration": 7.88E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(17,23,False)",
+      "Status": "Passed",
+      "Duration": 7.62E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(19,23,False)",
+      "Status": "Passed",
+      "Duration": 7.85E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(22,23,False)",
+      "Status": "Passed",
+      "Duration": 7.72E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.FiveUsesSharedOrthogonalMovementRules(0,24,False)",
+      "Status": "Passed",
+      "Duration": 7.63E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.MatchingIsOptimalForAllCopiesAndChangesByAtMostOnePerLegalMove",
+      "Status": "Passed",
+      "Duration": 0.0116098,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.MissingFiveSaveInitializesWithoutTouchingExistingProgressAndProfile",
+      "Status": "Passed",
+      "Duration": 0.025678,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.ThirtyFiveStagesHaveExactInventoryUniqueStartsAndVerifiedReversiblePaths",
+      "Status": "Passed",
+      "Duration": 0.1039981,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFiveTests.ThreeAdjacentEmptyCellsRemainInterchangeableAndAllDirectionsAvailable",
+      "Status": "Passed",
+      "Duration": 0.0032565,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.AllThirtyFourByFourStagesAreUniqueSolvableAndHonestlyRated",
+      "Status": "Passed",
+      "Duration": 0.0159592,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.FourByFourRejectsRowWrappingAndGreenHasNoIdentity",
+      "Status": "Passed",
+      "Duration": 0.0017242,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.FourByFourUsesTheSameOrthogonalRules(10,14,True)",
+      "Status": "Passed",
+      "Duration": 0.0002239,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.FourByFourUsesTheSameOrthogonalRules(11,15,True)",
+      "Status": "Passed",
+      "Duration": 8.5E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.FourByFourUsesTheSameOrthogonalRules(13,14,True)",
+      "Status": "Passed",
+      "Duration": 7.93E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.FourByFourUsesTheSameOrthogonalRules(10,15,False)",
+      "Status": "Passed",
+      "Duration": 7.99E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.FourByFourUsesTheSameOrthogonalRules(0,15,False)",
+      "Status": "Passed",
+      "Duration": 7.78E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.FourByFourUsesTheSameOrthogonalRules(15,14,False)",
+      "Status": "Passed",
+      "Duration": 7.62E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.MatchingHeuristicNeverExceedsKnownExactThreeByThreeDistances",
+      "Status": "Passed",
+      "Duration": 0.0918394,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleFourTests.MatchingIsOptimalForIndistinguishableCopiesAndConsistentAcrossMoves",
+      "Status": "Passed",
+      "Duration": 0.0077678,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.BrokenMenuFileUsesBackup",
+      "Status": "Passed",
+      "Duration": 0.0311148,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.FreshProfileHasVolumesButNoContinueHistory",
+      "Status": "Passed",
+      "Duration": 0.001058,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.MenuFileRoundTripPreservesGridStageAndBothVolumes",
+      "Status": "Passed",
+      "Duration": 0.009579,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.MenuSavesNeverChangeLegacyProgressBytes",
+      "Status": "Passed",
+      "Duration": 0.0235505,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.ModeDataOffersNinetyImplementedStagesAcrossThreeSizes",
+      "Status": "Passed",
+      "Duration": 0.0024605,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.NonFiniteVolumesAndInvalidHistoryAreSafe",
+      "Status": "Passed",
+      "Duration": 0.0008876,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.OnlyExplicitStageRecordEnablesContinue",
+      "Status": "Passed",
+      "Duration": 0.0009975,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.UnsupportedVersionDoesNotInventContinueHistory",
+      "Status": "Passed",
+      "Duration": 0.0072332,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.VolumeValuesAreNormalized(-1.0f,2.0f,0.0f,1.0f)",
+      "Status": "Passed",
+      "Duration": 0.0011524,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleMenuTests.VolumeValuesAreNormalized(0.25f,0.6f,0.25f,0.6f)",
+      "Status": "Passed",
+      "Duration": 0.0006517,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleProgressTests.ClearingUnlocksNextAndReplayNeverRelocksOrDuplicates",
+      "Status": "Passed",
+      "Duration": 0.0011286,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleProgressTests.CompletionStopsAtThirty",
+      "Status": "Passed",
+      "Duration": 0.0090815,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleProgressTests.FileRoundTripRestoresUnlocksClearsAndLastPlayed",
+      "Status": "Passed",
+      "Duration": 0.0119044,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleProgressTests.InvalidPrimaryRecoversFromLastGoodBackup",
+      "Status": "Passed",
+      "Duration": 0.0147393,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleProgressTests.MissingOrMalformedSaveStartsSafely",
+      "Status": "Passed",
+      "Duration": 0.0140742,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleProgressTests.NewProgressUnlocksOnlyStageOne",
+      "Status": "Passed",
+      "Duration": 0.0004678,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleProgressTests.UntrustedProgressCannotSkipLockedStages",
+      "Status": "Passed",
+      "Duration": 0.0004016,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.ClearMarkerPreventsBackupResurrection",
+      "Status": "Passed",
+      "Duration": 0.0263,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.CommittedBoardAndMovesRoundTripForEveryMode(3)",
+      "Status": "Passed",
+      "Duration": 0.0103466,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.CommittedBoardAndMovesRoundTripForEveryMode(4)",
+      "Status": "Passed",
+      "Duration": 0.0061076,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.CommittedBoardAndMovesRoundTripForEveryMode(5)",
+      "Status": "Passed",
+      "Duration": 0.0068466,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.CorruptPrimaryRecoversBackupAndNextSaveProtectsThatBackup",
+      "Status": "Passed",
+      "Duration": 0.0236098,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"version\")",
+      "Status": "Passed",
+      "Duration": 0.0171433,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"size\")",
+      "Status": "Passed",
+      "Duration": 0.0161924,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"inventory\")",
+      "Status": "Passed",
+      "Duration": 0.0143235,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"empty\")",
+      "Status": "Passed",
+      "Duration": 0.0161087,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"negative\")",
+      "Status": "Passed",
+      "Duration": 0.0175337,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"zero\")",
+      "Status": "Passed",
+      "Duration": 0.0276842,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"fingerprint\")",
+      "Status": "Passed",
+      "Duration": 0.0093257,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"color\")",
+      "Status": "Passed",
+      "Duration": 0.0038109,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.InvalidDataIsRejectedEvenWithAnOtherwiseCorrectChecksum(\"checksum\")",
+      "Status": "Passed",
+      "Duration": 0.0071927,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.MissingOrBothCorruptFilesAndInterruptedTemporaryFileAreIgnored",
+      "Status": "Passed",
+      "Duration": 0.0144167,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.NewStageDoesNotReadPreviousStageBackupAndModesDoNotCrossLoad",
+      "Status": "Passed",
+      "Duration": 0.0109013,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.SmallSnapshotsMeasureOneHundredDurableWrites",
+      "Status": "Passed",
+      "Duration": 0.8001629,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.PuzzleSessionStoreTests.WriteFailurePreservesLastGoodDataAndLegacyStoresAreUntouched",
+      "Status": "Passed",
+      "Duration": 0.0148031,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.AppAndUnitSeparatorsCannotBeInterchanged",
+      "Status": "Passed",
+      "Duration": 0.0007277,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.ClosedTestConsentAppIdDoesNotUnlockStandardProductionRelease",
+      "Status": "Passed",
+      "Duration": 0.0005755,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.ClosedTestRejectsMissingOrTestOrAdUnitConsentAppId(\"\")",
+      "Status": "Passed",
+      "Duration": 0.0003155,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.ClosedTestRejectsMissingOrTestOrAdUnitConsentAppId(\"ca-app-pub-3940256099942544~3347511713\")",
+      "Status": "Passed",
+      "Duration": 0.0001895,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.ClosedTestRejectsMissingOrTestOrAdUnitConsentAppId(\"ca-app-pub-3940256099942544/1033173712\")",
+      "Status": "Passed",
+      "Duration": 0.0001837,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.DevelopmentConsentAppIdNeverSelectsProductionAdUnits",
+      "Status": "Passed",
+      "Duration": 0.0016106,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.DevelopmentConsentCannotUseAnAdUnitAsAnAppId",
+      "Status": "Passed",
+      "Duration": 0.0003805,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.IdSyntaxRejectsTrailingNewlineAndUnicodeDigits",
+      "Status": "Passed",
+      "Duration": 0.0003475,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.OptionalRewardedIdCannotBeAnOfficialTestIdInRelease",
+      "Status": "Passed",
+      "Duration": 0.0012272,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.OwnerReviewIsRequiredBeforeRelease",
+      "Status": "Passed",
+      "Duration": 0.000412,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.ReleaseNeverFallsBackToTestIdsWhenProductionIsMissing",
+      "Status": "Passed",
+      "Duration": 0.0010165,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "ColorMovePuzzle.Tests.ReleasePreparationTests.UmpPrivacyOptionsUseSdkPermissionAfterEveryReentry",
+      "Status": "Passed",
+      "Duration": 0.0024721,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

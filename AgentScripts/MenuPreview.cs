@@ -1,0 +1,11 @@
+var flow = UnityEngine.Object.FindAnyObjectByType<ColorMovePuzzle.PuzzleCampaignController>();
+var menu = UnityEngine.Object.FindAnyObjectByType<ColorMovePuzzle.PuzzleMenuController>();
+var path = System.IO.Path.GetFullPath("Artifacts/MainMenu/PreviewProgress.json");
+var progressStore = new ColorMovePuzzle.PuzzleProgressStore(path, 30);
+progressStore.Save(new ColorMovePuzzle.PuzzleProgress(30));
+flow.UseProgressStore(progressStore);
+var profileStore = new ColorMovePuzzle.PuzzleMenuProfileStore(path + ".menu");
+profileStore.Save(new ColorMovePuzzle.PuzzleMenuProfile());
+menu.UseProfileStore(profileStore);
+menu.ShowMainMenu();
+return new {screen = menu.Screen.ToString(), canContinue = menu.CanContinue, stages = flow.Catalog.Count};

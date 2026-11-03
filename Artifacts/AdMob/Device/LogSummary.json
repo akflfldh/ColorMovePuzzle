@@ -1,0 +1,36 @@
+{
+  "firstPid": "24509",
+  "relaunchPid": "26252",
+  "first": {
+    "inputUpdateNone": 0,
+    "assetPackProbe": 1,
+    "dexFinalizerMessageLines": 2,
+    "fatalException": 0,
+    "fatalSignal": 0,
+    "anr": 0,
+    "googleFlagsDiagnostic": 4,
+    "sdkCaughtOptionalAssemblyPayload": 1,
+    "backCallbackWarning": 2,
+    "umpUpdated": 1,
+    "sdkInitialized": 1,
+    "testInterstitialLoaded": 2,
+    "testInterstitialOpened": 1,
+    "testInterstitialEnded": 1
+  },
+  "relaunch": {
+    "inputUpdateNone": 0,
+    "assetPackProbe": 1,
+    "dexFinalizerMessageLines": 2,
+    "fatalException": 0,
+    "fatalSignal": 0,
+    "anr": 0,
+    "googleFlagsDiagnostic": 4,
+    "sdkCaughtOptionalAssemblyPayload": 1,
+    "backCallbackWarning": 1,
+    "umpUpdated": 1,
+    "sdkInitialized": 1,
+    "testInterstitialLoaded": 1,
+    "testInterstitialOpened": 0,
+    "testInterstitialEnded": 0
+  }
+}
